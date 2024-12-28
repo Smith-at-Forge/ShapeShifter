@@ -17,6 +17,7 @@
         "com.unity.modules.uielements": "1.0.0"
       }
     },
+<<<<<<< Updated upstream
     "com.unity.2d.tilemap.extras": {
       "version": "4.1.0",
       "depth": 0,
@@ -37,6 +38,8 @@
       },
       "url": "https://packages.unity.com"
     },
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "com.unity.multiplayer.center": {
       "version": "1.0.0",
