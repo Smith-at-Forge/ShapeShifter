@@ -1843,29 +1843,4 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
->>>>>>> Stashed changes
---- !u!1660057539 &9223372036854775807
-SceneRoots:
-  m_ObjectHideFlags: 0
-  m_Roots:
-<<<<<<< Updated upstream
-  - {fileID: 1035505575}
-  - {fileID: 1743766519}
-  - {fileID: 172176599}
-  - {fileID: 7893293282205525130}
-  - {fileID: 1378736601}
-  - {fileID: 887106275}
-  - {fileID: 156609831}
-  - {fileID: 435976761}
-  - {fileID: 2072845936}
-  - {fileID: 82842108}
-  - {fileID: 1144241423}
-=======
-  - {fileID: 31330577}
-  - {fileID: 1441046037}
-  - {fileID: 1942729728}
-  - {fileID: 1230777831}
-  - {fileID: 349830595}
-  - {fileID: 725364969}
-  - {fileID: 585628276}
->>>>>>> Stashed changes
+
