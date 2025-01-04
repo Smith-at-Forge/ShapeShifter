@@ -55,7 +55,8 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Jump()
-    {
+    {   
+
         if (isGrounded())
         {
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
