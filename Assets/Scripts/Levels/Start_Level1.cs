@@ -5,7 +5,7 @@ public class Start_Level1 : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync("Level 1");
+        SceneManager.LoadSceneAsync("StartLevel1");
     }
     
 }
