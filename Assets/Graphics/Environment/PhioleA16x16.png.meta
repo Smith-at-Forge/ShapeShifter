@@ -1,7 +1,28 @@
 fileFormatVersion: 2
-guid: 6f92fa143b71b8e42b85e346bb9cedd6
+guid: ca8c6cbfb076d254fa753ad38c9598bf
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8395916609299941281
+    second: PhioleA16x16_0
+  - first:
+      213: 2090302909435184609
+    second: PhioleA16x16_1
+  - first:
+      213: -8021024748272499422
+    second: PhioleA16x16_2
+  - first:
+      213: 7363162309990465556
+    second: PhioleA16x16_3
+  - first:
+      213: 496488603142696116
+    second: PhioleA16x16_4
+  - first:
+      213: -9201433631166048682
+    second: PhioleA16x16_5
+  - first:
+      213: -6193803467249926775
+    second: PhioleA16x16_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +60,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -48,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,89 +118,155 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kristall-Blau-24x24_0
+      name: PhioleA16x16_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 10
-        width: 14
-        height: 12
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 47b9549a2a04cd24980cdaca6b45d1fd
-      internalID: -1132446611
+      spriteID: 1a700253ca9448470800000000000000
+      internalID: 8395916609299941281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kristall-Blau-24x24_1
+      name: PhioleA16x16_1
       rect:
         serializedVersion: 2
-        x: 39
-        y: 10
-        width: 14
-        height: 12
+        x: 16
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8b7bcd9a3249cf242a51199081a08ef2
-      internalID: -1157876255
+      spriteID: 1e589d5db6f320d10800000000000000
+      internalID: 2090302909435184609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kristall-Blau-24x24_2
+      name: PhioleA16x16_2
       rect:
         serializedVersion: 2
-        x: 69
-        y: 10
-        width: 14
-        height: 12
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2302551143bc0cb459f3055fd557a912
-      internalID: 2135591754
+      spriteID: 225c9981d789fa090800000000000000
+      internalID: -8021024748272499422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kristall-Blau-24x24_3
+      name: PhioleA16x16_3
       rect:
         serializedVersion: 2
-        x: 99
-        y: 10
-        width: 14
-        height: 12
+        x: 48
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b6869c6e06b067c4cbbf0df4898ce63f
-      internalID: -275661717
+      spriteID: 410c686fb153f2660800000000000000
+      internalID: 7363162309990465556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhioleA16x16_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bca95901c1e3e600800000000000000
+      internalID: 496488603142696116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhioleA16x16_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656d30e1dd0fd4080800000000000000
+      internalID: -9201433631166048682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhioleA16x16_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d3cfd00903b0aa0800000000000000
+      internalID: -6193803467249926775
       vertices: []
       indices: 
       edges: []
@@ -188,7 +275,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 06685905a5758eb42842b1771c29feae
+    spriteID: 55a40a48290405247a7a058ced49ee36
     internalID: 0
     vertices: []
     indices: 
@@ -198,10 +285,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kristall-Blau-24x24_0: -1132446611
-      Kristall-Blau-24x24_1: -1157876255
-      Kristall-Blau-24x24_2: 2135591754
-      Kristall-Blau-24x24_3: -275661717
+      PhioleA16x16_0: 8395916609299941281
+      PhioleA16x16_1: 2090302909435184609
+      PhioleA16x16_2: -8021024748272499422
+      PhioleA16x16_3: 7363162309990465556
+      PhioleA16x16_4: 496488603142696116
+      PhioleA16x16_5: -9201433631166048682
+      PhioleA16x16_6: -6193803467249926775
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
