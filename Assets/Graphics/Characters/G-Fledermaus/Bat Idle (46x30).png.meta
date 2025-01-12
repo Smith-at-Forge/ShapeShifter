@@ -1,7 +1,43 @@
 fileFormatVersion: 2
-guid: 3ff2c4530f70a8848b0ff33bbc77651c
+guid: c90dae7dcf3b1f74c87f132421397c98
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7449516969310787761
+    second: Bat Idle (46x30)_0
+  - first:
+      213: 682891677982104742
+    second: Bat Idle (46x30)_1
+  - first:
+      213: -9146538020638730750
+    second: Bat Idle (46x30)_2
+  - first:
+      213: 4130964410036670936
+    second: Bat Idle (46x30)_3
+  - first:
+      213: 5016602737887340613
+    second: Bat Idle (46x30)_4
+  - first:
+      213: -8534657563749669206
+    second: Bat Idle (46x30)_5
+  - first:
+      213: 3689449521871822433
+    second: Bat Idle (46x30)_6
+  - first:
+      213: -6697834392277850424
+    second: Bat Idle (46x30)_7
+  - first:
+      213: 5728195782868789421
+    second: Bat Idle (46x30)_8
+  - first:
+      213: -8581238319475445965
+    second: Bat Idle (46x30)_9
+  - first:
+      213: -5436634548054913074
+    second: Bat Idle (46x30)_10
+  - first:
+      213: -1355007712757672908
+    second: Bat Idle (46x30)_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +75,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,199 +133,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WaldA (16 x 16)_0
+      name: Bat Idle (46x30)_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 48
-        width: 38
-        height: 45
+        x: 0
+        y: 0
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b53d4b828d324c84fbaba311291e66d0
-      internalID: -1491310266
+      spriteID: 1b89300e630026760800000000000000
+      internalID: 7449516969310787761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_1
+      name: Bat Idle (46x30)_1
       rect:
         serializedVersion: 2
-        x: 83
-        y: 48
-        width: 42
-        height: 44
+        x: 46
+        y: 0
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 399d2d7535417554f9c0998c8bc4b2b3
-      internalID: -433421193
+      spriteID: 6ac913eec5e1a7900800000000000000
+      internalID: 682891677982104742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_2
+      name: Bat Idle (46x30)_2
       rect:
         serializedVersion: 2
-        x: 149
-        y: 48
-        width: 38
-        height: 45
+        x: 92
+        y: 0
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2a4deebffad34fb4fbbe1916308794e5
-      internalID: -308013099
+      spriteID: 20659337128f01180800000000000000
+      internalID: -9146538020638730750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_3
+      name: Bat Idle (46x30)_3
       rect:
         serializedVersion: 2
-        x: 241
-        y: 64
-        width: 45
-        height: 13
+        x: 138
+        y: 0
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4b8bba31dc3bf21448b08d32b67a5f41
-      internalID: 288091510
+      spriteID: 8d154008e32245930800000000000000
+      internalID: 4130964410036670936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_4
+      name: Bat Idle (46x30)_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 12
+        x: 184
+        y: 0
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0845f1eeda9f1b24d8f11747017350d7
-      internalID: -230480028
+      spriteID: 548e60b6c9d8e9540800000000000000
+      internalID: 5016602737887340613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_5
+      name: Bat Idle (46x30)_5
       rect:
         serializedVersion: 2
-        x: 49
-        y: 16
-        width: 14
-        height: 15
+        x: 230
+        y: 0
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e6ff0c81b34d5d54e85c755900c0afe5
-      internalID: 684942491
+      spriteID: aa6a9111a2ece8980800000000000000
+      internalID: -8534657563749669206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_6
+      name: Bat Idle (46x30)_6
       rect:
         serializedVersion: 2
-        x: 81
-        y: 16
-        width: 47
-        height: 15
+        x: 276
+        y: 0
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 986fe458624462d469b0e63e6ec03f05
-      internalID: -346928949
+      spriteID: 16e97e7eace833330800000000000000
+      internalID: 3689449521871822433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_7
+      name: Bat Idle (46x30)_7
       rect:
         serializedVersion: 2
-        x: 157
-        y: 16
-        width: 39
-        height: 15
+        x: 322
+        y: 0
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 829ce7776a396ec41a7ea13669a1f4b3
-      internalID: 21569565
+      spriteID: 8c662eb5b138c03a0800000000000000
+      internalID: -6697834392277850424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_8
+      name: Bat Idle (46x30)_8
       rect:
         serializedVersion: 2
-        x: 227
-        y: 16
-        width: 74
-        height: 32
+        x: 368
+        y: 0
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 208c66db92d1c864f8bbd270acda7032
-      internalID: -1591769998
+      spriteID: da8e8c917b3ae7f40800000000000000
+      internalID: 5728195782868789421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat Idle (46x30)_9
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f22bab63159e880800000000000000
+      internalID: -8581238319475445965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat Idle (46x30)_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf029ddea13d84b0800000000000000
+      internalID: -5436634548054913074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat Idle (46x30)_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4341a251aab023de0800000000000000
+      internalID: -1355007712757672908
       vertices: []
       indices: 
       edges: []
@@ -298,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 543aaadace9eaaf4d82a2ce827806f14
+    spriteID: 7134f8f8409d52744818ac3b5799c37e
     internalID: 0
     vertices: []
     indices: 
@@ -308,15 +410,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WaldA (16 x 16)_0: -1491310266
-      WaldA (16 x 16)_1: -433421193
-      WaldA (16 x 16)_2: -308013099
-      WaldA (16 x 16)_3: 288091510
-      WaldA (16 x 16)_4: -230480028
-      WaldA (16 x 16)_5: 684942491
-      WaldA (16 x 16)_6: -346928949
-      WaldA (16 x 16)_7: 21569565
-      WaldA (16 x 16)_8: -1591769998
+      Bat Idle (46x30)_0: 7449516969310787761
+      Bat Idle (46x30)_1: 682891677982104742
+      Bat Idle (46x30)_10: -5436634548054913074
+      Bat Idle (46x30)_11: -1355007712757672908
+      Bat Idle (46x30)_2: -9146538020638730750
+      Bat Idle (46x30)_3: 4130964410036670936
+      Bat Idle (46x30)_4: 5016602737887340613
+      Bat Idle (46x30)_5: -8534657563749669206
+      Bat Idle (46x30)_6: 3689449521871822433
+      Bat Idle (46x30)_7: -6697834392277850424
+      Bat Idle (46x30)_8: 5728195782868789421
+      Bat Idle (46x30)_9: -8581238319475445965
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

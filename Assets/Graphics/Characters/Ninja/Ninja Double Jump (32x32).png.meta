@@ -1,7 +1,25 @@
 fileFormatVersion: 2
-guid: 2f3d0b28d39083c48a35964f2a2338ef
+guid: 432e24ec70d31bf4da6609880cb903bf
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 169748891406836133
+    second: Ninja Double Jump (32x32)_0
+  - first:
+      213: 4181690713195444
+    second: Ninja Double Jump (32x32)_1
+  - first:
+      213: -2190617839572150843
+    second: Ninja Double Jump (32x32)_2
+  - first:
+      213: -8988779614659779477
+    second: Ninja Double Jump (32x32)_3
+  - first:
+      213: 4859443956535310982
+    second: Ninja Double Jump (32x32)_4
+  - first:
+      213: -7933606537631833088
+    second: Ninja Double Jump (32x32)_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +57,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Flowers (16 x 16)_0
+      name: Ninja Double Jump (32x32)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,42 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70454110eaf19c04eabab0553e2894d3
-      internalID: -162726864
+      spriteID: 5e7588e7ae12f2c47aef1ae3dc0c2f96
+      internalID: 274245765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flowers (16 x 16)_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79b9f885c0c013145bb7744062177c8d
-      internalID: -1659126704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flowers (16 x 16)_2
+      name: Ninja Double Jump (32x32)_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc4b02f3349372b40b089c447cbbd11d
-      internalID: 1874859520
+      spriteID: 4754ddb140922c343b96582e21495deb
+      internalID: 1601500197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flowers (16 x 16)_3
+      name: Ninja Double Jump (32x32)_2
       rect:
         serializedVersion: 2
-        x: 48
+        x: 64
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +174,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92c33bc3501f3284bb9f19eb2bb1b033
-      internalID: -1779044387
+      spriteID: 0b7ed96c1c79c944f87fc0be333cab26
+      internalID: 61535225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Double Jump (32x32)_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a2086c820c2e942aed54182544bf1b
+      internalID: 1681388208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Double Jump (32x32)_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0b4f23e928dd147af9e20aa07565c9
+      internalID: -84093897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Double Jump (32x32)_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905645588c3d01f46a38e538aa32af2f
+      internalID: 1881777689
       vertices: []
       indices: 
       edges: []
@@ -188,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0be1d9f1e4677eb44896843a1fe86c8f
+    spriteID: 93f327047aeea59498db56520b5f65ce
     internalID: 0
     vertices: []
     indices: 
@@ -198,10 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Flowers (16 x 16)_0: -162726864
-      Flowers (16 x 16)_1: -1659126704
-      Flowers (16 x 16)_2: 1874859520
-      Flowers (16 x 16)_3: -1779044387
+      Ninja Double Jump (32x32)_0: 274245765
+      Ninja Double Jump (32x32)_1: 1601500197
+      Ninja Double Jump (32x32)_2: 61535225
+      Ninja Double Jump (32x32)_3: 1681388208
+      Ninja Double Jump (32x32)_4: -84093897
+      Ninja Double Jump (32x32)_5: 1881777689
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

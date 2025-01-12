@@ -1,7 +1,10 @@
 fileFormatVersion: 2
-guid: 2f3d0b28d39083c48a35964f2a2338ef
+guid: abfcabb9377cdf54a984a52cc8851e65
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5482713800233639527
+    second: Ninja Fall (32x32)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +42,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Flowers (16 x 16)_0
+      name: Ninja Fall (32x32)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,74 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70454110eaf19c04eabab0553e2894d3
-      internalID: -162726864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flowers (16 x 16)_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79b9f885c0c013145bb7744062177c8d
-      internalID: -1659126704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flowers (16 x 16)_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc4b02f3349372b40b089c447cbbd11d
-      internalID: 1874859520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flowers (16 x 16)_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92c33bc3501f3284bb9f19eb2bb1b033
-      internalID: -1779044387
+      spriteID: cb1b49ca80b1d1b4d87cf8814cf5acc4
+      internalID: -510940255
       vertices: []
       indices: 
       edges: []
@@ -188,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0be1d9f1e4677eb44896843a1fe86c8f
+    spriteID: 331407d78c5c3974f8ac2fb796d0fd1f
     internalID: 0
     vertices: []
     indices: 
@@ -198,10 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Flowers (16 x 16)_0: -162726864
-      Flowers (16 x 16)_1: -1659126704
-      Flowers (16 x 16)_2: 1874859520
-      Flowers (16 x 16)_3: -1779044387
+      Ninja Fall (32x32)_0: -510940255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
