@@ -1,7 +1,19 @@
 fileFormatVersion: 2
-guid: 76a239a99ff69104eb23fd4428c6122d
+guid: 800751b0cf5994b4d82e474d7151338a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5383052748638632468
+    second: KristallGrau32x32_0
+  - first:
+      213: 69480921559394695
+    second: KristallGrau32x32_1
+  - first:
+      213: -4793628185199755533
+    second: KristallGrau32x32_2
+  - first:
+      213: -3189190239051796033
+    second: KristallGrau32x32_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +51,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,155 +109,121 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Phiole-Red-Potion_0
+      name: KristallGrau32x32_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 10
-        width: 12
-        height: 16
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
       tessellationDetail: 0
       bones: []
-      spriteID: 14097ec4b55a7b04ca2e16bdcc5ba868
-      internalID: -699466426
+      spriteID: 8ee4877a02edb2145ae3556b6205202f
+      internalID: 1638385967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phiole-Red-Potion_1
+      name: KristallGrau32x32_1
       rect:
         serializedVersion: 2
-        x: 28
-        y: 10
-        width: 12
-        height: 16
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
       tessellationDetail: 0
       bones: []
-      spriteID: 8ae069377a7d283419ebc44b03eb63ee
-      internalID: -1508577798
+      spriteID: 4d10d366d55d6de4b80913c4f109dcdb
+      internalID: 1073121385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phiole-Red-Potion_2
+      name: KristallGrau32x32_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 10
-        width: 12
-        height: 16
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
       tessellationDetail: 0
       bones: []
-      spriteID: 279b5d31f7309e7428ff8df8218a2d4a
-      internalID: 960310277
+      spriteID: 6ce47aa6c04869e408027a1cfce71a3c
+      internalID: -143846371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Phiole-Red-Potion_3
+      name: KristallGrau32x32_3
       rect:
         serializedVersion: 2
-        x: 68
-        y: 10
-        width: 12
-        height: 16
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 16, y: 0}
+        - {x: 0, y: 16}
+        - {x: -16, y: 0}
       tessellationDetail: 0
       bones: []
-      spriteID: fa6588db6e16f8b459d9d240ecad97e3
-      internalID: -852457206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Phiole-Red-Potion_4
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 10
-        width: 12
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aef531a2c42b06b4d8961cefc5fbf26a
-      internalID: 608783683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Phiole-Red-Potion_5
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 10
-        width: 12
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9f1f0dd5344c384f86633f974f3984e
-      internalID: -837375248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Phiole-Red-Potion_6
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 10
-        width: 12
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74e9a19023df26b4bb4e4817358e259a
-      internalID: -307511547
+      spriteID: a2e9df4a9621a9e4d80c37ab72cea143
+      internalID: 978616829
       vertices: []
       indices: 
       edges: []
@@ -254,7 +232,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 82c7b96052eb9a84fb83377f6f234308
+    spriteID: 70e3402188c7afa41a639d9821674c2f
     internalID: 0
     vertices: []
     indices: 
@@ -264,13 +242,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Phiole-Red-Potion_0: -699466426
-      Phiole-Red-Potion_1: -1508577798
-      Phiole-Red-Potion_2: 960310277
-      Phiole-Red-Potion_3: -852457206
-      Phiole-Red-Potion_4: 608783683
-      Phiole-Red-Potion_5: -837375248
-      Phiole-Red-Potion_6: -307511547
+      KristallGrau32x32_0: 1638385967
+      KristallGrau32x32_1: 1073121385
+      KristallGrau32x32_2: -143846371
+      KristallGrau32x32_3: 978616829
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
