@@ -56,6 +56,6 @@ public class ShapeManager : MonoBehaviour
         {
             Destroy(currentShape); // Alte Form entfernen
         }
-        currentShape = Instantiate(newShapePrefarb, transform.position,Quaternion.identity); // Neue Form instanziieren
+        currentShape = Instantiate(newShapePrefarb, currentShape.transform.position,Quaternion.identity); // Neue Form instanziieren
     }
 }
