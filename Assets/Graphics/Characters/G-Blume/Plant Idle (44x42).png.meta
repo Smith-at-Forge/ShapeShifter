@@ -1,7 +1,40 @@
 fileFormatVersion: 2
-guid: 3ff2c4530f70a8848b0ff33bbc77651c
+guid: c6b59d392d4fec149be1ca79cc293223
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6836856922448879817
+    second: Plant Idle (44x42)_0
+  - first:
+      213: -4554216544934483615
+    second: Plant Idle (44x42)_1
+  - first:
+      213: -5067261488079024371
+    second: Plant Idle (44x42)_2
+  - first:
+      213: 2610058148778437183
+    second: Plant Idle (44x42)_3
+  - first:
+      213: -6189116128415659460
+    second: Plant Idle (44x42)_4
+  - first:
+      213: -7191356854750405041
+    second: Plant Idle (44x42)_5
+  - first:
+      213: 7756904513209712120
+    second: Plant Idle (44x42)_6
+  - first:
+      213: -5528584523425495582
+    second: Plant Idle (44x42)_7
+  - first:
+      213: 4346723391162800875
+    second: Plant Idle (44x42)_8
+  - first:
+      213: 1462502739787656332
+    second: Plant Idle (44x42)_9
+  - first:
+      213: -5560381596686258580
+    second: Plant Idle (44x42)_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +72,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,199 +130,243 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WaldA (16 x 16)_0
+      name: Plant Idle (44x42)_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 48
-        width: 38
-        height: 45
+        x: 0
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b53d4b828d324c84fbaba311291e66d0
-      internalID: -1491310266
+      spriteID: 73f934d2ada9e11a0800000000000000
+      internalID: -6836856922448879817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_1
+      name: Plant Idle (44x42)_1
       rect:
         serializedVersion: 2
-        x: 83
-        y: 48
-        width: 42
-        height: 44
+        x: 44
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 399d2d7535417554f9c0998c8bc4b2b3
-      internalID: -433421193
+      spriteID: 16929f08e2c2cc0c0800000000000000
+      internalID: -4554216544934483615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_2
+      name: Plant Idle (44x42)_2
       rect:
         serializedVersion: 2
-        x: 149
-        y: 48
-        width: 38
-        height: 45
+        x: 88
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2a4deebffad34fb4fbbe1916308794e5
-      internalID: -308013099
+      spriteID: d0f480b26887da9b0800000000000000
+      internalID: -5067261488079024371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_3
+      name: Plant Idle (44x42)_3
       rect:
         serializedVersion: 2
-        x: 241
-        y: 64
-        width: 45
-        height: 13
+        x: 132
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4b8bba31dc3bf21448b08d32b67a5f41
-      internalID: 288091510
+      spriteID: f3a6d01ce0ac83420800000000000000
+      internalID: 2610058148778437183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_4
+      name: Plant Idle (44x42)_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 12
+        x: 176
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0845f1eeda9f1b24d8f11747017350d7
-      internalID: -230480028
+      spriteID: c3ac42c2ca7db1aa0800000000000000
+      internalID: -6189116128415659460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_5
+      name: Plant Idle (44x42)_5
       rect:
         serializedVersion: 2
-        x: 49
-        y: 16
-        width: 14
-        height: 15
+        x: 220
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e6ff0c81b34d5d54e85c755900c0afe5
-      internalID: 684942491
+      spriteID: f4e1883ca0b233c90800000000000000
+      internalID: -7191356854750405041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_6
+      name: Plant Idle (44x42)_6
       rect:
         serializedVersion: 2
-        x: 81
-        y: 16
-        width: 47
-        height: 15
+        x: 264
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 986fe458624462d469b0e63e6ec03f05
-      internalID: -346928949
+      spriteID: 8fd3d729e8f06ab60800000000000000
+      internalID: 7756904513209712120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_7
+      name: Plant Idle (44x42)_7
       rect:
         serializedVersion: 2
-        x: 157
-        y: 16
-        width: 39
-        height: 15
+        x: 308
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 829ce7776a396ec41a7ea13669a1f4b3
-      internalID: 21569565
+      spriteID: 2e5408aeaa58643b0800000000000000
+      internalID: -5528584523425495582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_8
+      name: Plant Idle (44x42)_8
       rect:
         serializedVersion: 2
-        x: 227
-        y: 16
-        width: 74
-        height: 32
+        x: 352
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 208c66db92d1c864f8bbd270acda7032
-      internalID: -1591769998
+      spriteID: bead323f4e9a25c30800000000000000
+      internalID: 4346723391162800875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant Idle (44x42)_9
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c24104e7adb4410800000000000000
+      internalID: 1462502739787656332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant Idle (44x42)_10
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e65e1e56e85d2b0800000000000000
+      internalID: -5560381596686258580
       vertices: []
       indices: 
       edges: []
@@ -298,7 +375,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 543aaadace9eaaf4d82a2ce827806f14
+    spriteID: 1548492156bbb9f49aaa013277ac6727
     internalID: 0
     vertices: []
     indices: 
@@ -308,15 +385,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WaldA (16 x 16)_0: -1491310266
-      WaldA (16 x 16)_1: -433421193
-      WaldA (16 x 16)_2: -308013099
-      WaldA (16 x 16)_3: 288091510
-      WaldA (16 x 16)_4: -230480028
-      WaldA (16 x 16)_5: 684942491
-      WaldA (16 x 16)_6: -346928949
-      WaldA (16 x 16)_7: 21569565
-      WaldA (16 x 16)_8: -1591769998
+      Plant Idle (44x42)_0: -6836856922448879817
+      Plant Idle (44x42)_1: -4554216544934483615
+      Plant Idle (44x42)_10: -5560381596686258580
+      Plant Idle (44x42)_2: -5067261488079024371
+      Plant Idle (44x42)_3: 2610058148778437183
+      Plant Idle (44x42)_4: -6189116128415659460
+      Plant Idle (44x42)_5: -7191356854750405041
+      Plant Idle (44x42)_6: 7756904513209712120
+      Plant Idle (44x42)_7: -5528584523425495582
+      Plant Idle (44x42)_8: 4346723391162800875
+      Plant Idle (44x42)_9: 1462502739787656332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

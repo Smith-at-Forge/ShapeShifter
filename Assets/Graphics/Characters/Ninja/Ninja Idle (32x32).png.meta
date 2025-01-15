@@ -1,7 +1,40 @@
 fileFormatVersion: 2
-guid: 3ff2c4530f70a8848b0ff33bbc77651c
+guid: 2ede1ef8156e7774bbccbbba4cfed303
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 742270252040853026
+    second: Ninja Idle (32x32)_0
+  - first:
+      213: -2350271759416869657
+    second: Ninja Idle (32x32)_1
+  - first:
+      213: 8985185188525812913
+    second: Ninja Idle (32x32)_2
+  - first:
+      213: 517926571095581524
+    second: Ninja Idle (32x32)_3
+  - first:
+      213: 4831913893015797591
+    second: Ninja Idle (32x32)_4
+  - first:
+      213: 1274320135526257301
+    second: Ninja Idle (32x32)_5
+  - first:
+      213: 5653440939863723982
+    second: Ninja Idle (32x32)_6
+  - first:
+      213: 7179245603156018269
+    second: Ninja Idle (32x32)_7
+  - first:
+      213: 7100209204793370543
+    second: Ninja Idle (32x32)_8
+  - first:
+      213: -1312898592544421979
+    second: Ninja Idle (32x32)_9
+  - first:
+      213: 8925458837418321615
+    second: Ninja Idle (32x32)_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +72,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,188 +130,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WaldA (16 x 16)_0
+      name: Ninja Idle (32x32)_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 48
-        width: 38
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b53d4b828d324c84fbaba311291e66d0
-      internalID: -1491310266
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaldA (16 x 16)_1
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 48
-        width: 42
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 399d2d7535417554f9c0998c8bc4b2b3
-      internalID: -433421193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaldA (16 x 16)_2
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 48
-        width: 38
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a4deebffad34fb4fbbe1916308794e5
-      internalID: -308013099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaldA (16 x 16)_3
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 64
-        width: 45
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b8bba31dc3bf21448b08d32b67a5f41
-      internalID: 288091510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaldA (16 x 16)_4
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0845f1eeda9f1b24d8f11747017350d7
-      internalID: -230480028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaldA (16 x 16)_5
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 16
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6ff0c81b34d5d54e85c755900c0afe5
-      internalID: 684942491
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaldA (16 x 16)_6
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 16
-        width: 47
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 986fe458624462d469b0e63e6ec03f05
-      internalID: -346928949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaldA (16 x 16)_7
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 16
-        width: 39
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 829ce7776a396ec41a7ea13669a1f4b3
-      internalID: 21569565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaldA (16 x 16)_8
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 16
-        width: 74
+        x: 0
+        y: 0
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -288,8 +145,228 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 208c66db92d1c864f8bbd270acda7032
-      internalID: -1591769998
+      spriteID: 5bba5a35d6774d14a982ddf02809f65c
+      internalID: 47723452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Idle (32x32)_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0cbc898a7c5cd4da2cce05e8836059
+      internalID: -1144645601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Idle (32x32)_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f130852a3d3934d88d15f5f254e6da
+      internalID: -406866051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Idle (32x32)_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b46c8ad7563794eb08cc8a3831499c
+      internalID: 2020337404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Idle (32x32)_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26061975bcf6e64d9a12363dd3d3688
+      internalID: 1825767951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Idle (32x32)_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e4f489e90c75343b7f6f4f4db05eda
+      internalID: 1105287671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Idle (32x32)_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3608bc4340819ec48ad37812f760ef1f
+      internalID: 1922660540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Idle (32x32)_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3282816a4e469e444a37c37d16c36f11
+      internalID: -113651994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Idle (32x32)_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a2a3ee19767ab48a5133e92b8a40f3
+      internalID: -435218850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Idle (32x32)_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce430e4e993a3bc46913dcd85c4e1ae7
+      internalID: 1657234574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Idle (32x32)_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b6bde6e1c7a3245b188c4e114ce182
+      internalID: -1521370325
       vertices: []
       indices: 
       edges: []
@@ -298,7 +375,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 543aaadace9eaaf4d82a2ce827806f14
+    spriteID: 4a6a0c22f6a26624b91055e66be53dc4
     internalID: 0
     vertices: []
     indices: 
@@ -308,15 +385,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WaldA (16 x 16)_0: -1491310266
-      WaldA (16 x 16)_1: -433421193
-      WaldA (16 x 16)_2: -308013099
-      WaldA (16 x 16)_3: 288091510
-      WaldA (16 x 16)_4: -230480028
-      WaldA (16 x 16)_5: 684942491
-      WaldA (16 x 16)_6: -346928949
-      WaldA (16 x 16)_7: 21569565
-      WaldA (16 x 16)_8: -1591769998
+      Ninja Idle (32x32)_0: 47723452
+      Ninja Idle (32x32)_1: -1144645601
+      Ninja Idle (32x32)_10: -1521370325
+      Ninja Idle (32x32)_2: -406866051
+      Ninja Idle (32x32)_3: 2020337404
+      Ninja Idle (32x32)_4: 1825767951
+      Ninja Idle (32x32)_5: 1105287671
+      Ninja Idle (32x32)_6: 1922660540
+      Ninja Idle (32x32)_7: -113651994
+      Ninja Idle (32x32)_8: -435218850
+      Ninja Idle (32x32)_9: 1657234574
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

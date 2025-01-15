@@ -1,7 +1,22 @@
 fileFormatVersion: 2
-guid: 2f3d0b28d39083c48a35964f2a2338ef
+guid: a9969b954f830214f98569d57f2ccc2c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5290542568015309146
+    second: Ninja Wall Jump (32x32)_0
+  - first:
+      213: -1017408283219974826
+    second: Ninja Wall Jump (32x32)_1
+  - first:
+      213: 9017452681808040407
+    second: Ninja Wall Jump (32x32)_2
+  - first:
+      213: 8184871599960414361
+    second: Ninja Wall Jump (32x32)_3
+  - first:
+      213: 8585441878354960569
+    second: Ninja Wall Jump (32x32)_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +54,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Flowers (16 x 16)_0
+      name: Ninja Wall Jump (32x32)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,42 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70454110eaf19c04eabab0553e2894d3
-      internalID: -162726864
+      spriteID: c78957cde31042e45b896a76e75daca3
+      internalID: 1913878669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flowers (16 x 16)_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79b9f885c0c013145bb7744062177c8d
-      internalID: -1659126704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flowers (16 x 16)_2
+      name: Ninja Wall Jump (32x32)_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc4b02f3349372b40b089c447cbbd11d
-      internalID: 1874859520
+      spriteID: 7a97cb507839426498945e913495b7fd
+      internalID: 372614082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flowers (16 x 16)_3
+      name: Ninja Wall Jump (32x32)_2
       rect:
         serializedVersion: 2
-        x: 48
+        x: 64
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +171,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92c33bc3501f3284bb9f19eb2bb1b033
-      internalID: -1779044387
+      spriteID: 7c903d53daead1445be3cfcf6d75566c
+      internalID: 1914582745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Wall Jump (32x32)_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea4d663329d05145b471cdc201bf567
+      internalID: 694937933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja Wall Jump (32x32)_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e80381b13d76f4381f6f8f304247c5
+      internalID: 1832345978
       vertices: []
       indices: 
       edges: []
@@ -188,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0be1d9f1e4677eb44896843a1fe86c8f
+    spriteID: 0b5e326cd9dae644b8282b9e90e7ce57
     internalID: 0
     vertices: []
     indices: 
@@ -198,10 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Flowers (16 x 16)_0: -162726864
-      Flowers (16 x 16)_1: -1659126704
-      Flowers (16 x 16)_2: 1874859520
-      Flowers (16 x 16)_3: -1779044387
+      Ninja Wall Jump (32x32)_0: 1913878669
+      Ninja Wall Jump (32x32)_1: 372614082
+      Ninja Wall Jump (32x32)_2: 1914582745
+      Ninja Wall Jump (32x32)_3: 694937933
+      Ninja Wall Jump (32x32)_4: 1832345978
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,7 +1,31 @@
 fileFormatVersion: 2
-guid: 3ff2c4530f70a8848b0ff33bbc77651c
+guid: 4260f1654d3136d44a2b03e8bde1dd16
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4267507651705547732
+    second: Plant Attack (44x42)_0
+  - first:
+      213: -166219357645076358
+    second: Plant Attack (44x42)_1
+  - first:
+      213: 3223886692536235229
+    second: Plant Attack (44x42)_2
+  - first:
+      213: -4408515308230725640
+    second: Plant Attack (44x42)_3
+  - first:
+      213: 8991447124115779371
+    second: Plant Attack (44x42)_4
+  - first:
+      213: -4723280020057778564
+    second: Plant Attack (44x42)_5
+  - first:
+      213: 3704996607732185970
+    second: Plant Attack (44x42)_6
+  - first:
+      213: -7998112885578039103
+    second: Plant Attack (44x42)_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +63,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,199 +121,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WaldA (16 x 16)_0
+      name: Plant Attack (44x42)_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 48
-        width: 38
-        height: 45
+        x: 0
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b53d4b828d324c84fbaba311291e66d0
-      internalID: -1491310266
+      spriteID: c2454d7a664c6c4c0800000000000000
+      internalID: -4267507651705547732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_1
+      name: Plant Attack (44x42)_1
       rect:
         serializedVersion: 2
-        x: 83
-        y: 48
-        width: 42
-        height: 44
+        x: 44
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 399d2d7535417554f9c0998c8bc4b2b3
-      internalID: -433421193
+      spriteID: a7885c8ff5871bdf0800000000000000
+      internalID: -166219357645076358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_2
+      name: Plant Attack (44x42)_2
       rect:
         serializedVersion: 2
-        x: 149
-        y: 48
-        width: 38
-        height: 45
+        x: 88
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2a4deebffad34fb4fbbe1916308794e5
-      internalID: -308013099
+      spriteID: dd43bb0bddb8dbc20800000000000000
+      internalID: 3223886692536235229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_3
+      name: Plant Attack (44x42)_3
       rect:
         serializedVersion: 2
-        x: 241
-        y: 64
-        width: 45
-        height: 13
+        x: 132
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4b8bba31dc3bf21448b08d32b67a5f41
-      internalID: 288091510
+      spriteID: 8ff290a3faec1d2c0800000000000000
+      internalID: -4408515308230725640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_4
+      name: Plant Attack (44x42)_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 12
+        x: 176
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0845f1eeda9f1b24d8f11747017350d7
-      internalID: -230480028
+      spriteID: b2fe0a9458908cc70800000000000000
+      internalID: 8991447124115779371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_5
+      name: Plant Attack (44x42)_5
       rect:
         serializedVersion: 2
-        x: 49
-        y: 16
-        width: 14
-        height: 15
+        x: 220
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e6ff0c81b34d5d54e85c755900c0afe5
-      internalID: 684942491
+      spriteID: c7691c5c8d9837eb0800000000000000
+      internalID: -4723280020057778564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_6
+      name: Plant Attack (44x42)_6
       rect:
         serializedVersion: 2
-        x: 81
-        y: 16
-        width: 47
-        height: 15
+        x: 264
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 986fe458624462d469b0e63e6ec03f05
-      internalID: -346928949
+      spriteID: 27b77e9e8caca6330800000000000000
+      internalID: 3704996607732185970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaldA (16 x 16)_7
+      name: Plant Attack (44x42)_7
       rect:
         serializedVersion: 2
-        x: 157
-        y: 16
-        width: 39
-        height: 15
+        x: 308
+        y: 0
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 829ce7776a396ec41a7ea13669a1f4b3
-      internalID: 21569565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaldA (16 x 16)_8
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 16
-        width: 74
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 208c66db92d1c864f8bbd270acda7032
-      internalID: -1591769998
+      spriteID: 1c085a5d4bef00190800000000000000
+      internalID: -7998112885578039103
       vertices: []
       indices: 
       edges: []
@@ -298,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 543aaadace9eaaf4d82a2ce827806f14
+    spriteID: f293377184c19b74d9550e734b6d4b3f
     internalID: 0
     vertices: []
     indices: 
@@ -308,15 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WaldA (16 x 16)_0: -1491310266
-      WaldA (16 x 16)_1: -433421193
-      WaldA (16 x 16)_2: -308013099
-      WaldA (16 x 16)_3: 288091510
-      WaldA (16 x 16)_4: -230480028
-      WaldA (16 x 16)_5: 684942491
-      WaldA (16 x 16)_6: -346928949
-      WaldA (16 x 16)_7: 21569565
-      WaldA (16 x 16)_8: -1591769998
+      Plant Attack (44x42)_0: -4267507651705547732
+      Plant Attack (44x42)_1: -166219357645076358
+      Plant Attack (44x42)_2: 3223886692536235229
+      Plant Attack (44x42)_3: -4408515308230725640
+      Plant Attack (44x42)_4: 8991447124115779371
+      Plant Attack (44x42)_5: -4723280020057778564
+      Plant Attack (44x42)_6: 3704996607732185970
+      Plant Attack (44x42)_7: -7998112885578039103
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

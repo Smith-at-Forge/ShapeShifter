@@ -1,7 +1,22 @@
 fileFormatVersion: 2
-guid: 2f3d0b28d39083c48a35964f2a2338ef
+guid: a3597768b2d26cf49b1570146cddff3e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6494926667351301558
+    second: Plant Hit (44x42)_0
+  - first:
+      213: 4965737239908147495
+    second: Plant Hit (44x42)_1
+  - first:
+      213: -6209099862374530998
+    second: Plant Hit (44x42)_2
+  - first:
+      213: 770343203577331135
+    second: Plant Hit (44x42)_3
+  - first:
+      213: 7058674889295557046
+    second: Plant Hit (44x42)_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +54,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,89 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Flowers (16 x 16)_0
+      name: Plant Hit (44x42)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 70454110eaf19c04eabab0553e2894d3
-      internalID: -162726864
+      spriteID: a42605e8b926dd5a0800000000000000
+      internalID: -6494926667351301558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flowers (16 x 16)_1
+      name: Plant Hit (44x42)_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 44
         y: 0
-        width: 16
-        height: 16
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 79b9f885c0c013145bb7744062177c8d
-      internalID: -1659126704
+      spriteID: 72167a8c5b7d9e440800000000000000
+      internalID: 4965737239908147495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flowers (16 x 16)_2
+      name: Plant Hit (44x42)_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 88
         y: 0
-        width: 16
-        height: 16
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cc4b02f3349372b40b089c447cbbd11d
-      internalID: 1874859520
+      spriteID: a404d388298d4d9a0800000000000000
+      internalID: -6209099862374530998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flowers (16 x 16)_3
+      name: Plant Hit (44x42)_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 132
         y: 0
-        width: 16
-        height: 16
+        width: 44
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 92c33bc3501f3284bb9f19eb2bb1b033
-      internalID: -1779044387
+      spriteID: fbdfc5cef0fc0ba00800000000000000
+      internalID: 770343203577331135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant Hit (44x42)_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b17e61d96375f160800000000000000
+      internalID: 7058674889295557046
       vertices: []
       indices: 
       edges: []
@@ -188,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0be1d9f1e4677eb44896843a1fe86c8f
+    spriteID: af6da608a4413da49aef991c63840a1a
     internalID: 0
     vertices: []
     indices: 
@@ -198,10 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Flowers (16 x 16)_0: -162726864
-      Flowers (16 x 16)_1: -1659126704
-      Flowers (16 x 16)_2: 1874859520
-      Flowers (16 x 16)_3: -1779044387
+      Plant Hit (44x42)_0: -6494926667351301558
+      Plant Hit (44x42)_1: 4965737239908147495
+      Plant Hit (44x42)_2: -6209099862374530998
+      Plant Hit (44x42)_3: 770343203577331135
+      Plant Hit (44x42)_4: 7058674889295557046
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
