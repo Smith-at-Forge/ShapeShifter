@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 35a2fb500f6dcc94bb9a33c71261adc1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3436397322653099323
+    second: F-Magnet-Run(64x64)_0
+  - first:
+      213: 9127871179212472728
+    second: F-Magnet-Run(64x64)_1
+  - first:
+      213: 6310130309837629355
+    second: F-Magnet-Run(64x64)_2
+  - first:
+      213: -3901789305791427784
+    second: F-Magnet-Run(64x64)_3
+  - first:
+      213: 9193778203288425457
+    second: F-Magnet-Run(64x64)_4
+  - first:
+      213: -7482102823496109719
+    second: F-Magnet-Run(64x64)_5
+  - first:
+      213: -7824687480625565827
+    second: F-Magnet-Run(64x64)_6
+  - first:
+      213: -8271981773576881133
+    second: F-Magnet-Run(64x64)_7
+  - first:
+      213: 2688485523016639259
+    second: F-Magnet-Run(64x64)_8
+  - first:
+      213: 5707296020328740328
+    second: F-Magnet-Run(64x64)_9
+  - first:
+      213: 8649714360515125048
+    second: F-Magnet-Run(64x64)_10
+  - first:
+      213: 1816682530651743361
+    second: F-Magnet-Run(64x64)_11
+  - first:
+      213: 6270632488110438802
+    second: F-Magnet-Run(64x64)_12
+  - first:
+      213: 1975353733602707582
+    second: F-Magnet-Run(64x64)_13
+  - first:
+      213: 5859204741190233746
+    second: F-Magnet-Run(64x64)_14
+  - first:
+      213: 6183289945770352162
+    second: F-Magnet-Run(64x64)_15
+  - first:
+      213: -4065139949928326291
+    second: F-Magnet-Run(64x64)_16
+  - first:
+      213: -635740247312251630
+    second: F-Magnet-Run(64x64)_17
+  - first:
+      213: 4779146624669786373
+    second: F-Magnet-Run(64x64)_18
+  - first:
+      213: -6803443207212891764
+    second: F-Magnet-Run(64x64)_19
+  - first:
+      213: -1757429079220055260
+    second: F-Magnet-Run(64x64)_20
+  - first:
+      213: -4211358967576222424
+    second: F-Magnet-Run(64x64)_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: F-Magnet-Run(64x64)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3567db782980bf20800000000000000
+      internalID: 3436397322653099323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Magnet-Run(64x64)_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8914c78d976bcae70800000000000000
+      internalID: 9127871179212472728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Magnet-Run(64x64)_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba72c449516129750800000000000000
+      internalID: 6310130309837629355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Magnet-Run(64x64)_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b42e78c4f0ad9c0800000000000000
+      internalID: -3901789305791427784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Magnet-Run(64x64)_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f35cbea09cd69f70800000000000000
+      internalID: 9193778203288425457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Magnet-Run(64x64)_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9613198bf1b3a2890800000000000000
+      internalID: -7482102823496109719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Magnet-Run(64x64)_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fedde7130296390800000000000000
+      internalID: -7824687480625565827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Magnet-Run(64x64)_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31cb17d5764043d80800000000000000
+      internalID: -8271981773576881133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Magnet-Run(64x64)_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13ef27c65b6f4520800000000000000
+      internalID: 2688485523016639259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 082aceda3037d414b815ab86ecbe74ae
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      F-Magnet-Run(64x64)_0: 3436397322653099323
+      F-Magnet-Run(64x64)_1: 9127871179212472728
+      F-Magnet-Run(64x64)_2: 6310130309837629355
+      F-Magnet-Run(64x64)_3: -3901789305791427784
+      F-Magnet-Run(64x64)_4: 9193778203288425457
+      F-Magnet-Run(64x64)_5: -7482102823496109719
+      F-Magnet-Run(64x64)_6: -7824687480625565827
+      F-Magnet-Run(64x64)_7: -8271981773576881133
+      F-Magnet-Run(64x64)_8: 2688485523016639259
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
