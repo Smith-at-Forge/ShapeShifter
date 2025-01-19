@@ -37,6 +37,7 @@ public class Projektil : MonoBehaviour
     // links / rechts schieﬂen | reset des Feuerballs nach hit
     public void SetDirection(float _direction)
     {
+        lifetime = 0;
         direction = _direction;
         gameObject.SetActive(true);
         hit = false;
