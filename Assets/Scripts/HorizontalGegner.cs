@@ -23,7 +23,7 @@ public class HorizontalGegner : MonoBehaviour
         {
             if (transform.position.y > upperEdge)
             {
-                transform.position = new Vector3(transform.position.x - speed * Time.deltaTime, transform.position.y, transform.position.z);
+                transform.position = new Vector3(transform.position.x, transform.position.y + speed * Time.deltaTime, transform.position.z);
             }
             else
                 movingUp = false;
@@ -32,7 +32,7 @@ public class HorizontalGegner : MonoBehaviour
         {
             if (transform.position.y < lowerEdge)
             {
-                transform.position = new Vector3(transform.position.x + speed * Time.deltaTime, transform.position.y, transform.position.z);
+                transform.position = new Vector3(transform.position.x , transform.position.y - speed * Time.deltaTime, transform.position.z);
             }
             else
                 movingUp = true;

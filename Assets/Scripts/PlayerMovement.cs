@@ -89,6 +89,7 @@ public class PlayerMovement : MonoBehaviour
 
     public bool canAttack()
     {
+        // falls Angriff beim laufen möglich sein soll horizontalInput == 0 entfernen
         return horizontalInput == 0 && isGrounded() && !onWall();
     }
 }

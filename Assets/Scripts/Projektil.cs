@@ -5,6 +5,7 @@ public class Projektil : MonoBehaviour
     [SerializeField] private float speed;
     private float direction;
     private bool hit;
+    private float lifetime;
 
     private BoxCollider2D boxCollider;
     private Animator anim;
@@ -20,8 +21,12 @@ public class Projektil : MonoBehaviour
         if (hit) return;
         float movementSpeed = speed * Time.deltaTime * direction;
         transform.Translate(movementSpeed, 0, 0);
-    }
 
+        lifetime = Time.deltaTime;
+        if (lifetime > 5) gameObject.SetActive(false);
+    }
+    
+    // überprüfen ob Feuerball was getroffen hat
     private void OnTriggerEnter2D(Collider2D collision)
     {
         hit = true;
@@ -29,6 +34,7 @@ public class Projektil : MonoBehaviour
         anim.SetTrigger("explode");
     }
 
+    // links / rechts schießen | reset des Feuerballs nach hit
     public void SetDirection(float _direction)
     {
         direction = _direction;
@@ -36,6 +42,7 @@ public class Projektil : MonoBehaviour
         hit = false;
         boxCollider.enabled = true;
 
+        // flip Feuerball wenn in falsche Richtung schaut
         float localScaleX = transform.localScale.x;
         if (Mathf.Sign(localScaleX) != _direction)
             localScaleX = -localScaleX;

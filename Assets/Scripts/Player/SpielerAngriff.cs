@@ -30,7 +30,18 @@ public class SpielerAngriff : MonoBehaviour
         cooldownTimer = 0;
 
         // Feuerball erstellen und wiederbenutzen um Performance zu verbessern
-        fireballs[0].transform.position = FirePoint.position;
-        fireballs[0].GetComponent<Projektil>().SetDirection(Mathf.Sign(transform.localScale.x));
+        fireballs[FindFireball()].transform.position = FirePoint.position;
+        fireballs[FindFireball()].GetComponent<Projektil>().SetDirection(Mathf.Sign(transform.localScale.x));
+    }
+
+    private int FindFireball()
+    {
+        for (int i = 0; i < fireballs.Length; i++)
+        {
+            // prüfen welche Feuerbälle aktiv sind
+            if (!fireballs[i].activeInHierarchy)
+                return i;
+        }
+        return 0;
     }
 }
