@@ -189,6 +189,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -909,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TerrainF-UW_0: -4801368294337765635
+      TerrainF-UW_1: 6938728956503428490
+      TerrainF-UW_10: -8632035121887023052
+      TerrainF-UW_11: 527393637591608254
+      TerrainF-UW_12: -6170978069822081208
+      TerrainF-UW_13: -7745284793884397933
+      TerrainF-UW_14: 3526400035388155399
+      TerrainF-UW_15: 664251411511541022
+      TerrainF-UW_16: 6205713434287897758
+      TerrainF-UW_17: 7068857258195725177
+      TerrainF-UW_18: 2807224688703455155
+      TerrainF-UW_19: 7651388356597090540
+      TerrainF-UW_2: 6960016386488153575
+      TerrainF-UW_20: -4726973258948857104
+      TerrainF-UW_21: -1314833671548180105
+      TerrainF-UW_22: 6942133452459103974
+      TerrainF-UW_23: 8493056203188066523
+      TerrainF-UW_24: 2882284805702173279
+      TerrainF-UW_25: 2384019987296276830
+      TerrainF-UW_26: 1772504190380917810
+      TerrainF-UW_27: -7751580176239080935
+      TerrainF-UW_28: -6394150922739342641
+      TerrainF-UW_29: -9204223807419841267
+      TerrainF-UW_3: 7618019558666432609
+      TerrainF-UW_30: -3125555250792103596
+      TerrainF-UW_31: -4824346261018777730
+      TerrainF-UW_4: -5807329923304749750
+      TerrainF-UW_5: -9188586907412427650
+      TerrainF-UW_6: -8794783899132847941
+      TerrainF-UW_7: -3432824242540161634
+      TerrainF-UW_8: -7294744320655711262
+      TerrainF-UW_9: -6880594334543200221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

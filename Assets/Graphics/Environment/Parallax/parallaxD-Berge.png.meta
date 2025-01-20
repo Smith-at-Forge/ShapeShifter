@@ -111,6 +111,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -259,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      parallaxD-Berge_0: 7311187979715821894
+      parallaxD-Berge_1: -1461218720425202614
+      parallaxD-Berge_2: -4784992670070656423
+      parallaxD-Berge_3: 542652247149555935
+      parallaxD-Berge_4: 7205495677087872871
+      parallaxD-Berge_5: 7984414121398707613
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

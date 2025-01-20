@@ -213,6 +213,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1109,7 +1122,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TerrainB_0: 6010189826800319907
+      TerrainB_1: -5614618123687852702
+      TerrainB_10: 8122072680268781518
+      TerrainB_11: 1878838501292509229
+      TerrainB_12: 8163950898234088561
+      TerrainB_13: -519017580961835468
+      TerrainB_14: 5821700699969228316
+      TerrainB_15: 2138191955894659572
+      TerrainB_16: -5891444151895439896
+      TerrainB_17: 7421319999628049740
+      TerrainB_18: -29377105882564996
+      TerrainB_19: 3027908810655507216
+      TerrainB_2: -6247686247189943093
+      TerrainB_20: -3861202751360332090
+      TerrainB_21: 4884390221190596528
+      TerrainB_22: 5512010913050403031
+      TerrainB_23: -2315517349601444946
+      TerrainB_24: -8915265654603824622
+      TerrainB_25: 8841292602228764389
+      TerrainB_26: 3555311090776711647
+      TerrainB_27: -5475361833490670896
+      TerrainB_28: -631831853008632872
+      TerrainB_29: -635633089064728543
+      TerrainB_3: -2864989236380686868
+      TerrainB_30: -6956486262827883662
+      TerrainB_31: 7841147497443363688
+      TerrainB_32: 4526827342751140116
+      TerrainB_33: 940215172849098142
+      TerrainB_34: 2120735282128606530
+      TerrainB_35: 1473874779506235594
+      TerrainB_36: -2562663994818324461
+      TerrainB_37: 8108061875507693454
+      TerrainB_38: -8172829400204411366
+      TerrainB_39: 2534936880329421943
+      TerrainB_4: -3263196069941589105
+      TerrainB_5: 5932521744902549502
+      TerrainB_6: 3931175303914561059
+      TerrainB_7: 7873171183503329908
+      TerrainB_8: -2975412553324111666
+      TerrainB_9: 1621157761582354355
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
