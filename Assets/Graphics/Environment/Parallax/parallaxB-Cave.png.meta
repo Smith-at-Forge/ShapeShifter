@@ -110,19 +110,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 764
+        y: 1920
         width: 960
-        height: 1636
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c9c28fc4d961a9a00800000000000000
-      internalID: 763947951649729692
+      spriteID: ddfdf394c8d2d1a46a49f0e270743b48
+      internalID: -2125098196
       vertices: []
       indices: 
       edges: []
@@ -132,19 +132,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 319
+        y: 1440
         width: 960
-        height: 380
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d2e9522c4a9c65480800000000000000
-      internalID: -8910713103236882899
+      spriteID: b489f6f8c5d179442ac4646951d80f17
+      internalID: -988797628
       vertices: []
       indices: 
       edges: []
@@ -154,19 +154,63 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 960
         width: 960
-        height: 244
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 44f78670066374970800000000000000
-      internalID: 8739013388004785988
+      spriteID: 6e1c6d488f0333444a6f4ef3e5879def
+      internalID: 663285740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parallaxB-Cave_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 960
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3251a92e754a6474b8d9a993ca87aa78
+      internalID: 617930675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parallaxB-Cave_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 960
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780e6536ae21ae64fac7fe3d84ae41c5
+      internalID: 1624657122
       vertices: []
       indices: 
       edges: []
@@ -175,7 +219,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cb6fdd051c9b1ba4794659ab465b416d
     internalID: 0
     vertices: []
     indices: 
@@ -184,7 +228,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      parallaxB-Cave_0: -2125098196
+      parallaxB-Cave_1: -988797628
+      parallaxB-Cave_2: 663285740
+      parallaxB-Cave_3: 617930675
+      parallaxB-Cave_4: 1624657122
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

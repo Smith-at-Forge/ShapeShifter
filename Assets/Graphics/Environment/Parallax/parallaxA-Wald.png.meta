@@ -105,7 +105,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1280
+        width: 256
         height: 272
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -113,10 +113,98 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9e089e14613965a50800000000000000
-      internalID: 6509552035215016169
+      spriteID: f34cce0b59fc1c149bb469fa5ae3f8f0
+      internalID: 2030804814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parallaxA-Wald_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19f6bb9a6a89fd418a3c623ca4cd2cf
+      internalID: 224734581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parallaxA-Wald_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a096f0d0860cae94899d64ec41b7d978
+      internalID: -1295678682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parallaxA-Wald_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8a4b66d0776ef4eaacc9d2c556467e
+      internalID: -2060218550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parallaxA-Wald_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5616dd070f14e41a5f3303fe1ea6f2
+      internalID: 1929043075
       vertices: []
       indices: 
       edges: []
@@ -125,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b385493407a25ea4095420a7c512382b
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +222,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      parallaxA-Wald_0: 2030804814
+      parallaxA-Wald_1: 224734581
+      parallaxA-Wald_2: -1295678682
+      parallaxA-Wald_3: -2060218550
+      parallaxA-Wald_4: 1929043075
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
