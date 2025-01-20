@@ -1,0 +1,2867 @@
+fileFormatVersion: 2
+guid: e0ed9d6d8aac5284bb00896e72a6b4c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 918111257926764921
+    second: TerrainD-Berge_0
+  - first:
+      213: 6401925502590095851
+    second: TerrainD-Berge_1
+  - first:
+      213: 300255642990287477
+    second: TerrainD-Berge_2
+  - first:
+      213: -3513424068170592256
+    second: TerrainD-Berge_3
+  - first:
+      213: 8943798207695144960
+    second: TerrainD-Berge_4
+  - first:
+      213: 3586689449024325158
+    second: TerrainD-Berge_5
+  - first:
+      213: -5674096832688338950
+    second: TerrainD-Berge_6
+  - first:
+      213: -8513528025842103003
+    second: TerrainD-Berge_7
+  - first:
+      213: -6087251700152869055
+    second: TerrainD-Berge_8
+  - first:
+      213: 7212910030722057542
+    second: TerrainD-Berge_9
+  - first:
+      213: 3174517709921165380
+    second: TerrainD-Berge_10
+  - first:
+      213: 4159896370663461127
+    second: TerrainD-Berge_11
+  - first:
+      213: 6413162097544886607
+    second: TerrainD-Berge_12
+  - first:
+      213: -2007321935752416708
+    second: TerrainD-Berge_13
+  - first:
+      213: -7356210397515557617
+    second: TerrainD-Berge_14
+  - first:
+      213: -4392327664531326328
+    second: TerrainD-Berge_15
+  - first:
+      213: 681203213871897990
+    second: TerrainD-Berge_16
+  - first:
+      213: -9145296822552260222
+    second: TerrainD-Berge_17
+  - first:
+      213: -2211767562695383254
+    second: TerrainD-Berge_18
+  - first:
+      213: 5910156069609182261
+    second: TerrainD-Berge_19
+  - first:
+      213: -4408120457735319972
+    second: TerrainD-Berge_20
+  - first:
+      213: 1646612915566833742
+    second: TerrainD-Berge_21
+  - first:
+      213: -6756742300942393365
+    second: TerrainD-Berge_22
+  - first:
+      213: 2948219087204855013
+    second: TerrainD-Berge_23
+  - first:
+      213: 8993706783629806253
+    second: TerrainD-Berge_24
+  - first:
+      213: -8276321310889169083
+    second: TerrainD-Berge_25
+  - first:
+      213: 6875781577282045294
+    second: TerrainD-Berge_26
+  - first:
+      213: -6103946100082392270
+    second: TerrainD-Berge_27
+  - first:
+      213: -3633667326893717322
+    second: TerrainD-Berge_28
+  - first:
+      213: -7780316069670437222
+    second: TerrainD-Berge_29
+  - first:
+      213: 3465166058936297995
+    second: TerrainD-Berge_30
+  - first:
+      213: 2406791731431978672
+    second: TerrainD-Berge_31
+  - first:
+      213: -5018913642272855934
+    second: TerrainD-Berge_32
+  - first:
+      213: -2794640968279518510
+    second: TerrainD-Berge_33
+  - first:
+      213: -1265351618083770020
+    second: TerrainD-Berge_34
+  - first:
+      213: -1233852272192532355
+    second: TerrainD-Berge_35
+  - first:
+      213: -4272770753792215340
+    second: TerrainD-Berge_36
+  - first:
+      213: -8225070017236402050
+    second: TerrainD-Berge_37
+  - first:
+      213: 8453696991332237637
+    second: TerrainD-Berge_38
+  - first:
+      213: 928404689353381960
+    second: TerrainD-Berge_39
+  - first:
+      213: 7964948675911064682
+    second: TerrainD-Berge_40
+  - first:
+      213: 1876288103256700839
+    second: TerrainD-Berge_41
+  - first:
+      213: -3429203298690610144
+    second: TerrainD-Berge_42
+  - first:
+      213: 7889796292893446645
+    second: TerrainD-Berge_43
+  - first:
+      213: 2754115298929982230
+    second: TerrainD-Berge_44
+  - first:
+      213: -5417491082747336803
+    second: TerrainD-Berge_45
+  - first:
+      213: -5416713733025637464
+    second: TerrainD-Berge_46
+  - first:
+      213: -8350826404586718304
+    second: TerrainD-Berge_47
+  - first:
+      213: 3275387686556169032
+    second: TerrainD-Berge_48
+  - first:
+      213: -2923119393114507740
+    second: TerrainD-Berge_49
+  - first:
+      213: -6729391691574610255
+    second: TerrainD-Berge_50
+  - first:
+      213: 467363181687351379
+    second: TerrainD-Berge_51
+  - first:
+      213: -4481847947203697498
+    second: TerrainD-Berge_52
+  - first:
+      213: 2126682481479152851
+    second: TerrainD-Berge_53
+  - first:
+      213: -7493830445090389263
+    second: TerrainD-Berge_54
+  - first:
+      213: 4324913573399724102
+    second: TerrainD-Berge_55
+  - first:
+      213: -5152678183959902684
+    second: TerrainD-Berge_56
+  - first:
+      213: -5609136350756178203
+    second: TerrainD-Berge_57
+  - first:
+      213: 6363172726586198745
+    second: TerrainD-Berge_58
+  - first:
+      213: -4170825871260587832
+    second: TerrainD-Berge_59
+  - first:
+      213: 3164588945601056676
+    second: TerrainD-Berge_60
+  - first:
+      213: -7795603953370820809
+    second: TerrainD-Berge_61
+  - first:
+      213: -6801773954904253166
+    second: TerrainD-Berge_62
+  - first:
+      213: 2979383461602759858
+    second: TerrainD-Berge_63
+  - first:
+      213: -4403317790627759306
+    second: TerrainD-Berge_64
+  - first:
+      213: 92553710833162583
+    second: TerrainD-Berge_65
+  - first:
+      213: -5569945496489207271
+    second: TerrainD-Berge_66
+  - first:
+      213: 2015332503889223707
+    second: TerrainD-Berge_67
+  - first:
+      213: 5716596467436482889
+    second: TerrainD-Berge_68
+  - first:
+      213: -4567697475086979580
+    second: TerrainD-Berge_69
+  - first:
+      213: 3548722496025208063
+    second: TerrainD-Berge_70
+  - first:
+      213: 7001616408929369237
+    second: TerrainD-Berge_71
+  - first:
+      213: 4255137732727314172
+    second: TerrainD-Berge_72
+  - first:
+      213: 8669722273043766882
+    second: TerrainD-Berge_73
+  - first:
+      213: -4775627629700954068
+    second: TerrainD-Berge_74
+  - first:
+      213: -3198572234344005746
+    second: TerrainD-Berge_75
+  - first:
+      213: -5435129608967252193
+    second: TerrainD-Berge_76
+  - first:
+      213: 1244735702598935303
+    second: TerrainD-Berge_77
+  - first:
+      213: 1664858202559680917
+    second: TerrainD-Berge_78
+  - first:
+      213: -2464194669542587924
+    second: TerrainD-Berge_79
+  - first:
+      213: -3060747338049561100
+    second: TerrainD-Berge_80
+  - first:
+      213: -5158796750262798167
+    second: TerrainD-Berge_81
+  - first:
+      213: 6647547478923773133
+    second: TerrainD-Berge_82
+  - first:
+      213: 6092107046069665826
+    second: TerrainD-Berge_83
+  - first:
+      213: 1072451511896609710
+    second: TerrainD-Berge_84
+  - first:
+      213: 579130133225908682
+    second: TerrainD-Berge_85
+  - first:
+      213: 8038579222748083069
+    second: TerrainD-Berge_86
+  - first:
+      213: 2225824474123446775
+    second: TerrainD-Berge_87
+  - first:
+      213: 8924888611183514016
+    second: TerrainD-Berge_88
+  - first:
+      213: 8337598472134479289
+    second: TerrainD-Berge_89
+  - first:
+      213: -419698783800714260
+    second: TerrainD-Berge_90
+  - first:
+      213: 5861574695558200034
+    second: TerrainD-Berge_91
+  - first:
+      213: 6778516188018089859
+    second: TerrainD-Berge_92
+  - first:
+      213: -2510818577278407422
+    second: TerrainD-Berge_93
+  - first:
+      213: -7898044212837285967
+    second: TerrainD-Berge_94
+  - first:
+      213: -8376937651893455619
+    second: TerrainD-Berge_95
+  - first:
+      213: 8167857094065382292
+    second: TerrainD-Berge_96
+  - first:
+      213: -6528499050185202482
+    second: TerrainD-Berge_97
+  - first:
+      213: 3197005554842593113
+    second: TerrainD-Berge_98
+  - first:
+      213: 2833951319472012860
+    second: TerrainD-Berge_99
+  - first:
+      213: -6626584416349228597
+    second: TerrainD-Berge_100
+  - first:
+      213: -301654035119861844
+    second: TerrainD-Berge_101
+  - first:
+      213: -8456950470682281233
+    second: TerrainD-Berge_102
+  - first:
+      213: 8143432877295194813
+    second: TerrainD-Berge_103
+  - first:
+      213: 4173739827779125333
+    second: TerrainD-Berge_104
+  - first:
+      213: -5627089857322310469
+    second: TerrainD-Berge_105
+  - first:
+      213: -6883908657390025064
+    second: TerrainD-Berge_106
+  - first:
+      213: -5016402784821957315
+    second: TerrainD-Berge_107
+  - first:
+      213: 2512704841109983662
+    second: TerrainD-Berge_108
+  - first:
+      213: -8170443812345118810
+    second: TerrainD-Berge_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TerrainD-Berge_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1007
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97903012359cdbc00800000000000000
+      internalID: 918111257926764921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1007
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be19564635538d850800000000000000
+      internalID: 6401925502590095851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1007
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a1e3e9ae8ba2400800000000000000
+      internalID: 300255642990287477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1007
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0005267cc6fcd3fc0800000000000000
+      internalID: -3513424068170592256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1007
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008c1786511ce1c70800000000000000
+      internalID: 8943798207695144960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1007
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6268cb00d0b76c130800000000000000
+      internalID: 3586689449024325158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1007
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7417a4efe8141b0800000000000000
+      internalID: -5674096832688338950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1007
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d495afd5fd9d980800000000000000
+      internalID: -8513528025842103003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_8
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1007
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fdef194dcb58ba0800000000000000
+      internalID: -6087251700152869055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_9
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1007
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6454a021577691460800000000000000
+      internalID: 7212910030722057542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 751
+        width: 36
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440a901b9072e0c20800000000000000
+      internalID: 3174517709921165380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 861
+        width: 352
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70115d385bbeab930800000000000000
+      internalID: 4159896370663461127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_12
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 751
+        width: 36
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49792703f0200950800000000000000
+      internalID: 6413162097544886607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_13
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 975
+        width: 90
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32b0ada55f8424e0800000000000000
+      internalID: -2007321935752416708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_14
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 911
+        width: 114
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05dc0b4e9d79e990800000000000000
+      internalID: -7356210397515557617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_15
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 943
+        width: 90
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a3d7ab2415b03c0800000000000000
+      internalID: -4392327664531326328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_16
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 831
+        width: 50
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d50beb6be147900800000000000000
+      internalID: 681203213871897990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_17
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 902
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28193466ef0651180800000000000000
+      internalID: -9145296822552260222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_18
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 902
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a276fc3ce193e41e0800000000000000
+      internalID: -2211767562695383254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_19
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 914
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5349c28c1a7150250800000000000000
+      internalID: 5910156069609182261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_20
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 831
+        width: 114
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ecd858cc533d2c0800000000000000
+      internalID: -4408120457735319972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_21
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 895
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e407eeaf8b1f9d610800000000000000
+      internalID: 1646612915566833742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_22
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 895
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef19711daa3b32a0800000000000000
+      internalID: -6756742300942393365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_23
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 879
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec2fd4b3ad2ae820800000000000000
+      internalID: 2948219087204855013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_24
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 840
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa86444ba010dc70800000000000000
+      internalID: 8993706783629806253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 837
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fa4791e99942d80800000000000000
+      internalID: -8276321310889169083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_26
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 840
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6542134aeeab6f50800000000000000
+      internalID: 6875781577282045294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_27
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 841
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2334570bc5d6a4ba0800000000000000
+      internalID: -6103946100082392270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 841
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b88e8471de929dc0800000000000000
+      internalID: -3633667326893717322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_29
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 841
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9eb70ba1c3c60490800000000000000
+      internalID: -7780316069670437222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_30
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 837
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a63aedb2eb61030800000000000000
+      internalID: 3465166058936297995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_31
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 837
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6b958f354a66120800000000000000
+      internalID: 2406791731431978672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_32
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 814
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288e6f932ac395ab0800000000000000
+      internalID: -5018913642272855934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_33
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 788
+        width: 146
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d212f298d07739d0800000000000000
+      internalID: -2794640968279518510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_34
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 815
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51b6205861907ee0800000000000000
+      internalID: -1265351618083770020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_35
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 814
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70d7aa45e970eee0800000000000000
+      internalID: -1233852272192532355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_36
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 751
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6798533a114b4c0800000000000000
+      internalID: -4272770753792215340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_37
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 751
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7088e9c56eaadd80800000000000000
+      internalID: -8225070017236402050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_38
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 751
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541852fbf90915570800000000000000
+      internalID: 8453696991332237637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_39
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 783
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84817b4652b52ec00800000000000000
+      internalID: 928404689353381960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_40
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 751
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c95e1ee9e298e60800000000000000
+      internalID: 7964948675911064682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_41
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 751
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a738e2c61ae90a10800000000000000
+      internalID: 1876288103256700839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_42
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 778
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cc2feb4c50960d0800000000000000
+      internalID: -3429203298690610144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_43
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 778
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f19b1c2def2e7d60800000000000000
+      internalID: 7889796292893446645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_44
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 752
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bb03fb545983620800000000000000
+      internalID: 2754115298929982230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_45
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 761
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97aff6309431d4b0800000000000000
+      internalID: -5417491082747336803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_46
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 758
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abd60d0f87f3d4b0800000000000000
+      internalID: -5416713733025637464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_47
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 754
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abf7ad21a7eb1c80800000000000000
+      internalID: -8350826404586718304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_48
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 743
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8437ed64fb3847d20800000000000000
+      internalID: 3275387686556169032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_49
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 736
+        width: 152
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426ba59366efe67d0800000000000000
+      internalID: -2923119393114507740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_50
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 741
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6fa3d09e56c92a0800000000000000
+      internalID: -6729391691574610255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_51
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 741
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358229966586c7600800000000000000
+      internalID: 467363181687351379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_52
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 737
+        width: 152
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a42c91b9074dc1c0800000000000000
+      internalID: -4481847947203697498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_53
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 743
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d47c92037e738d10800000000000000
+      internalID: 2126682481479152851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_54
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 719
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f241690ae0900890800000000000000
+      internalID: -7493830445090389263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_55
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 719
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64081ca0bfd250c30800000000000000
+      internalID: 4324913573399724102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_56
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 719
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4264a23ed720e78b0800000000000000
+      internalID: -5152678183959902684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_57
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 719
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6727c15385822b0800000000000000
+      internalID: -5609136350756178203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_58
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 719
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dacf9c91e78e4850800000000000000
+      internalID: 6363172726586198745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_59
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 719
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8e083d7ff3e16c0800000000000000
+      internalID: -4170825871260587832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_60
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 719
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afcdaa11e0eaeb20800000000000000
+      internalID: 3164588945601056676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_61
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 719
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f83bdd18370d390800000000000000
+      internalID: -7795603953370820809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_62
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 719
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d9d6710ae3b91a0800000000000000
+      internalID: -6801773954904253166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_63
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 719
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4918e0975e85920800000000000000
+      internalID: 2979383461602759858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_64
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 703
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b79789cc544e2c0800000000000000
+      internalID: -4403317790627759306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_65
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 700
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759dad01c11d84100800000000000000
+      internalID: 92553710833162583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_66
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 700
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a597fe41493b2b0800000000000000
+      internalID: -5569945496489207271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_67
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 703
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10ad9e0c36e7fb10800000000000000
+      internalID: 2015332503889223707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_68
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 463
+        width: 36
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941fdc5033e655f40800000000000000
+      internalID: 5716596467436482889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_69
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 573
+        width: 352
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40eedfbd8574c90c0800000000000000
+      internalID: -4567697475086979580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_70
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 463
+        width: 36
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff42506ee489f3130800000000000000
+      internalID: 3548722496025208063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_71
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 687
+        width: 90
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cf7cb170dba2160800000000000000
+      internalID: 7001616408929369237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_72
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 690
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6929529394d0b30800000000000000
+      internalID: 4255137732727314172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_73
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 688
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ed012297a015870800000000000000
+      internalID: 8669722273043766882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_74
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 688
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28422029ff89bdb0800000000000000
+      internalID: -4775627629700954068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_75
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 690
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f7f77ef736c93d0800000000000000
+      internalID: -3198572234344005746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_76
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 655
+        width: 90
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f179c4dca6a8294b0800000000000000
+      internalID: -5435129608967252193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_77
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 543
+        width: 50
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703e7a0d680364110800000000000000
+      internalID: 1244735702598935303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_78
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 575
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59117f4e6b3ca1710800000000000000
+      internalID: 1664858202559680917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_79
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 575
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1c080010c6dcdd0800000000000000
+      internalID: -2464194669542587924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_80
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 575
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd5558338a0685d0800000000000000
+      internalID: -3060747338049561100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_81
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 575
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8752820b54868b0800000000000000
+      internalID: -5158796750262798167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_82
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 575
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc48bcc3635d04c50800000000000000
+      internalID: 6647547478923773133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_83
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 575
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22003aeb4138b8450800000000000000
+      internalID: 6092107046069665826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_84
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 575
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea39d6dc7fc12ee00800000000000000
+      internalID: 1072451511896609710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_85
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 575
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9a7ada9cb790800800000000000000
+      internalID: 579130133225908682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_86
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 575
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d733cbe7635ce8f60800000000000000
+      internalID: 8038579222748083069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_87
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 552
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9af78f097b3ee10800000000000000
+      internalID: 2225824474123446775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_88
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 549
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1d581e7e29bdb70800000000000000
+      internalID: 8924888611183514016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_89
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 552
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd4a6bc2a915b370800000000000000
+      internalID: 8337598472134479289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_90
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 553
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb15e60e2eec2af0800000000000000
+      internalID: -419698783800714260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_91
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 553
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea3a21312f785150800000000000000
+      internalID: 5861574695558200034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 553
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f9d031f80221e50800000000000000
+      internalID: 6778516188018089859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_93
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 526
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d6edd8ec7c72dd0800000000000000
+      internalID: -2510818577278407422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_94
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 500
+        width: 146
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bff08152a2846290800000000000000
+      internalID: -7898044212837285967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_95
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 527
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4bb49a6932fbb80800000000000000
+      internalID: -8376937651893455619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_96
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 526
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493ebeb70ce0a5170800000000000000
+      internalID: 8167857094065382292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_97
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 463
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec46c3d04bc1665a0800000000000000
+      internalID: -6528499050185202482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_98
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 463
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957e7591d9b0e5c20800000000000000
+      internalID: 3197005554842593113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_99
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 463
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ef0ebc5b7345720800000000000000
+      internalID: 2833951319472012860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_100
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 495
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc17d5d1594a904a0800000000000000
+      internalID: -6626584416349228597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_101
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 463
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf0e97d04f40dbf0800000000000000
+      internalID: -301654035119861844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_102
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 463
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feaf8ef8a50e2aa80800000000000000
+      internalID: -8456950470682281233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_103
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 464
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2da6f5e09430170800000000000000
+      internalID: 8143432877295194813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_104
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 473
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550ccab824a1ce930800000000000000
+      internalID: 4173739827779125333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_105
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 470
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4a91f969f88e1b0800000000000000
+      internalID: -5627089857322310469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_106
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 466
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89608027c817770a0800000000000000
+      internalID: -6883908657390025064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_107
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 578
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d2868ce38226ab0800000000000000
+      internalID: -5016402784821957315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_108
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 335
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1d3c77dbbeed220800000000000000
+      internalID: 2512704841109983662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainD-Berge_109
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 121
+        width: 296
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af71eb34a0cc9e80800000000000000
+      internalID: -8170443812345118810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
