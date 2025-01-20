@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class DamagePlayer : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -12,5 +12,12 @@ public class NewMonoBehaviourScript : MonoBehaviour
     void Update()
     {
         
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            ShapeManagerHealthController.instance.DamagePlayer();
+        }
     }
 }
