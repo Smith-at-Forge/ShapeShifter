@@ -120,19 +120,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 539
+        y: 540
         width: 480
-        height: 178
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4cf24a61b84c7bbd0800000000000000
-      internalID: -2614404957005926460
+      spriteID: 458cae160273ddd4c82df491902e445c
+      internalID: 2069961649
       vertices: []
       indices: 
       edges: []
@@ -142,19 +142,41 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 270
         width: 480
-        height: 520
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 409789af1777656c0800000000000000
-      internalID: -4155002274783397628
+      spriteID: 226fc4681923d274981b2548bf25b097
+      internalID: 977388309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parallaxC-Berge_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af25d98e130066c4b8fac71bdc40e6b2
+      internalID: -970912399
       vertices: []
       indices: 
       edges: []
@@ -163,7 +185,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b8b55049df794d448b6b205e60c9729d
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +195,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      parallaxC-Berge_0: -2614404957005926460
-      parallaxC-Berge_1: -4155002274783397628
+      parallaxC-Berge_0: 2069961649
+      parallaxC-Berge_1: 977388309
+      parallaxC-Berge_2: -970912399
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

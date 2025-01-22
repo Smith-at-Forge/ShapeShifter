@@ -132,19 +132,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 719
+        y: 720
         width: 704
-        height: 145
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 64141113bbe867560800000000000000
-      internalID: 7311187979715821894
+      spriteID: f76db2a8ee2dffa48baf8e8c80d2f0f9
+      internalID: -2076213307
       vertices: []
       indices: 
       edges: []
@@ -154,7 +154,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 575
+        y: 576
         width: 704
         height: 144
       alignment: 0
@@ -163,10 +163,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a4ca7edc055b8bbe0800000000000000
-      internalID: -1461218720425202614
+      spriteID: 339d0a1690b07054a9f4b6044995a747
+      internalID: 1758820600
       vertices: []
       indices: 
       edges: []
@@ -176,19 +176,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 431
+        y: 432
         width: 704
-        height: 117
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 952379fb48a489db0800000000000000
-      internalID: -4784992670070656423
+      spriteID: 80df5e2745dc72144b2914f6f998de12
+      internalID: -1013636665
       vertices: []
       indices: 
       edges: []
@@ -198,19 +198,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 287
+        y: 288
         width: 704
-        height: 117
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fd0baebf753e78700800000000000000
-      internalID: 542652247149555935
+      spriteID: 3b4aff0ceb299554eae5953fd22e8344
+      internalID: -1358816942
       vertices: []
       indices: 
       edges: []
@@ -220,19 +220,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 143
+        y: 144
         width: 704
-        height: 111
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7677f6754201ff360800000000000000
-      internalID: 7205495677087872871
+      spriteID: 6a353e3ba887106489b1b264984a9f07
+      internalID: -1424973803
       vertices: []
       indices: 
       edges: []
@@ -244,17 +244,17 @@ TextureImporter:
         x: 0
         y: 0
         width: 704
-        height: 110
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d95259517565ece60800000000000000
-      internalID: 7984414121398707613
+      spriteID: 4a035aa2c15a94445960c2956e1773b3
+      internalID: -441432193
       vertices: []
       indices: 
       edges: []
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 955866015a8ee4341921a23cf7216e99
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      parallaxD-Berge_0: 7311187979715821894
-      parallaxD-Berge_1: -1461218720425202614
-      parallaxD-Berge_2: -4784992670070656423
-      parallaxD-Berge_3: 542652247149555935
-      parallaxD-Berge_4: 7205495677087872871
-      parallaxD-Berge_5: 7984414121398707613
+      parallaxD-Berge_0: -2076213307
+      parallaxD-Berge_1: 1758820600
+      parallaxD-Berge_2: -1013636665
+      parallaxD-Berge_3: -1358816942
+      parallaxD-Berge_4: -1424973803
+      parallaxD-Berge_5: -441432193
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
