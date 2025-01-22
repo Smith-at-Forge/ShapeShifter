@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class ShapeManagerHealthController : MonoBehaviour
+public class PlayerHealthController : MonoBehaviour
 {
-    #region Singleton ShapeManagerHealthController
-    public static ShapeManagerHealthController instance;
+    #region Singleton PlayerHealthController
+    public static PlayerHealthController instance;
 
     private void Awake()
     {
@@ -12,6 +12,7 @@ public class ShapeManagerHealthController : MonoBehaviour
     #endregion
 
     public int currentHealth, maxHealth;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,7 +23,11 @@ public class ShapeManagerHealthController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //if (Input.GetKeyDown(KeyCode.A))
+        //    DamagePlayer();
+
+        //if (Input.GetKeyDown(KeyCode.S))
+        //    AddHealth(1);
     }
 
     public void DamagePlayer()
@@ -36,6 +41,16 @@ public class ShapeManagerHealthController : MonoBehaviour
             gameObject.SetActive( false );
         }
 
+        UIController.instance.UpdateHealthDisplay(currentHealth, maxHealth);
+    }
+
+    public void AddHealth(int amountToAdd)
+    {
+        currentHealth += amountToAdd;
+        if(currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
         UIController.instance.UpdateHealthDisplay(currentHealth, maxHealth);
     }
 }

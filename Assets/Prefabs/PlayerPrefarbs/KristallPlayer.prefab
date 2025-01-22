@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 1415546077045477143}
   m_Layer: 0
   m_Name: KristallPlayer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 7933786000082890671}
-  jumpForce: 22
+  jumpForce: 7
   groudCheckPoint: {fileID: 7177199564235171177}
   groundCheckRadius: 0.5
   whatIsGround:

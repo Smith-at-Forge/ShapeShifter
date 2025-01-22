@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 5608041864995238348}
   m_Layer: 0
   m_Name: MagnetPlayer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 1938541911576865057}
-  jumpForce: 22
+  jumpForce: 7
   groudCheckPoint: {fileID: 1833993267572221147}
   groundCheckRadius: 0.2
   whatIsGround:
