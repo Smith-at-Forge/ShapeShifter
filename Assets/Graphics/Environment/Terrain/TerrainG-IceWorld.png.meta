@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 04318ec57174e6943a00516db5db8fd6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7946428733584574184
+    second: TerrainG-IceWorld_0
+  - first:
+      213: 7078654890610025524
+    second: TerrainG-IceWorld_1
+  - first:
+      213: -4000806180589794112
+    second: TerrainG-IceWorld_2
+  - first:
+      213: 1945544786171093130
+    second: TerrainG-IceWorld_3
+  - first:
+      213: 1184736966427599993
+    second: TerrainG-IceWorld_4
+  - first:
+      213: -6942517679200262084
+    second: TerrainG-IceWorld_5
+  - first:
+      213: -6844986103135802634
+    second: TerrainG-IceWorld_6
+  - first:
+      213: 5562772711004002074
+    second: TerrainG-IceWorld_7
+  - first:
+      213: 4571043280582800318
+    second: TerrainG-IceWorld_8
+  - first:
+      213: -805351601219782420
+    second: TerrainG-IceWorld_9
+  - first:
+      213: -4409118488583263384
+    second: TerrainG-IceWorld_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TerrainG-IceWorld_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 437
+        width: 516
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bbe5d4e4eb3724189d9ef1a25e4b94
+      internalID: 1734301719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainG-IceWorld_1
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 393
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727dfe0233038cc418d0b88849d71a22
+      internalID: 247338753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainG-IceWorld_2
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 441
+        width: 248
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90a6533e1f395a4eafd7355d7b6c6bd
+      internalID: -848933321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainG-IceWorld_3
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 433
+        width: 455
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc60149eb1060e4796b0e5610e9484a
+      internalID: -1952598659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainG-IceWorld_4
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 431
+        width: 269
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cad174ea23e5a468e80fe59b29c5f4
+      internalID: -592382039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainG-IceWorld_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 594
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02c21c08a3178c4e947ec0abbbf4d04
+      internalID: 628917559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainG-IceWorld_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 175
+        width: 114
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c524349362db564980f0970864c6c4d
+      internalID: -1004687258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainG-IceWorld_7
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 296
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0bba3d83be7bd468cc7dfcc258cb5d
+      internalID: 307033291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainG-IceWorld_8
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 0
+        width: 401
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b656f7425172647a695d741a467544
+      internalID: 100441908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainG-IceWorld_9
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 0
+        width: 298
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e832700dfeac83f4f8dc888af23cbebe
+      internalID: 926848173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainG-IceWorld_10
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 0
+        width: 110
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db5b501f14ca014eb8077312ac54403
+      internalID: 224426467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 134793f6f37f11445b715e9fee69a6bb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TerrainG-IceWorld_0: 1734301719
+      TerrainG-IceWorld_1: 247338753
+      TerrainG-IceWorld_10: 224426467
+      TerrainG-IceWorld_2: -848933321
+      TerrainG-IceWorld_3: -1952598659
+      TerrainG-IceWorld_4: -592382039
+      TerrainG-IceWorld_5: 628917559
+      TerrainG-IceWorld_6: -1004687258
+      TerrainG-IceWorld_7: 307033291
+      TerrainG-IceWorld_8: 100441908
+      TerrainG-IceWorld_9: 926848173
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

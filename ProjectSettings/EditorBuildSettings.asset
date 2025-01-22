@@ -4,6 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Levels/SceneHabibMenu.unity
+    guid: 2bcc6fe5e0e956e4ebb7cab088946711
+  - enabled: 1
+    path: Assets/Levels/SceneHabibStartLevel1.unity
+    guid: 7cb53f6abfed51440b7ac43d61b1f07e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
