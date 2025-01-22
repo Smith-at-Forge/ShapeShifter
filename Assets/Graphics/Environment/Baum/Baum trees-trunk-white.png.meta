@@ -1,0 +1,1989 @@
+fileFormatVersion: 2
+guid: e58ed20f8fb69e248a592be32b5750d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1981027248501198137
+    second: Baum trees-trunk-white_0
+  - first:
+      213: 2220049099227471420
+    second: Baum trees-trunk-white_1
+  - first:
+      213: -2972133771821044756
+    second: Baum trees-trunk-white_2
+  - first:
+      213: -5571570320495660157
+    second: Baum trees-trunk-white_3
+  - first:
+      213: 5424111846279318158
+    second: Baum trees-trunk-white_4
+  - first:
+      213: -1385415152513655163
+    second: Baum trees-trunk-white_5
+  - first:
+      213: -4084741050918940843
+    second: Baum trees-trunk-white_6
+  - first:
+      213: -6446105263842111859
+    second: Baum trees-trunk-white_7
+  - first:
+      213: -5339683532779431557
+    second: Baum trees-trunk-white_8
+  - first:
+      213: 4107796052376226275
+    second: Baum trees-trunk-white_9
+  - first:
+      213: 275273485014160078
+    second: Baum trees-trunk-white_10
+  - first:
+      213: 1937222871707221195
+    second: Baum trees-trunk-white_11
+  - first:
+      213: 291371829578471859
+    second: Baum trees-trunk-white_12
+  - first:
+      213: 5855696969045130623
+    second: Baum trees-trunk-white_13
+  - first:
+      213: 4417866848722782150
+    second: Baum trees-trunk-white_14
+  - first:
+      213: -5535689520372854577
+    second: Baum trees-trunk-white_15
+  - first:
+      213: 8982846927263087915
+    second: Baum trees-trunk-white_16
+  - first:
+      213: -7677647944526334729
+    second: Baum trees-trunk-white_17
+  - first:
+      213: -8963462511777047804
+    second: Baum trees-trunk-white_18
+  - first:
+      213: -3764792784699940120
+    second: Baum trees-trunk-white_19
+  - first:
+      213: 6972628008784773476
+    second: Baum trees-trunk-white_20
+  - first:
+      213: -8881631664879563549
+    second: Baum trees-trunk-white_21
+  - first:
+      213: -4517467636105659972
+    second: Baum trees-trunk-white_22
+  - first:
+      213: -4801492263685200171
+    second: Baum trees-trunk-white_23
+  - first:
+      213: 4605946049264547810
+    second: Baum trees-trunk-white_24
+  - first:
+      213: 2300306892809107803
+    second: Baum trees-trunk-white_25
+  - first:
+      213: 8906276333246200641
+    second: Baum trees-trunk-white_26
+  - first:
+      213: -2936188356009533321
+    second: Baum trees-trunk-white_27
+  - first:
+      213: -7779799574863995498
+    second: Baum trees-trunk-white_28
+  - first:
+      213: 1091616756275886471
+    second: Baum trees-trunk-white_29
+  - first:
+      213: 739019825686163794
+    second: Baum trees-trunk-white_30
+  - first:
+      213: -4777893305077829786
+    second: Baum trees-trunk-white_31
+  - first:
+      213: -568358070606621165
+    second: Baum trees-trunk-white_32
+  - first:
+      213: 5523811880292848397
+    second: Baum trees-trunk-white_33
+  - first:
+      213: -1368086139412241202
+    second: Baum trees-trunk-white_34
+  - first:
+      213: 4219579357675854844
+    second: Baum trees-trunk-white_35
+  - first:
+      213: -3116905496428653928
+    second: Baum trees-trunk-white_36
+  - first:
+      213: 8817799191051474475
+    second: Baum trees-trunk-white_37
+  - first:
+      213: 640531372662144948
+    second: Baum trees-trunk-white_38
+  - first:
+      213: 4957162890691077592
+    second: Baum trees-trunk-white_39
+  - first:
+      213: 9153508255967612936
+    second: Baum trees-trunk-white_40
+  - first:
+      213: -4719414940809060731
+    second: Baum trees-trunk-white_41
+  - first:
+      213: 3797868395634027623
+    second: Baum trees-trunk-white_42
+  - first:
+      213: 6351182736775640446
+    second: Baum trees-trunk-white_43
+  - first:
+      213: 4421774764532032016
+    second: Baum trees-trunk-white_44
+  - first:
+      213: 3289207048656531339
+    second: Baum trees-trunk-white_45
+  - first:
+      213: -765508742212432662
+    second: Baum trees-trunk-white_46
+  - first:
+      213: -5275955268850782024
+    second: Baum trees-trunk-white_47
+  - first:
+      213: 8094887871975995770
+    second: Baum trees-trunk-white_48
+  - first:
+      213: 6035221702305822886
+    second: Baum trees-trunk-white_49
+  - first:
+      213: 6959740310922300956
+    second: Baum trees-trunk-white_50
+  - first:
+      213: -6892569918951441795
+    second: Baum trees-trunk-white_51
+  - first:
+      213: -630672591273661854
+    second: Baum trees-trunk-white_52
+  - first:
+      213: -2787055790688281807
+    second: Baum trees-trunk-white_53
+  - first:
+      213: 3485237480705581132
+    second: Baum trees-trunk-white_54
+  - first:
+      213: -5861143813572687615
+    second: Baum trees-trunk-white_55
+  - first:
+      213: 5807494278630523100
+    second: Baum trees-trunk-white_56
+  - first:
+      213: 6354242668637043858
+    second: Baum trees-trunk-white_57
+  - first:
+      213: -1585104945891468181
+    second: Baum trees-trunk-white_58
+  - first:
+      213: 6149318510131785123
+    second: Baum trees-trunk-white_59
+  - first:
+      213: -3879029774188373561
+    second: Baum trees-trunk-white_60
+  - first:
+      213: -18840766087852763
+    second: Baum trees-trunk-white_61
+  - first:
+      213: -5126117840521352985
+    second: Baum trees-trunk-white_62
+  - first:
+      213: -4300750098415262177
+    second: Baum trees-trunk-white_63
+  - first:
+      213: 2286697188392979606
+    second: Baum trees-trunk-white_64
+  - first:
+      213: 8411650521953451141
+    second: Baum trees-trunk-white_65
+  - first:
+      213: 6534185528892850440
+    second: Baum trees-trunk-white_66
+  - first:
+      213: 6946646129103581827
+    second: Baum trees-trunk-white_67
+  - first:
+      213: -8152591289351180181
+    second: Baum trees-trunk-white_68
+  - first:
+      213: -3701041377811550164
+    second: Baum trees-trunk-white_69
+  - first:
+      213: 5457409645040160563
+    second: Baum trees-trunk-white_70
+  - first:
+      213: -4446527264518547184
+    second: Baum trees-trunk-white_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 255
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c277b2a63af184e0800000000000000
+      internalID: -1981027248501198137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 255
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e1167b4e23fce10800000000000000
+      internalID: 2220049099227471420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 191
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb2aa1e41cd0c6d0800000000000000
+      internalID: -2972133771821044756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 255
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3833fbd105ecda2b0800000000000000
+      internalID: -5571570320495660157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 255
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a877b6cf0564b40800000000000000
+      internalID: 5424111846279318158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 255
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58edaff424406cce0800000000000000
+      internalID: -1385415152513655163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 255
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f4584f7a51057c0800000000000000
+      internalID: -4084741050918940843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 255
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e4aeb5a65da86a0800000000000000
+      internalID: -6446105263842111859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_8
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 255
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79dda72e12a5e5b0800000000000000
+      internalID: -5339683532779431557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_9
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 255
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e903afdeb2d10930800000000000000
+      internalID: 4107796052376226275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_10
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 191
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec25a52b6c7f1d300800000000000000
+      internalID: 275273485014160078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_11
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 255
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccfede10f562ea10800000000000000
+      internalID: 1937222871707221195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_12
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 255
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9949f92292b0400800000000000000
+      internalID: 291371829578471859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_13
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 255
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d34485e5d934150800000000000000
+      internalID: 5855696969045130623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_14
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 255
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c78817fd7a6f4d30800000000000000
+      internalID: 4417866848722782150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_15
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 255
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0d257e5b74d23b0800000000000000
+      internalID: -5535689520372854577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_16
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 255
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2db93befab79ac70800000000000000
+      internalID: 8982846927263087915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 191
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4fff35fd3837590800000000000000
+      internalID: -7677647944526334729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_18
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 127
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b9ff306526b9380800000000000000
+      internalID: -8963462511777047804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_19
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 191
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2a107b8e4c0cbc0800000000000000
+      internalID: -3764792784699940120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_20
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 191
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4614e8e3b30c3c060800000000000000
+      internalID: 6972628008784773476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 191
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec0ef4ce0b1eb480800000000000000
+      internalID: -8881631664879563549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 191
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb939999e1bbe41c0800000000000000
+      internalID: -4517467636105659972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_23
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 191
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6e14fb93cad5db0800000000000000
+      internalID: -4801492263685200171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_24
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 191
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7f609478b9bef30800000000000000
+      internalID: 4605946049264547810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_25
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 127
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59f4447ee45cef10800000000000000
+      internalID: 2300306892809107803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_26
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 191
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bbb9a3323799b70800000000000000
+      internalID: 8906276333246200641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_27
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 191
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770e96e2f309047d0800000000000000
+      internalID: -2936188356009533321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_28
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 191
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d1f7c7189980490800000000000000
+      internalID: -7779799574863995498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_29
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 191
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78930bcf7a3362f00800000000000000
+      internalID: 1091616756275886471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_30
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 191
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251beffad96814a00800000000000000
+      internalID: 739019825686163794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_31
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 191
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f6e187a5381bdb0800000000000000
+      internalID: -4777893305077829786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 127
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31614489859cc18f0800000000000000
+      internalID: -568358070606621165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_33
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 63
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0310f283a588ac40800000000000000
+      internalID: 5523811880292848397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_34
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 127
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4a23697e4930de0800000000000000
+      internalID: -1368086139412241202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_35
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 127
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb17dbc115fe8a30800000000000000
+      internalID: 4219579357675854844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_36
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 127
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89258ee07f68eb4d0800000000000000
+      internalID: -3116905496428653928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_37
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 127
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26995345ad1f5a70800000000000000
+      internalID: 8817799191051474475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_38
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 127
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf3507c3ef93e800800000000000000
+      internalID: 640531372662144948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_39
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 127
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5e36982616bc440800000000000000
+      internalID: 4957162890691077592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_40
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 63
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8001e8de24bc70f70800000000000000
+      internalID: 9153508255967612936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_41
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 127
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e9769ad15418eb0800000000000000
+      internalID: -4719414940809060731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_42
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 127
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ce2711f2db4b430800000000000000
+      internalID: 3797868395634027623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_43
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 127
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75fa119c0fe32850800000000000000
+      internalID: 6351182736775640446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_44
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 127
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012e7b488bc4d5d30800000000000000
+      internalID: 4421774764532032016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_45
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 127
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f22ef326c95ad20800000000000000
+      internalID: 3289207048656531339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_46
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 63
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecc8f3dadd5065f0800000000000000
+      internalID: -765508742212432662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_47
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b07c4dd2aa08c6b0800000000000000
+      internalID: -5275955268850782024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_48
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 63
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a793fb981a1d65070800000000000000
+      internalID: 8094887871975995770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_49
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 63
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8baaa892a61c350800000000000000
+      internalID: 6035221702305822886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_50
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 63
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e8d7140f6f59060800000000000000
+      internalID: 6959740310922300956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_51
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 63
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a3b575d2ca850a0800000000000000
+      internalID: -6892569918951441795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_52
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 63
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26aee83ae966f37f0800000000000000
+      internalID: -630672591273661854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_53
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 63
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b54da56836259d0800000000000000
+      internalID: -2787055790688281807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_54
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40655be50d0e5030800000000000000
+      internalID: 3485237480705581132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_55
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 63
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109858651c809aea0800000000000000
+      internalID: -5861143813572687615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_56
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 63
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0c2e8e64d589050800000000000000
+      internalID: 5807494278630523100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_57
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 63
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cbdb87a0ece2850800000000000000
+      internalID: 6354242668637043858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_58
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 63
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c9c603373900ae0800000000000000
+      internalID: -1585104945891468181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_59
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 63
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ada32fba94c65550800000000000000
+      internalID: 6149318510131785123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_60
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9965ce8faea2ac0800000000000000
+      internalID: -3879029774188373561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_61
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d890e4c601dbff0800000000000000
+      internalID: -18840766087852763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_62
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8aeeebbfe5cd8b0800000000000000
+      internalID: -5126117840521352985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_63
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f166b34629aa054c0800000000000000
+      internalID: -4300750098415262177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_64
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c4c073afafbbf10800000000000000
+      internalID: 2286697188392979606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_65
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cb3c7359f2cb470800000000000000
+      internalID: 8411650521953451141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_66
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 0
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80108227e171eaa50800000000000000
+      internalID: 6534185528892850440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_67
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382bf8979d1776060800000000000000
+      internalID: 6946646129103581827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_68
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b607747aa6d2cde80800000000000000
+      internalID: -8152591289351180181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_69
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c203580d97243acc0800000000000000
+      internalID: -3701041377811550164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_70
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fc866582d9cbb40800000000000000
+      internalID: 5457409645040160563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baum trees-trunk-white_71
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019584af203ca42c0800000000000000
+      internalID: -4446527264518547184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Baum trees-trunk-white_0: -1981027248501198137
+      Baum trees-trunk-white_1: 2220049099227471420
+      Baum trees-trunk-white_10: 275273485014160078
+      Baum trees-trunk-white_11: 1937222871707221195
+      Baum trees-trunk-white_12: 291371829578471859
+      Baum trees-trunk-white_13: 5855696969045130623
+      Baum trees-trunk-white_14: 4417866848722782150
+      Baum trees-trunk-white_15: -5535689520372854577
+      Baum trees-trunk-white_16: 8982846927263087915
+      Baum trees-trunk-white_17: -7677647944526334729
+      Baum trees-trunk-white_18: -8963462511777047804
+      Baum trees-trunk-white_19: -3764792784699940120
+      Baum trees-trunk-white_2: -2972133771821044756
+      Baum trees-trunk-white_20: 6972628008784773476
+      Baum trees-trunk-white_21: -8881631664879563549
+      Baum trees-trunk-white_22: -4517467636105659972
+      Baum trees-trunk-white_23: -4801492263685200171
+      Baum trees-trunk-white_24: 4605946049264547810
+      Baum trees-trunk-white_25: 2300306892809107803
+      Baum trees-trunk-white_26: 8906276333246200641
+      Baum trees-trunk-white_27: -2936188356009533321
+      Baum trees-trunk-white_28: -7779799574863995498
+      Baum trees-trunk-white_29: 1091616756275886471
+      Baum trees-trunk-white_3: -5571570320495660157
+      Baum trees-trunk-white_30: 739019825686163794
+      Baum trees-trunk-white_31: -4777893305077829786
+      Baum trees-trunk-white_32: -568358070606621165
+      Baum trees-trunk-white_33: 5523811880292848397
+      Baum trees-trunk-white_34: -1368086139412241202
+      Baum trees-trunk-white_35: 4219579357675854844
+      Baum trees-trunk-white_36: -3116905496428653928
+      Baum trees-trunk-white_37: 8817799191051474475
+      Baum trees-trunk-white_38: 640531372662144948
+      Baum trees-trunk-white_39: 4957162890691077592
+      Baum trees-trunk-white_4: 5424111846279318158
+      Baum trees-trunk-white_40: 9153508255967612936
+      Baum trees-trunk-white_41: -4719414940809060731
+      Baum trees-trunk-white_42: 3797868395634027623
+      Baum trees-trunk-white_43: 6351182736775640446
+      Baum trees-trunk-white_44: 4421774764532032016
+      Baum trees-trunk-white_45: 3289207048656531339
+      Baum trees-trunk-white_46: -765508742212432662
+      Baum trees-trunk-white_47: -5275955268850782024
+      Baum trees-trunk-white_48: 8094887871975995770
+      Baum trees-trunk-white_49: 6035221702305822886
+      Baum trees-trunk-white_5: -1385415152513655163
+      Baum trees-trunk-white_50: 6959740310922300956
+      Baum trees-trunk-white_51: -6892569918951441795
+      Baum trees-trunk-white_52: -630672591273661854
+      Baum trees-trunk-white_53: -2787055790688281807
+      Baum trees-trunk-white_54: 3485237480705581132
+      Baum trees-trunk-white_55: -5861143813572687615
+      Baum trees-trunk-white_56: 5807494278630523100
+      Baum trees-trunk-white_57: 6354242668637043858
+      Baum trees-trunk-white_58: -1585104945891468181
+      Baum trees-trunk-white_59: 6149318510131785123
+      Baum trees-trunk-white_6: -4084741050918940843
+      Baum trees-trunk-white_60: -3879029774188373561
+      Baum trees-trunk-white_61: -18840766087852763
+      Baum trees-trunk-white_62: -5126117840521352985
+      Baum trees-trunk-white_63: -4300750098415262177
+      Baum trees-trunk-white_64: 2286697188392979606
+      Baum trees-trunk-white_65: 8411650521953451141
+      Baum trees-trunk-white_66: 6534185528892850440
+      Baum trees-trunk-white_67: 6946646129103581827
+      Baum trees-trunk-white_68: -8152591289351180181
+      Baum trees-trunk-white_69: -3701041377811550164
+      Baum trees-trunk-white_7: -6446105263842111859
+      Baum trees-trunk-white_70: 5457409645040160563
+      Baum trees-trunk-white_71: -4446527264518547184
+      Baum trees-trunk-white_8: -5339683532779431557
+      Baum trees-trunk-white_9: 4107796052376226275
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

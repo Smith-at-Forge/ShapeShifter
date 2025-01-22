@@ -1,0 +1,315 @@
+fileFormatVersion: 2
+guid: 67432413f3295a749b63b235ed2d50e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3325356404733044344
+    second: DW-Effect-explosion_0
+  - first:
+      213: 3787126183533455739
+    second: DW-Effect-explosion_1
+  - first:
+      213: 5116971645582483458
+    second: DW-Effect-explosion_2
+  - first:
+      213: -1999855375529313422
+    second: DW-Effect-explosion_3
+  - first:
+      213: -6004636485826021219
+    second: DW-Effect-explosion_4
+  - first:
+      213: -8213393603550950959
+    second: DW-Effect-explosion_5
+  - first:
+      213: -2700385354573362907
+    second: DW-Effect-explosion_6
+  - first:
+      213: 4524449025733933744
+    second: DW-Effect-explosion_7
+  - first:
+      213: 1165239234834926686
+    second: DW-Effect-explosion_8
+  - first:
+      213: 29915487936993546
+    second: DW-Effect-explosion_9
+  - first:
+      213: 4004113594113512633
+    second: DW-Effect-explosion_10
+  - first:
+      213: -7440733931752451603
+    second: DW-Effect-explosion_11
+  - first:
+      213: 8251152395167838944
+    second: DW-Effect-explosion_12
+  - first:
+      213: -3039021413975081436
+    second: DW-Effect-explosion_13
+  - first:
+      213: 533439584792414742
+    second: DW-Effect-explosion_14
+  - first:
+      213: 6564907297587691299
+    second: DW-Effect-explosion_15
+  - first:
+      213: 2334918102105111853
+    second: DW-Effect-explosion_16
+  - first:
+      213: -665158113042241963
+    second: DW-Effect-explosion_17
+  - first:
+      213: 1803940911582213272
+    second: DW-Effect-explosion_18
+  - first:
+      213: -5115016169930689799
+    second: DW-Effect-explosion_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DW-Effect-explosion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 705
+        width: 191
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b19db4840c3254a8b52e057f8754de
+      internalID: -432662761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DW-Effect-explosion_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 191
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b5d7ab1a42ab34e8eb5da07de54fe3
+      internalID: 1109325961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DW-Effect-explosion_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 423
+        width: 191
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baff27edb73246a409db141e826d3553
+      internalID: 1092437740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DW-Effect-explosion_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 191
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a270c62e35049044abcd9979348b31f5
+      internalID: 778933272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DW-Effect-explosion_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 191
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc149a91892382b429239100d3ae29f6
+      internalID: -839165484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DW-Effect-explosion_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 191
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f3c1a5894e2494f8b7e8407855e81b
+      internalID: -477924871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9d07b27a8afe55543bcc755a8d08d2ad
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DW-Effect-explosion_0: -432662761
+      DW-Effect-explosion_1: 1109325961
+      DW-Effect-explosion_2: 1092437740
+      DW-Effect-explosion_3: 778933272
+      DW-Effect-explosion_4: -839165484
+      DW-Effect-explosion_5: -477924871
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
