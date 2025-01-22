@@ -107,19 +107,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 511
+        y: 512
         width: 1024
-        height: 477
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e864ce4caf009bf20800000000000000
-      internalID: 3438780867519727246
+      spriteID: b69cf9a12fc45974eacee807611b9aa4
+      internalID: -1601812995
       vertices: []
       indices: 
       edges: []
@@ -131,17 +131,17 @@ TextureImporter:
         x: 0
         y: 0
         width: 1024
-        height: 511
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 72c4be3288b4789c0800000000000000
-      internalID: -3925085502139839449
+      spriteID: 4d1ad5e3602bd7c41a2016d561a1a637
+      internalID: 1425384873
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ebc0a0436fa25ab4799cb2d39a0a3165
     internalID: 0
     vertices: []
     indices: 
@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      parallaxE-Eis_0: -1601812995
+      parallaxE-Eis_1: 1425384873
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

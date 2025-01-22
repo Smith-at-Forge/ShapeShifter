@@ -144,7 +144,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -196,20 +196,20 @@ TextureImporter:
       name: TerrainF-UW_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 886
-        width: 87
-        height: 100
+        x: 31
+        y: 887
+        width: 85
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dfe9c2c99fc1e5db0800000000000000
-      internalID: -4801368294337765635
+      spriteID: 1a9798c6aa243354491cef69043e8049
+      internalID: 2085906115
       vertices: []
       indices: 
       edges: []
@@ -218,20 +218,20 @@ TextureImporter:
       name: TerrainF-UW_1
       rect:
         serializedVersion: 2
-        x: 158
-        y: 840
-        width: 200
-        height: 207
+        x: 159
+        y: 841
+        width: 198
+        height: 205
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a8d8a1519315b4060800000000000000
-      internalID: 6938728956503428490
+      spriteID: 55a20474033cd3d42ae412d0700ed57e
+      internalID: 703565444
       vertices: []
       indices: 
       edges: []
@@ -240,20 +240,20 @@ TextureImporter:
       name: TerrainF-UW_2
       rect:
         serializedVersion: 2
-        x: 413
-        y: 807
-        width: 94
-        height: 233
+        x: 414
+        y: 808
+        width: 92
+        height: 231
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7e5368b1702f69060800000000000000
-      internalID: 6960016386488153575
+      spriteID: 7cca3043569b54a4492c3fdb3bd625ff
+      internalID: -1532718727
       vertices: []
       indices: 
       edges: []
@@ -262,20 +262,20 @@ TextureImporter:
       name: TerrainF-UW_3
       rect:
         serializedVersion: 2
-        x: 577
-        y: 807
-        width: 122
-        height: 233
+        x: 578
+        y: 808
+        width: 120
+        height: 231
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1607a463d64a8b960800000000000000
-      internalID: 7618019558666432609
+      spriteID: df29f08d3ceb3e24e9d6d36f4f71a53c
+      internalID: 1075799848
       vertices: []
       indices: 
       edges: []
@@ -284,20 +284,20 @@ TextureImporter:
       name: TerrainF-UW_4
       rect:
         serializedVersion: 2
-        x: 733
-        y: 823
-        width: 247
-        height: 188
+        x: 734
+        y: 824
+        width: 245
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a458ceb0438386fa0800000000000000
-      internalID: -5807329923304749750
+      spriteID: 98d80cb337773e242ad6cd38e7b9c0f4
+      internalID: 1739161730
       vertices: []
       indices: 
       edges: []
@@ -306,20 +306,20 @@ TextureImporter:
       name: TerrainF-UW_5
       rect:
         serializedVersion: 2
-        x: 14
-        y: 647
-        width: 87
-        height: 100
+        x: 15
+        y: 648
+        width: 85
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e7c80e314e49b7080800000000000000
-      internalID: -9188586907412427650
+      spriteID: 12eb50bad0fe417459e0c7ce06046808
+      internalID: -2026012847
       vertices: []
       indices: 
       edges: []
@@ -328,20 +328,20 @@ TextureImporter:
       name: TerrainF-UW_6
       rect:
         serializedVersion: 2
-        x: 157
-        y: 599
-        width: 200
-        height: 207
+        x: 158
+        y: 600
+        width: 198
+        height: 205
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bb89cd7f3a6a2f580800000000000000
-      internalID: -8794783899132847941
+      spriteID: e26b13a43850dec44a6a6d852f86453d
+      internalID: -195059965
       vertices: []
       indices: 
       edges: []
@@ -350,20 +350,20 @@ TextureImporter:
       name: TerrainF-UW_7
       rect:
         serializedVersion: 2
-        x: 415
-        y: 696
-        width: 48
-        height: 53
+        x: 416
+        y: 697
+        width: 46
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e955b0f0a882c50d0800000000000000
-      internalID: -3432824242540161634
+      spriteID: 2bbcef70b5656b44785ef55c069c0029
+      internalID: -1726398926
       vertices: []
       indices: 
       edges: []
@@ -372,20 +372,20 @@ TextureImporter:
       name: TerrainF-UW_8
       rect:
         serializedVersion: 2
-        x: 495
-        y: 696
-        width: 50
-        height: 58
+        x: 496
+        y: 697
+        width: 48
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2e3a40880bcd3ca90800000000000000
-      internalID: -7294744320655711262
+      spriteID: ee470c4cef1b3194c87d99285c088d80
+      internalID: 2128684465
       vertices: []
       indices: 
       edges: []
@@ -394,20 +394,20 @@ TextureImporter:
       name: TerrainF-UW_9
       rect:
         serializedVersion: 2
-        x: 595
-        y: 695
-        width: 54
-        height: 69
+        x: 596
+        y: 696
+        width: 52
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 320ccfd58e73380a0800000000000000
-      internalID: -6880594334543200221
+      spriteID: 1ed4f7db1abe9fa4f891723e667c4e73
+      internalID: 486600145
       vertices: []
       indices: 
       edges: []
@@ -416,20 +416,20 @@ TextureImporter:
       name: TerrainF-UW_10
       rect:
         serializedVersion: 2
-        x: 437
-        y: 580
-        width: 82
-        height: 65
+        x: 438
+        y: 581
+        width: 80
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4307a378ac9d43880800000000000000
-      internalID: -8632035121887023052
+      spriteID: f1f47d77276e1f8429448e206b4dd606
+      internalID: -25557307
       vertices: []
       indices: 
       edges: []
@@ -438,20 +438,20 @@ TextureImporter:
       name: TerrainF-UW_11
       rect:
         serializedVersion: 2
-        x: 533
-        y: 579
-        width: 82
-        height: 66
+        x: 534
+        y: 580
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ebbe27918bda15700800000000000000
-      internalID: 527393637591608254
+      spriteID: b90436fd7a751f340a01c2d8936f5bb6
+      internalID: 1134818273
       vertices: []
       indices: 
       edges: []
@@ -460,20 +460,20 @@ TextureImporter:
       name: TerrainF-UW_12
       rect:
         serializedVersion: 2
-        x: 630
-        y: 563
-        width: 49
-        height: 82
+        x: 631
+        y: 564
+        width: 47
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 847778704284c5aa0800000000000000
-      internalID: -6170978069822081208
+      spriteID: f51cfd0d77fd59c4f8865f800e3673a8
+      internalID: -425966337
       vertices: []
       indices: 
       edges: []
@@ -482,20 +482,20 @@ TextureImporter:
       name: TerrainF-UW_13
       rect:
         serializedVersion: 2
-        x: 693
-        y: 563
-        width: 49
-        height: 82
+        x: 694
+        y: 564
+        width: 47
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 39e29482488338490800000000000000
-      internalID: -7745284793884397933
+      spriteID: ec8ab8de7314de549befc8b8d5b757f3
+      internalID: 1561818297
       vertices: []
       indices: 
       edges: []
@@ -504,20 +504,20 @@ TextureImporter:
       name: TerrainF-UW_14
       rect:
         serializedVersion: 2
-        x: 744
-        y: 563
-        width: 63
-        height: 82
+        x: 745
+        y: 564
+        width: 61
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7066c35062a40f030800000000000000
-      internalID: 3526400035388155399
+      spriteID: 106c8f17cdbc4cf41a5a4b5329143325
+      internalID: -942186338
       vertices: []
       indices: 
       edges: []
@@ -526,20 +526,20 @@ TextureImporter:
       name: TerrainF-UW_15
       rect:
         serializedVersion: 2
-        x: 821
-        y: 563
-        width: 63
-        height: 82
+        x: 822
+        y: 564
+        width: 61
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e1d72b0b325e73900800000000000000
-      internalID: 664251411511541022
+      spriteID: 2ba508d238b32d14fa2aa2571dfc8ad1
+      internalID: -588563773
       vertices: []
       indices: 
       edges: []
@@ -548,20 +548,20 @@ TextureImporter:
       name: TerrainF-UW_16
       rect:
         serializedVersion: 2
-        x: 437
-        y: 483
-        width: 178
-        height: 70
+        x: 438
+        y: 484
+        width: 176
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e9c799c3d7f1f1650800000000000000
-      internalID: 6205713434287897758
+      spriteID: d7b97fa3e3eecce46a4ef3923677d0b8
+      internalID: -1038631910
       vertices: []
       indices: 
       edges: []
@@ -570,20 +570,20 @@ TextureImporter:
       name: TerrainF-UW_17
       rect:
         serializedVersion: 2
-        x: 629
-        y: 483
-        width: 82
-        height: 58
+        x: 630
+        y: 484
+        width: 80
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97ba2b25930a91260800000000000000
-      internalID: 7068857258195725177
+      spriteID: 647885d32550c534eb348375d8697960
+      internalID: 1368705255
       vertices: []
       indices: 
       edges: []
@@ -592,20 +592,20 @@ TextureImporter:
       name: TerrainF-UW_18
       rect:
         serializedVersion: 2
-        x: 741
-        y: 483
-        width: 82
-        height: 61
+        x: 742
+        y: 484
+        width: 80
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3bf30e62bf345f620800000000000000
-      internalID: 2807224688703455155
+      spriteID: 2b17d084f56d62845ab0ab7928c8cfb0
+      internalID: 1305315430
       vertices: []
       indices: 
       edges: []
@@ -614,20 +614,20 @@ TextureImporter:
       name: TerrainF-UW_19
       rect:
         serializedVersion: 2
-        x: 437
-        y: 355
-        width: 114
-        height: 118
+        x: 438
+        y: 356
+        width: 112
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ce88789eb213f2a60800000000000000
-      internalID: 7651388356597090540
+      spriteID: 5cfcb6e03372c1a41a8d9290badad5b8
+      internalID: -274043516
       vertices: []
       indices: 
       edges: []
@@ -636,20 +636,20 @@ TextureImporter:
       name: TerrainF-UW_20
       rect:
         serializedVersion: 2
-        x: 565
-        y: 355
-        width: 114
-        height: 118
+        x: 566
+        y: 356
+        width: 112
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0f235959dda666eb0800000000000000
-      internalID: -4726973258948857104
+      spriteID: e79f3feb83786b1459880b75973df38d
+      internalID: -1896914994
       vertices: []
       indices: 
       edges: []
@@ -658,20 +658,20 @@ TextureImporter:
       name: TerrainF-UW_21
       rect:
         serializedVersion: 2
-        x: 693
-        y: 387
-        width: 66
-        height: 66
+        x: 694
+        y: 388
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 779e5a4fdb5c0cde0800000000000000
-      internalID: -1314833671548180105
+      spriteID: 38c8cfebc3635b74ea03edc75b740975
+      internalID: 1852435080
       vertices: []
       indices: 
       edges: []
@@ -680,20 +680,20 @@ TextureImporter:
       name: TerrainF-UW_22
       rect:
         serializedVersion: 2
-        x: 773
-        y: 387
-        width: 66
-        height: 66
+        x: 774
+        y: 388
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e65e211899675060800000000000000
-      internalID: 6942133452459103974
+      spriteID: 85476f28091fe124697b15b413f81c68
+      internalID: 70644727
       vertices: []
       indices: 
       edges: []
@@ -702,20 +702,20 @@ TextureImporter:
       name: TerrainF-UW_23
       rect:
         serializedVersion: 2
-        x: 437
-        y: 223
-        width: 114
-        height: 118
+        x: 438
+        y: 224
+        width: 112
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bd8d3706e956dd570800000000000000
-      internalID: 8493056203188066523
+      spriteID: cc6ff00b603f45f4f9bba1a53d4ea82d
+      internalID: -1224984582
       vertices: []
       indices: 
       edges: []
@@ -724,20 +724,20 @@ TextureImporter:
       name: TerrainF-UW_24
       rect:
         serializedVersion: 2
-        x: 565
-        y: 223
-        width: 114
-        height: 118
+        x: 566
+        y: 224
+        width: 112
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f52426182ceeff720800000000000000
-      internalID: 2882284805702173279
+      spriteID: 49d4687d45ad8f8479444cad049dbc5a
+      internalID: 1639611803
       vertices: []
       indices: 
       edges: []
@@ -746,20 +746,20 @@ TextureImporter:
       name: TerrainF-UW_25
       rect:
         serializedVersion: 2
-        x: 693
-        y: 307
-        width: 66
-        height: 66
+        x: 694
+        y: 308
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e51d9302c8db51120800000000000000
-      internalID: 2384019987296276830
+      spriteID: 31bd674d90dc15b429493795222a11b3
+      internalID: 576478278
       vertices: []
       indices: 
       edges: []
@@ -768,20 +768,20 @@ TextureImporter:
       name: TerrainF-UW_26
       rect:
         serializedVersion: 2
-        x: 773
-        y: 307
-        width: 66
-        height: 66
+        x: 774
+        y: 308
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 234cb868b23399810800000000000000
-      internalID: 1772504190380917810
+      spriteID: 663febc20e26b00459fee73b409f1f1d
+      internalID: 345430019
       vertices: []
       indices: 
       edges: []
@@ -790,20 +790,20 @@ TextureImporter:
       name: TerrainF-UW_27
       rect:
         serializedVersion: 2
-        x: 753
-        y: 211
-        width: 54
-        height: 58
+        x: 754
+        y: 212
+        width: 52
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 91a4f4b36eadc6490800000000000000
-      internalID: -7751580176239080935
+      spriteID: 674634f42260aec4f8d293d4a71bf94d
+      internalID: 1625381309
       vertices: []
       indices: 
       edges: []
@@ -812,20 +812,20 @@ TextureImporter:
       name: TerrainF-UW_28
       rect:
         serializedVersion: 2
-        x: 821
-        y: 211
-        width: 54
-        height: 58
+        x: 822
+        y: 212
+        width: 52
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc2a2e90d996347a0800000000000000
-      internalID: -6394150922739342641
+      spriteID: ae80ba566ae293c4ba718c8617fcae13
+      internalID: -1470309214
       vertices: []
       indices: 
       edges: []
@@ -834,20 +834,20 @@ TextureImporter:
       name: TerrainF-UW_29
       rect:
         serializedVersion: 2
-        x: 434
-        y: 19
-        width: 183
-        height: 190
+        x: 435
+        y: 20
+        width: 181
+        height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d050c859637044080800000000000000
-      internalID: -9204223807419841267
+      spriteID: f117c53b155a7c74e80ea3466badf17a
+      internalID: -17038222
       vertices: []
       indices: 
       edges: []
@@ -856,20 +856,20 @@ TextureImporter:
       name: TerrainF-UW_30
       rect:
         serializedVersion: 2
-        x: 753
-        y: 139
-        width: 54
-        height: 58
+        x: 754
+        y: 140
+        width: 52
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4510eae2f0ccf94d0800000000000000
-      internalID: -3125555250792103596
+      spriteID: eda237ca6d9519745a4c1b6382f17971
+      internalID: 1680009945
       vertices: []
       indices: 
       edges: []
@@ -878,20 +878,20 @@ TextureImporter:
       name: TerrainF-UW_31
       rect:
         serializedVersion: 2
-        x: 821
-        y: 139
-        width: 54
-        height: 58
+        x: 822
+        y: 140
+        width: 52
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e77ed76d2aa7c0db0800000000000000
-      internalID: -4824346261018777730
+      spriteID: 57882b7553742e24fb65959732de00f8
+      internalID: -1057755412
       vertices: []
       indices: 
       edges: []
@@ -900,7 +900,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b4f8ba7efb9cc3940bfb8640887389bb
     internalID: 0
     vertices: []
     indices: 
@@ -909,7 +909,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TerrainF-UW_0: 2085906115
+      TerrainF-UW_1: 703565444
+      TerrainF-UW_10: -25557307
+      TerrainF-UW_11: 1134818273
+      TerrainF-UW_12: -425966337
+      TerrainF-UW_13: 1561818297
+      TerrainF-UW_14: -942186338
+      TerrainF-UW_15: -588563773
+      TerrainF-UW_16: -1038631910
+      TerrainF-UW_17: 1368705255
+      TerrainF-UW_18: 1305315430
+      TerrainF-UW_19: -274043516
+      TerrainF-UW_2: -1532718727
+      TerrainF-UW_20: -1896914994
+      TerrainF-UW_21: 1852435080
+      TerrainF-UW_22: 70644727
+      TerrainF-UW_23: -1224984582
+      TerrainF-UW_24: 1639611803
+      TerrainF-UW_25: 576478278
+      TerrainF-UW_26: 345430019
+      TerrainF-UW_27: 1625381309
+      TerrainF-UW_28: -1470309214
+      TerrainF-UW_29: -17038222
+      TerrainF-UW_3: 1075799848
+      TerrainF-UW_30: 1680009945
+      TerrainF-UW_31: -1057755412
+      TerrainF-UW_4: 1739161730
+      TerrainF-UW_5: -2026012847
+      TerrainF-UW_6: -195059965
+      TerrainF-UW_7: -1726398926
+      TerrainF-UW_8: 2128684465
+      TerrainF-UW_9: 486600145
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

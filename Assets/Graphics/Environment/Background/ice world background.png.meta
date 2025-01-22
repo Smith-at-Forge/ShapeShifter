@@ -113,10 +113,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3309047b11cf90420800000000000000
-      internalID: 2596883813174906931
+      spriteID: 2505714fb39a38f42a649c4bbaad068a
+      internalID: -1637327912
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 79f0ebde96c73274284571580b834da3
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ice world background_0: -1637327912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
