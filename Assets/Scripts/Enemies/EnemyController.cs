@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DamagePlayer : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -13,9 +13,10 @@ public class DamagePlayer : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D other)
+
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.CompareTag("Player"))
+        if(other.gameObject.CompareTag("Player"))
         {
             PlayerHealthController.instance.DamagePlayer();
         }

@@ -108,7 +108,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 40
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -173,20 +173,20 @@ TextureImporter:
       name: TerrainE-Berge_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 431
-        width: 66
-        height: 66
+        x: 16
+        y: 432
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 69b2bda1e66e48c00800000000000000
-      internalID: 902099185952304022
+      spriteID: 29466c3690f0abb4ab8eb434b2995ea7
+      internalID: -1234557518
       vertices: []
       indices: 
       edges: []
@@ -195,20 +195,20 @@ TextureImporter:
       name: TerrainE-Berge_1
       rect:
         serializedVersion: 2
-        x: 111
-        y: 431
-        width: 98
-        height: 66
+        x: 112
+        y: 432
+        width: 96
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: df02baca791c5ec60800000000000000
-      internalID: 7846890782944076029
+      spriteID: 1a79dad1f2c9c1c42ad00bbd052dc1a2
+      internalID: -788643704
       vertices: []
       indices: 
       edges: []
@@ -217,20 +217,20 @@ TextureImporter:
       name: TerrainE-Berge_2
       rect:
         serializedVersion: 2
-        x: 223
-        y: 431
-        width: 66
-        height: 66
+        x: 224
+        y: 432
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 16d75e6c00a0c8c10800000000000000
-      internalID: 2057030128254680417
+      spriteID: e3994dd45f265ca4ea1a4c7e5496d910
+      internalID: -121848576
       vertices: []
       indices: 
       edges: []
@@ -239,20 +239,20 @@ TextureImporter:
       name: TerrainE-Berge_3
       rect:
         serializedVersion: 2
-        x: 303
-        y: 439
-        width: 34
-        height: 58
+        x: 304
+        y: 440
+        width: 32
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 09a31695ddec572b0800000000000000
-      internalID: -5587332312600593776
+      spriteID: 892be3d5eeb50434eba2ebd45d24b6d9
+      internalID: -570565963
       vertices: []
       indices: 
       edges: []
@@ -261,20 +261,20 @@ TextureImporter:
       name: TerrainE-Berge_4
       rect:
         serializedVersion: 2
-        x: 351
-        y: 431
-        width: 66
-        height: 66
+        x: 352
+        y: 432
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 94a1b897a14ca7740800000000000000
-      internalID: 5150644741838936649
+      spriteID: 1e967112dfc2e434eb12134eca8d38dc
+      internalID: -681983430
       vertices: []
       indices: 
       edges: []
@@ -283,20 +283,20 @@ TextureImporter:
       name: TerrainE-Berge_5
       rect:
         serializedVersion: 2
-        x: 431
-        y: 399
-        width: 66
-        height: 98
+        x: 432
+        y: 400
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6397ffae4233c1810800000000000000
-      internalID: 1737319789912619318
+      spriteID: d6f326da4a327594393c22e8c9106117
+      internalID: 1506434958
       vertices: []
       indices: 
       edges: []
@@ -305,20 +305,20 @@ TextureImporter:
       name: TerrainE-Berge_6
       rect:
         serializedVersion: 2
-        x: 15
-        y: 383
-        width: 58
-        height: 34
+        x: 16
+        y: 384
+        width: 56
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5d5117348c76c6060800000000000000
-      internalID: 6948042434948437461
+      spriteID: 9b940efabfb427f42bd35e3d1268149d
+      internalID: -1250939
       vertices: []
       indices: 
       edges: []
@@ -327,20 +327,20 @@ TextureImporter:
       name: TerrainE-Berge_7
       rect:
         serializedVersion: 2
-        x: 431
-        y: 319
-        width: 66
-        height: 66
+        x: 432
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d904ab84ac3e5d5a0800000000000000
-      internalID: -6497036429469007715
+      spriteID: fecc13ead050d7a48bab9c2fc88fb6f5
+      internalID: 1784291354
       vertices: []
       indices: 
       edges: []
@@ -349,20 +349,20 @@ TextureImporter:
       name: TerrainE-Berge_8
       rect:
         serializedVersion: 2
-        x: 15
-        y: 303
-        width: 66
-        height: 66
+        x: 16
+        y: 304
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d6ab72d9a3ae700e0800000000000000
-      internalID: -2303615146911090067
+      spriteID: 2382d414f29ab994db9e6f17ac54634d
+      internalID: -824177306
       vertices: []
       indices: 
       edges: []
@@ -371,20 +371,20 @@ TextureImporter:
       name: TerrainE-Berge_9
       rect:
         serializedVersion: 2
-        x: 111
-        y: 303
-        width: 66
-        height: 66
+        x: 112
+        y: 304
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 45cff5b06e3d06510800000000000000
-      internalID: 1540464057547488340
+      spriteID: f4a3bea4afa78484a959a037898fb598
+      internalID: -208878293
       vertices: []
       indices: 
       edges: []
@@ -393,20 +393,20 @@ TextureImporter:
       name: TerrainE-Berge_10
       rect:
         serializedVersion: 2
-        x: 191
-        y: 303
-        width: 34
-        height: 58
+        x: 192
+        y: 304
+        width: 32
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef86a468965603810800000000000000
-      internalID: 1743004559691376894
+      spriteID: 1647e09458dfd8c468cfbb9b67e9ecd3
+      internalID: 1682964608
       vertices: []
       indices: 
       edges: []
@@ -415,20 +415,20 @@ TextureImporter:
       name: TerrainE-Berge_11
       rect:
         serializedVersion: 2
-        x: 239
-        y: 303
-        width: 66
-        height: 66
+        x: 240
+        y: 304
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cc69b7a199e4cb670800000000000000
-      internalID: 8555799811578369740
+      spriteID: bd2b9500591dbb549ba54c119b1d108d
+      internalID: 201869766
       vertices: []
       indices: 
       edges: []
@@ -437,20 +437,20 @@ TextureImporter:
       name: TerrainE-Berge_12
       rect:
         serializedVersion: 2
-        x: 319
-        y: 303
-        width: 98
-        height: 66
+        x: 320
+        y: 304
+        width: 96
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 029c227282efc9a50800000000000000
-      internalID: 6529373008189114656
+      spriteID: 97937bd2b7198aa4eb3ff6040fc29013
+      internalID: 225788520
       vertices: []
       indices: 
       edges: []
@@ -459,20 +459,20 @@ TextureImporter:
       name: TerrainE-Berge_13
       rect:
         serializedVersion: 2
-        x: 439
-        y: 271
-        width: 58
-        height: 34
+        x: 440
+        y: 272
+        width: 56
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3936fd22e74881950800000000000000
-      internalID: 6420026946102453139
+      spriteID: 5097a4fe18b6f554d9150c1921f88959
+      internalID: -1258408277
       vertices: []
       indices: 
       edges: []
@@ -481,20 +481,20 @@ TextureImporter:
       name: TerrainE-Berge_14
       rect:
         serializedVersion: 2
-        x: 15
-        y: 191
-        width: 66
-        height: 98
+        x: 16
+        y: 192
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c5852fbc57fb8a840800000000000000
-      internalID: 5235645079471937628
+      spriteID: e6025b7a7ac236b41baaca6c69277aa2
+      internalID: 284614218
       vertices: []
       indices: 
       edges: []
@@ -503,20 +503,20 @@ TextureImporter:
       name: TerrainE-Berge_15
       rect:
         serializedVersion: 2
-        x: 175
-        y: 163
-        width: 162
-        height: 106
+        x: 176
+        y: 164
+        width: 160
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 147bdf3de67b86dd0800000000000000
-      internalID: -2492540707118663871
+      spriteID: 44b1644d785a2254c98c6a684e015f50
+      internalID: -1699989077
       vertices: []
       indices: 
       edges: []
@@ -525,20 +525,20 @@ TextureImporter:
       name: TerrainE-Berge_16
       rect:
         serializedVersion: 2
-        x: 431
-        y: 191
-        width: 66
-        height: 66
+        x: 432
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f4008aeaaa2b02bb0800000000000000
-      internalID: -4962770343217856433
+      spriteID: 01b90b7a28c7c2844832d8ee051d96e9
+      internalID: -1140553850
       vertices: []
       indices: 
       edges: []
@@ -547,20 +547,20 @@ TextureImporter:
       name: TerrainE-Berge_17
       rect:
         serializedVersion: 2
-        x: 47
-        y: 29
-        width: 98
-        height: 114
+        x: 48
+        y: 30
+        width: 96
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e2d022e63c5a10ed0800000000000000
-      internalID: -2449494463527908050
+      spriteID: 36e7f94eb1244474b96dcba7178dbf8f
+      internalID: 1273642234
       vertices: []
       indices: 
       edges: []
@@ -569,20 +569,20 @@ TextureImporter:
       name: TerrainE-Berge_18
       rect:
         serializedVersion: 2
-        x: 211
-        y: 31
-        width: 90
-        height: 111
+        x: 212
+        y: 32
+        width: 88
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3f69591ad47d06290800000000000000
-      internalID: -7899077017984461069
+      spriteID: b52ea88bf1dc114419eaf0fd88b4d730
+      internalID: -1017014443
       vertices: []
       indices: 
       edges: []
@@ -591,20 +591,20 @@ TextureImporter:
       name: TerrainE-Berge_19
       rect:
         serializedVersion: 2
-        x: 367
-        y: 31
-        width: 98
-        height: 86
+        x: 368
+        y: 32
+        width: 96
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 648bf3f5505061600800000000000000
-      internalID: 438543534346188870
+      spriteID: 59e4f6ea112711f46812de0bc920feff
+      internalID: -1747506350
       vertices: []
       indices: 
       edges: []
@@ -613,7 +613,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bfd06065b899aab4c9e74942884d7a6e
     internalID: 0
     vertices: []
     indices: 
@@ -623,26 +623,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TerrainE-Berge_0: 902099185952304022
-      TerrainE-Berge_1: 7846890782944076029
-      TerrainE-Berge_10: 1743004559691376894
-      TerrainE-Berge_11: 8555799811578369740
-      TerrainE-Berge_12: 6529373008189114656
-      TerrainE-Berge_13: 6420026946102453139
-      TerrainE-Berge_14: 5235645079471937628
-      TerrainE-Berge_15: -2492540707118663871
-      TerrainE-Berge_16: -4962770343217856433
-      TerrainE-Berge_17: -2449494463527908050
-      TerrainE-Berge_18: -7899077017984461069
-      TerrainE-Berge_19: 438543534346188870
-      TerrainE-Berge_2: 2057030128254680417
-      TerrainE-Berge_3: -5587332312600593776
-      TerrainE-Berge_4: 5150644741838936649
-      TerrainE-Berge_5: 1737319789912619318
-      TerrainE-Berge_6: 6948042434948437461
-      TerrainE-Berge_7: -6497036429469007715
-      TerrainE-Berge_8: -2303615146911090067
-      TerrainE-Berge_9: 1540464057547488340
+      TerrainE-Berge_0: -1234557518
+      TerrainE-Berge_1: -788643704
+      TerrainE-Berge_10: 1682964608
+      TerrainE-Berge_11: 201869766
+      TerrainE-Berge_12: 225788520
+      TerrainE-Berge_13: -1258408277
+      TerrainE-Berge_14: 284614218
+      TerrainE-Berge_15: -1699989077
+      TerrainE-Berge_16: -1140553850
+      TerrainE-Berge_17: 1273642234
+      TerrainE-Berge_18: -1017014443
+      TerrainE-Berge_19: -1747506350
+      TerrainE-Berge_2: -121848576
+      TerrainE-Berge_3: -570565963
+      TerrainE-Berge_4: -681983430
+      TerrainE-Berge_5: 1506434958
+      TerrainE-Berge_6: -1250939
+      TerrainE-Berge_7: 1784291354
+      TerrainE-Berge_8: -824177306
+      TerrainE-Berge_9: -208878293
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

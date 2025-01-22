@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 3339378316832029143}
   m_Layer: 0
   m_Name: FluessigPlayer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 3130239884495789990}
-  jumpForce: 22
+  jumpForce: 10
   groudCheckPoint: {fileID: 2834995779608501272}
   groundCheckRadius: 0.5
   whatIsGround:
