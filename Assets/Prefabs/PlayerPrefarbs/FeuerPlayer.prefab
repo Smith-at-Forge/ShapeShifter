@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 3059296571669820182}
   m_Layer: 0
   m_Name: FeuerPlayer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 7993877949588280209}
-  jumpForce: 22
+  jumpForce: 10
   groudCheckPoint: {fileID: 8586154041630966764}
   groundCheckRadius: 0.2
   whatIsGround:
