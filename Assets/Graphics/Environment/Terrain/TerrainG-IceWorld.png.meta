@@ -126,6 +126,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -384,7 +397,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TerrainG-IceWorld_0: -7946428733584574184
+      TerrainG-IceWorld_1: 7078654890610025524
+      TerrainG-IceWorld_10: -4409118488583263384
+      TerrainG-IceWorld_2: -4000806180589794112
+      TerrainG-IceWorld_3: 1945544786171093130
+      TerrainG-IceWorld_4: 1184736966427599993
+      TerrainG-IceWorld_5: -6942517679200262084
+      TerrainG-IceWorld_6: -6844986103135802634
+      TerrainG-IceWorld_7: 5562772711004002074
+      TerrainG-IceWorld_8: 4571043280582800318
+      TerrainG-IceWorld_9: -805351601219782420
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

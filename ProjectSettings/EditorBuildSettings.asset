@@ -6,10 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Levels/SceneHabibMenu.unity
-    guid: 2bcc6fe5e0e956e4ebb7cab088946711
+    path: "Assets/Levels/Main/Hauptmen\xFC.unity"
+    guid: 8d931362ff07ba94b9a495884c759dae
   - enabled: 1
-    path: Assets/Levels/SceneHabibStartLevel1.unity
-    guid: 7cb53f6abfed51440b7ac43d61b1f07e
+    path: Assets/Levels/Main/Level 1.unity
+    guid: 1f4ecf6a95a8bc74aba444de23a8a19e
+  - enabled: 1
+    path: Assets/Levels/Main/Level 2.unity
+    guid: 2f4b01c75c2739b419043f967b91dda6
+  - enabled: 1
+    path: Assets/Levels/Main/Level 3.unity
+    guid: d14889a4973e4f7429cb432096d21973
+  - enabled: 1
+    path: Assets/Levels/Main/Level 4.unity
+    guid: 3c96f4372e90e9c40b84620646c4a8a9
+  - enabled: 1
+    path: Assets/Levels/Main/Level 5.unity
+    guid: ff9ebce54fe84164482715776ec09db4
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

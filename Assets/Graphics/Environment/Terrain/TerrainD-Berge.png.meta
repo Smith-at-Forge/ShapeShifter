@@ -423,6 +423,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2859,7 +2872,117 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TerrainD-Berge_0: 918111257926764921
+      TerrainD-Berge_1: 6401925502590095851
+      TerrainD-Berge_10: 3174517709921165380
+      TerrainD-Berge_100: -6626584416349228597
+      TerrainD-Berge_101: -301654035119861844
+      TerrainD-Berge_102: -8456950470682281233
+      TerrainD-Berge_103: 8143432877295194813
+      TerrainD-Berge_104: 4173739827779125333
+      TerrainD-Berge_105: -5627089857322310469
+      TerrainD-Berge_106: -6883908657390025064
+      TerrainD-Berge_107: -5016402784821957315
+      TerrainD-Berge_108: 2512704841109983662
+      TerrainD-Berge_109: -8170443812345118810
+      TerrainD-Berge_11: 4159896370663461127
+      TerrainD-Berge_12: 6413162097544886607
+      TerrainD-Berge_13: -2007321935752416708
+      TerrainD-Berge_14: -7356210397515557617
+      TerrainD-Berge_15: -4392327664531326328
+      TerrainD-Berge_16: 681203213871897990
+      TerrainD-Berge_17: -9145296822552260222
+      TerrainD-Berge_18: -2211767562695383254
+      TerrainD-Berge_19: 5910156069609182261
+      TerrainD-Berge_2: 300255642990287477
+      TerrainD-Berge_20: -4408120457735319972
+      TerrainD-Berge_21: 1646612915566833742
+      TerrainD-Berge_22: -6756742300942393365
+      TerrainD-Berge_23: 2948219087204855013
+      TerrainD-Berge_24: 8993706783629806253
+      TerrainD-Berge_25: -8276321310889169083
+      TerrainD-Berge_26: 6875781577282045294
+      TerrainD-Berge_27: -6103946100082392270
+      TerrainD-Berge_28: -3633667326893717322
+      TerrainD-Berge_29: -7780316069670437222
+      TerrainD-Berge_3: -3513424068170592256
+      TerrainD-Berge_30: 3465166058936297995
+      TerrainD-Berge_31: 2406791731431978672
+      TerrainD-Berge_32: -5018913642272855934
+      TerrainD-Berge_33: -2794640968279518510
+      TerrainD-Berge_34: -1265351618083770020
+      TerrainD-Berge_35: -1233852272192532355
+      TerrainD-Berge_36: -4272770753792215340
+      TerrainD-Berge_37: -8225070017236402050
+      TerrainD-Berge_38: 8453696991332237637
+      TerrainD-Berge_39: 928404689353381960
+      TerrainD-Berge_4: 8943798207695144960
+      TerrainD-Berge_40: 7964948675911064682
+      TerrainD-Berge_41: 1876288103256700839
+      TerrainD-Berge_42: -3429203298690610144
+      TerrainD-Berge_43: 7889796292893446645
+      TerrainD-Berge_44: 2754115298929982230
+      TerrainD-Berge_45: -5417491082747336803
+      TerrainD-Berge_46: -5416713733025637464
+      TerrainD-Berge_47: -8350826404586718304
+      TerrainD-Berge_48: 3275387686556169032
+      TerrainD-Berge_49: -2923119393114507740
+      TerrainD-Berge_5: 3586689449024325158
+      TerrainD-Berge_50: -6729391691574610255
+      TerrainD-Berge_51: 467363181687351379
+      TerrainD-Berge_52: -4481847947203697498
+      TerrainD-Berge_53: 2126682481479152851
+      TerrainD-Berge_54: -7493830445090389263
+      TerrainD-Berge_55: 4324913573399724102
+      TerrainD-Berge_56: -5152678183959902684
+      TerrainD-Berge_57: -5609136350756178203
+      TerrainD-Berge_58: 6363172726586198745
+      TerrainD-Berge_59: -4170825871260587832
+      TerrainD-Berge_6: -5674096832688338950
+      TerrainD-Berge_60: 3164588945601056676
+      TerrainD-Berge_61: -7795603953370820809
+      TerrainD-Berge_62: -6801773954904253166
+      TerrainD-Berge_63: 2979383461602759858
+      TerrainD-Berge_64: -4403317790627759306
+      TerrainD-Berge_65: 92553710833162583
+      TerrainD-Berge_66: -5569945496489207271
+      TerrainD-Berge_67: 2015332503889223707
+      TerrainD-Berge_68: 5716596467436482889
+      TerrainD-Berge_69: -4567697475086979580
+      TerrainD-Berge_7: -8513528025842103003
+      TerrainD-Berge_70: 3548722496025208063
+      TerrainD-Berge_71: 7001616408929369237
+      TerrainD-Berge_72: 4255137732727314172
+      TerrainD-Berge_73: 8669722273043766882
+      TerrainD-Berge_74: -4775627629700954068
+      TerrainD-Berge_75: -3198572234344005746
+      TerrainD-Berge_76: -5435129608967252193
+      TerrainD-Berge_77: 1244735702598935303
+      TerrainD-Berge_78: 1664858202559680917
+      TerrainD-Berge_79: -2464194669542587924
+      TerrainD-Berge_8: -6087251700152869055
+      TerrainD-Berge_80: -3060747338049561100
+      TerrainD-Berge_81: -5158796750262798167
+      TerrainD-Berge_82: 6647547478923773133
+      TerrainD-Berge_83: 6092107046069665826
+      TerrainD-Berge_84: 1072451511896609710
+      TerrainD-Berge_85: 579130133225908682
+      TerrainD-Berge_86: 8038579222748083069
+      TerrainD-Berge_87: 2225824474123446775
+      TerrainD-Berge_88: 8924888611183514016
+      TerrainD-Berge_89: 8337598472134479289
+      TerrainD-Berge_9: 7212910030722057542
+      TerrainD-Berge_90: -419698783800714260
+      TerrainD-Berge_91: 5861574695558200034
+      TerrainD-Berge_92: 6778516188018089859
+      TerrainD-Berge_93: -2510818577278407422
+      TerrainD-Berge_94: -7898044212837285967
+      TerrainD-Berge_95: -8376937651893455619
+      TerrainD-Berge_96: 8167857094065382292
+      TerrainD-Berge_97: -6528499050185202482
+      TerrainD-Berge_98: 3197005554842593113
+      TerrainD-Berge_99: 2833951319472012860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

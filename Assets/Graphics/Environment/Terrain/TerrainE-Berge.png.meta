@@ -153,6 +153,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -609,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TerrainE-Berge_0: 902099185952304022
+      TerrainE-Berge_1: 7846890782944076029
+      TerrainE-Berge_10: 1743004559691376894
+      TerrainE-Berge_11: 8555799811578369740
+      TerrainE-Berge_12: 6529373008189114656
+      TerrainE-Berge_13: 6420026946102453139
+      TerrainE-Berge_14: 5235645079471937628
+      TerrainE-Berge_15: -2492540707118663871
+      TerrainE-Berge_16: -4962770343217856433
+      TerrainE-Berge_17: -2449494463527908050
+      TerrainE-Berge_18: -7899077017984461069
+      TerrainE-Berge_19: 438543534346188870
+      TerrainE-Berge_2: 2057030128254680417
+      TerrainE-Berge_3: -5587332312600593776
+      TerrainE-Berge_4: 5150644741838936649
+      TerrainE-Berge_5: 1737319789912619318
+      TerrainE-Berge_6: 6948042434948437461
+      TerrainE-Berge_7: -6497036429469007715
+      TerrainE-Berge_8: -2303615146911090067
+      TerrainE-Berge_9: 1540464057547488340
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
