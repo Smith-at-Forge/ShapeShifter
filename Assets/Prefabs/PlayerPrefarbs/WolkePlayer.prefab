@@ -192,7 +192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 8225570871895818537}
-  jumpForce: 5
+  jumpForce: 2
   groudCheckPoint: {fileID: 2249601067171358156}
   groundCheckRadius: 0.2
   whatIsGround:
