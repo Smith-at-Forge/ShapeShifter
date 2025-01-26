@@ -2574,7 +2574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 692563409}
   - component: {fileID: 692563410}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plattform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11718,11 +11718,11 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 3facb3ff31555504388207f1c5e22dfd, type: 2}
     - target: {fileID: 1218377998048232480, guid: 83af274246bef2c40979d0ca30c8e744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 36.54
+      value: 19.46
       objectReference: {fileID: 0}
     - target: {fileID: 1218377998048232480, guid: 83af274246bef2c40979d0ca30c8e744, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.36
+      value: 3.03
       objectReference: {fileID: 0}
     - target: {fileID: 1218377998048232480, guid: 83af274246bef2c40979d0ca30c8e744, type: 3}
       propertyPath: m_LocalPosition.z
