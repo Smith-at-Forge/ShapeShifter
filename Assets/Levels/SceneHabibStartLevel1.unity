@@ -1802,6 +1802,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8050151036680342930, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
+      propertyPath: fluessig
+      value: 
+      objectReference: {fileID: 8204269037320509450, guid: 86b68006de1b52f478206af6865b4bec, type: 3}
+    - target: {fileID: 8050151036680342930, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
+      propertyPath: isMagnetFreigeschaltet
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050151036680342930, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
+      propertyPath: isFluessigFreigeschaltet
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050151036680342930, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
+      propertyPath: isKristallFreigeschaltet
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050151036680342930, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
+      propertyPath: isFeuerKugelFreigeschaltet
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8128569058713423724, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
       propertyPath: m_GravityScale
       value: 1
