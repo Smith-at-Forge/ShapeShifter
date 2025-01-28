@@ -3,6 +3,6 @@ using UnityEngine;
 public interface IShape
 {
     void Jump();
-    void PrimaryAbility();
+    void Anziehen();
     void SecondaryAbility();
 }
