@@ -1,32 +1,70 @@
 using UnityEngine;
 
-public class Feuerkugel : MonoBehaviour, IShape
+public class Feuerkugel : MonoBehaviour //, IShape
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float fieldOfInpact;
+    public float force;
+    public LayerMask LayerToHit;
+
+    // public GameObject BurnEffect;
+    // public GameObject ExplosionEffect;
+
     void Start()
     {
 
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
+        Burn();
+        if(Input.GetKeyUp(KeyCode.F))
+        {
+            Explode();
+        }
 
     }
-    public void Jump()
+    //public void Jump()
+    //{
+    //    throw new System.NotImplementedException();
+    //}
+
+    public void Explode()
     {
-        throw new System.NotImplementedException();
+        Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, fieldOfInpact, LayerToHit);
+        foreach (Collider2D obj in objects)
+        {
+            //Vector2 direction  = obj.transform.position - transform.position;
+            //obj.GetComponent<Rigidbody2D>().AddForce(direction*force);
+            Destroy(obj.gameObject);
+        }
+        //GameObject ExplosionEffectIns = Instantiate(ExplosionEffect, transform.position, Quaternion.identity);
+        //Destroy(ExplosionEffectIns, 10);
     }
 
-    public void PrimaryAbility()
+    public void Burn()
     {
-        throw new System.NotImplementedException();
+        Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, fieldOfInpact, LayerToHit);
+        foreach (Collider2D obj in objects)
+        {
+            //Vector2 direction  = obj.transform.position - transform.position;
+            //obj.GetComponent<Rigidbody2D>().AddForce(direction*force);
+            Destroy(obj.gameObject);
+        }
+        //GameObject BurnEffectIns = Instantiate(BurnEffect, transform.position, Quaternion.identity);
+        //Destroy(BurnEffectIns, 10);
     }
 
-    public void SecondaryAbility()
+    private void OnDrawGizmosSelected()
     {
-        throw new System.NotImplementedException();
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, fieldOfInpact);
     }
 
-    
+    //public void SecondaryAbility()
+    //{
+    //    throw new System.NotImplementedException();
+    //}
+
+
 }

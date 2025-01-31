@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8225570871895818537}
   - component: {fileID: 4885900418595197570}
   - component: {fileID: 65421984228805135}
-  - component: {fileID: 12836414640869539}
+  - component: {fileID: 3969876620182956856}
   m_Layer: 0
   m_Name: WolkePlayer
   m_TagString: Player
@@ -107,7 +107,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 0.1
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -178,7 +178,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &12836414640869539
+--- !u!114 &3969876620182956856
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,17 +187,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5208933264462713629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91209de395a4c64428d73228d5c941d6, type: 3}
+  m_Script: {fileID: 11500000, guid: 69838b7c6903f654896a818c3860d3ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 8225570871895818537}
-  jumpForce: 2
-  groudCheckPoint: {fileID: 2249601067171358156}
-  groundCheckRadius: 0.2
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
+  jumpForce: 7
   animator: {fileID: 65421984228805135}
 --- !u!1 &7860952296600665129
 GameObject:

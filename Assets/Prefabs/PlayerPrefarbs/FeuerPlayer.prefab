@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 1563809434632629616}
   - component: {fileID: 2773439966916617905}
   - component: {fileID: 3059296571669820182}
+  - component: {fileID: -2184564262655984560}
   m_Layer: 0
   m_Name: FeuerPlayer
   m_TagString: Player
@@ -230,3 +231,20 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 2773439966916617905}
+--- !u!114 &-2184564262655984560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8157606262519560398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe52ba56e25e24e46a62d7cc81a76dd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fieldOfInpact: 4
+  force: 300
+  LayerToHit:
+    serializedVersion: 2
+    m_Bits: 512

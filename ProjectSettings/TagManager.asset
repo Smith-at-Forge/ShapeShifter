@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - Checkpoint
   - VoidBoden
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - Ground
   - Wall
   - Player
-  - 
-  - 
+  - Enemies
+  - Collectible
   - 
   - 
   - 
