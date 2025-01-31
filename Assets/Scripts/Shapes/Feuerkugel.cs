@@ -37,10 +37,12 @@ public class Feuerkugel : MonoBehaviour //, IShape
         {
             Vector2 direction  = obj.transform.position - transform.position;
             obj.GetComponent<Rigidbody2D>().AddForce(direction*force);
+            GameObject ExplosionEffectIns = Instantiate(ExplosionEffect, obj.transform.position, Quaternion.identity);
+            Destroy(ExplosionEffectIns, 2f);
             Destroy(obj.gameObject);
         }
-        GameObject ExplosionEffectIns = Instantiate(ExplosionEffect, transform.position, Quaternion.identity);
-        Destroy(ExplosionEffectIns, 10);
+        //GameObject ExplosionEffectIns = Instantiate(ExplosionEffect, transform.position, Quaternion.identity);
+        //Destroy(ExplosionEffectIns, 10);
         //animator.SetBool("isExploding", true);
         
     }
@@ -52,7 +54,7 @@ public class Feuerkugel : MonoBehaviour //, IShape
         {
             //Vector2 direction  = obj.transform.position - transform.position;
             //obj.GetComponent<Rigidbody2D>().AddForce(direction*force);
-            GameObject BurnEffectIns = Instantiate(BurnEffect, transform.position, Quaternion.identity);
+            GameObject BurnEffectIns = Instantiate(BurnEffect, obj.transform.position, Quaternion.identity);
             Destroy(BurnEffectIns, 2f);
             Destroy(obj.gameObject, 2f);
 
