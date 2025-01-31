@@ -2,16 +2,17 @@ using UnityEngine;
 
 public class Feuerkugel : MonoBehaviour //, IShape
 {
+   
     public float fieldOfInpact;
     public float force;
     public LayerMask LayerToHit;
 
-    // public GameObject BurnEffect;
-    // public GameObject ExplosionEffect;
+    public GameObject BurnEffect;
+    public GameObject ExplosionEffect;
 
     void Start()
     {
-
+        
     }
 
     
@@ -34,12 +35,14 @@ public class Feuerkugel : MonoBehaviour //, IShape
         Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, fieldOfInpact, LayerToHit);
         foreach (Collider2D obj in objects)
         {
-            //Vector2 direction  = obj.transform.position - transform.position;
-            //obj.GetComponent<Rigidbody2D>().AddForce(direction*force);
+            Vector2 direction  = obj.transform.position - transform.position;
+            obj.GetComponent<Rigidbody2D>().AddForce(direction*force);
             Destroy(obj.gameObject);
         }
-        //GameObject ExplosionEffectIns = Instantiate(ExplosionEffect, transform.position, Quaternion.identity);
-        //Destroy(ExplosionEffectIns, 10);
+        GameObject ExplosionEffectIns = Instantiate(ExplosionEffect, transform.position, Quaternion.identity);
+        Destroy(ExplosionEffectIns, 10);
+        //animator.SetBool("isExploding", true);
+        
     }
 
     public void Burn()
@@ -49,10 +52,13 @@ public class Feuerkugel : MonoBehaviour //, IShape
         {
             //Vector2 direction  = obj.transform.position - transform.position;
             //obj.GetComponent<Rigidbody2D>().AddForce(direction*force);
-            Destroy(obj.gameObject);
+            GameObject BurnEffectIns = Instantiate(BurnEffect, transform.position, Quaternion.identity);
+            Destroy(BurnEffectIns, 2f);
+            Destroy(obj.gameObject, 2f);
+
         }
-        //GameObject BurnEffectIns = Instantiate(BurnEffect, transform.position, Quaternion.identity);
-        //Destroy(BurnEffectIns, 10);
+        
+        //Destroy(BurnEffectIns, 2f);
     }
 
     private void OnDrawGizmosSelected()
