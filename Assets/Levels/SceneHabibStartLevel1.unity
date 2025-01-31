@@ -1164,10 +1164,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8a150afb66f13c46b5e8918d4735223, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
   player: {fileID: 1861179543}
-  aheadDistance: 0
-  cameraSpeed: 0
+  aheadDistanceHor: 1
+  cameraSpeedHor: 1
+  aheadDistanceVer: 1
+  cameraSpeedVer: 1
 --- !u!1 &1204310189
 GameObject:
   m_ObjectHideFlags: 0

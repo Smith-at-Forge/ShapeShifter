@@ -9,6 +9,7 @@ TagManager:
   - Checkpoint
   - VoidBoden
   - FxTemporaire
+  - FireBall
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Player
   - Enemies
   - Collectible
-  - 
+  - FireBall
   - 
   - 
   - 
