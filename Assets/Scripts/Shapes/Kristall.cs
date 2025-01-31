@@ -19,7 +19,7 @@ public class Kristall: MonoBehaviour, IShape
         throw new System.NotImplementedException();
     }
 
-    public void PrimaryAbility()
+    public void Anziehen()
     {
         throw new System.NotImplementedException();
     }
