@@ -15,7 +15,7 @@ public class ShapeManager : MonoBehaviour
     [SerializeField] private bool isKristallFreigeschaltet = false;
     [SerializeField] private bool isMagnetFreigeschaltet = false;
     [SerializeField] private float timerValue = 10f;
-    private float timer; // Countdown für Wolken-Form
+    private float timer; // Countdown für die Form
     private bool isWolkenTimerActive = false;
     private bool isFluessigTimerActive = false;
     private bool isFeuerKugelTimerActive = false;

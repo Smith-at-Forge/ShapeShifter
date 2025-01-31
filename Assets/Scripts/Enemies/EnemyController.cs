@@ -26,7 +26,8 @@ public class EnemyController : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             Destroy(gameObject);
-            FindFirstObjectByType<PlayerController>().Jump();
+            //FindFirstObjectByType<PlayerController>().Jump();
+            //FindFirstObjectByType<DragonPlayerController>().Jump();
         }
     }
 }
