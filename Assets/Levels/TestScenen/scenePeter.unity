@@ -2544,7 +2544,7 @@ GameObject:
   - component: {fileID: 455773320}
   - component: {fileID: 455773321}
   m_Layer: 6
-  m_Name: Box
+  m_Name: "Box (zerst\xF6rbar)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2584,7 +2584,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.052987605, y: -0.2792033}
+  m_Offset: {x: -0.0018596649, y: -0.0031592548}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2594,7 +2594,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.1553345, y: 1.1743975}
+  m_Size: {x: 1.1607201, y: 1.1684608}
   m_EdgeRadius: 0
 --- !u!50 &455773316
 Rigidbody2D:
@@ -2645,7 +2645,7 @@ Transform:
   m_GameObject: {fileID: 455773314}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 66.9333, y: 0.9892, z: -0.09084265}
+  m_LocalPosition: {x: 67.032, y: 0.494, z: -0.09084265}
   m_LocalScale: {x: 1.2269, y: 1.1123, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2718,7 +2718,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -432662761, guid: 67432413f3295a749b63b235ed2d50e5, type: 3}
+  m_Sprite: {fileID: -8500704188506020346, guid: 09fc20d2f2a8c1942a8b5226387a156c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9007,7 +9007,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1146781341
 Transform:
   m_ObjectHideFlags: 0
