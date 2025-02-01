@@ -1770,6 +1770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 341204428}
   - component: {fileID: 341204429}
+  - component: {fileID: 341204430}
   m_Layer: 0
   m_Name: parallaxB-Cave_1
   m_TagString: Untagged
@@ -1786,7 +1787,7 @@ Transform:
   m_GameObject: {fileID: 341204427}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -97.8, y: -10.47, z: 0.23224506}
+  m_LocalPosition: {x: -87.77, y: -10.57, z: 0.23224506}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1847,6 +1848,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &341204430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341204427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a0259bcf7e74db46996f6b3b48d2b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1140037811}
+  parallexEffect: 1
 --- !u!1 &406435577
 GameObject:
   m_ObjectHideFlags: 0
@@ -4460,6 +4475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1292467083}
   - component: {fileID: 1292467084}
+  - component: {fileID: 1292467085}
   m_Layer: 0
   m_Name: parallaxB-Cave_3
   m_TagString: Untagged
@@ -4537,6 +4553,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1292467085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292467082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a0259bcf7e74db46996f6b3b48d2b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1140037811}
+  parallexEffect: 1
 --- !u!1 &1295591395
 GameObject:
   m_ObjectHideFlags: 0
@@ -4578,6 +4608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1339391951}
   - component: {fileID: 1339391952}
+  - component: {fileID: 1339391953}
   m_Layer: 0
   m_Name: parallaxB-Cave_4
   m_TagString: Untagged
@@ -4655,6 +4686,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1339391953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339391950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a0259bcf7e74db46996f6b3b48d2b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1140037811}
+  parallexEffect: 1
 --- !u!4 &1370324345 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1218377998048232480, guid: 83af274246bef2c40979d0ca30c8e744, type: 3}
@@ -4845,6 +4890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1423265473}
   - component: {fileID: 1423265474}
+  - component: {fileID: 1423265475}
   m_Layer: 0
   m_Name: parallaxB-Cave_2
   m_TagString: Untagged
@@ -4861,7 +4907,7 @@ Transform:
   m_GameObject: {fileID: 1423265472}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -97.75, y: -10.42, z: 0.23224506}
+  m_LocalPosition: {x: -87.78, y: -10.48, z: 0.23224506}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4922,6 +4968,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1423265475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423265472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a0259bcf7e74db46996f6b3b48d2b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1140037811}
+  parallexEffect: 1
 --- !u!1001 &1424825691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6413,6 +6473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1889106817}
   - component: {fileID: 1889106818}
+  - component: {fileID: 1889106819}
   m_Layer: 0
   m_Name: parallaxB-Cave_0
   m_TagString: Untagged
@@ -6490,6 +6551,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1889106819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889106816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a0259bcf7e74db46996f6b3b48d2b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1140037811}
+  parallexEffect: 1
 --- !u!1 &1902627651
 GameObject:
   m_ObjectHideFlags: 0

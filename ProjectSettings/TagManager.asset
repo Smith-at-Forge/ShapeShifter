@@ -60,5 +60,8 @@ TagManager:
   - name: Background4
     uniqueID: 2529121191
     locked: 0
+  - name: ganzganzvorne
+    uniqueID: 1350050531
+    locked: 0
   m_RenderingLayers:
   - Default
