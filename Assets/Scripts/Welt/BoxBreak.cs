@@ -4,11 +4,13 @@ public class BoxBreak : MonoBehaviour
 {
     public SpriteRenderer spriteRenderer;
     private BoxCollider2D boxCollider;
+    private Animator anim;
 
 
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -21,6 +23,8 @@ public class BoxBreak : MonoBehaviour
         if (collision.gameObject.tag == "FireBall")
         {
             boxCollider.enabled = false;
+            //anim.SetTrigger("BoxBreak");
+            gameObject.SetActive(false);
         }
     }
 }
