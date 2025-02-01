@@ -6,11 +6,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpPower;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
+    [SerializeField] private LayerMask waterLayer;
     private Rigidbody2D body;
     private Animator anim;
     private BoxCollider2D boxCollider;
     private float wallJumpCooldown;
     private float horizontalInput;
+    // Wasser ueberpruefen
+    public Vector2 boxSize = new Vector2(1,1);
 
     private void Awake()
     {
@@ -76,10 +79,12 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+
     private bool isGrounded()
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
         return raycastHit.collider != null;
+        
     }
     private bool onWall()
     {
@@ -87,9 +92,11 @@ public class PlayerMovement : MonoBehaviour
         return raycastHit.collider != null;
     }
 
+    
+
     public bool canAttack()
     {
-        // falls Angriff beim laufen möglich sein soll horizontalInput == 0 entfernen
+        // falls Angriff beim laufen mï¿½glich sein soll horizontalInput == 0 entfernen
         return horizontalInput == 0 && isGrounded() && !onWall();
     }
 }

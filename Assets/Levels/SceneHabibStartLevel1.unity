@@ -2712,6 +2712,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8204269037320509450, guid: 86b68006de1b52f478206af6865b4bec, type: 3}
     - target: {fileID: 8050151036680342930, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
+      propertyPath: timerValue
+      value: 9.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050151036680342930, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
       propertyPath: defaultShape
       value: 
       objectReference: {fileID: 7294437902064426853, guid: 55f2c6c7fd1a4634cb058a6f4f976e4a, type: 3}

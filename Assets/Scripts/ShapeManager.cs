@@ -14,8 +14,9 @@ public class ShapeManager : MonoBehaviour
     [SerializeField] private bool isFeuerKugelFreigeschaltet = false ;
     [SerializeField] private bool isKristallFreigeschaltet = false;
     [SerializeField] private bool isMagnetFreigeschaltet = false;
+    // Wert kann entfernt werden damit man direkt in Unity Wert vergeben kann
     [SerializeField] private float timerValue = 10f;
-    private float timer; // Countdown für die Form
+    private float timer; // Countdown fï¿½r die Form
     private bool isWolkenTimerActive = false;
     private bool isFluessigTimerActive = false;
     private bool isFeuerKugelTimerActive = false;
@@ -43,7 +44,7 @@ public class ShapeManager : MonoBehaviour
             {
                 timer = 0f;
                 isWolkenTimerActive = false;
-                SetShape(defaultShape); // Zurück zum defaultShape
+                SetShape(defaultShape); // Zurï¿½ck zum defaultShape
             }
         }
         if (isFluessigTimerActive)
@@ -53,7 +54,7 @@ public class ShapeManager : MonoBehaviour
             {
                 timer = 0f;
                 isFluessigTimerActive = false;
-                SetShape(defaultShape); // Zurück zum defaultShape
+                SetShape(defaultShape); // Zurï¿½ck zum defaultShape
             }
         }
         if (isFeuerKugelTimerActive)
@@ -63,7 +64,7 @@ public class ShapeManager : MonoBehaviour
             {
                 timer = 0f;
                 isFeuerKugelTimerActive = false;
-                SetShape(defaultShape); // Zurück zum defaultShape
+                SetShape(defaultShape); // Zurï¿½ck zum defaultShape
             }
         }
         if (isKristallTimerActive)
@@ -73,7 +74,7 @@ public class ShapeManager : MonoBehaviour
             {
                 timer = 0f;
                 isKristallTimerActive = false;
-                SetShape(defaultShape); // Zurück zum defaultShape
+                SetShape(defaultShape); // Zurï¿½ck zum defaultShape
             }
         }
         if (isMagnetTimerActive)
@@ -83,7 +84,7 @@ public class ShapeManager : MonoBehaviour
             {
                 timer = 0f;
                 isMagnetTimerActive = false;
-                SetShape(defaultShape); // Zurück zum defaultShape
+                SetShape(defaultShape); // Zurï¿½ck zum defaultShape
             }
         }
     }
@@ -102,7 +103,7 @@ public class ShapeManager : MonoBehaviour
             }
             else
             {
-                Debug.Log("Die Form Flüssig is nicht freigeschaltet!");
+                Debug.Log("Die Form Flï¿½ssig is nicht freigeschaltet!");
             }
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3) && !isFeuerKugelTimerActive)
@@ -156,36 +157,36 @@ public class ShapeManager : MonoBehaviour
     {
         SetShape(wolke);
         isWolkenTimerActive = true;
-        timer = timerValue; // 10 Sekunden Timer für Form Wolke
+        timer = timerValue; // 10 Sekunden Timer fï¿½r Form Wolke
     }
     void StartFluessigForm()
     {
         SetShape(fluessig);
         isFluessigTimerActive = true;
-        timer = timerValue; // 10 Sekunden Timer für Form Wolke
+        timer = timerValue; // 10 Sekunden Timer fï¿½r Form Wolke
     }
     void StartFeuerKugelForm()
     {
         SetShape(feuerKugel);
         isFeuerKugelTimerActive = true;
-        timer = timerValue; // 10 Sekunden Timer für Form Wolke
+        timer = timerValue; // 10 Sekunden Timer fï¿½r Form Wolke
     }
     void StartKristallForm()
     {
         SetShape(kristall);
         isKristallTimerActive = true;
-        timer = timerValue; // 10 Sekunden Timer für Form Wolke
+        timer = timerValue; // 10 Sekunden Timer fï¿½r Form Wolke
     }
     void StartMagnetForm()
     {
         SetShape(magnet);
         isMagnetTimerActive = true;
-        timer = timerValue; // 10 Sekunden Timer für Form Wolke
+        timer = timerValue; // 10 Sekunden Timer fï¿½r Form Wolke
     }
 
 
 
-    #region Methoden für die Freischaltung der Formen
+    #region Methoden fï¿½r die Freischaltung der Formen
     public void FreischaltungFluessig()
     {
         isFluessigFreigeschaltet = true;

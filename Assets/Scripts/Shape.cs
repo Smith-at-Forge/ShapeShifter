@@ -4,7 +4,7 @@ public enum Shape
 {
     Wolke,
     Feuerkugel,
-    Flüssigkeit,
+    Fluessigkeit,
     Kristall,
     Magnet
 }
