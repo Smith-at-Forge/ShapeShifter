@@ -26,6 +26,7 @@ public class ShapeManager : MonoBehaviour
     {
         //Start mit DefaultShape
         currentShape = Instantiate(defaultShape, transform.position, Quaternion.identity);
+        Camera.main.GetComponent<CameraController>().Follow(currentShape);
         
     }
 
@@ -150,6 +151,7 @@ public class ShapeManager : MonoBehaviour
             Destroy(currentShape); // Alte Form entfernen
         }
         currentShape = Instantiate(newShapePrefarb, currentShape.transform.position, Quaternion.identity); // Neue Form instanziieren
+        Camera.main.GetComponent<CameraController>().Follow(currentShape);
     }
 
     void StartWolkenForm()

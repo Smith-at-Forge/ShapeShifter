@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour
 
     // [SerializeField] private bool cameraVertikal = false;
 
-    //Follow player
+    //Follow _player
     [SerializeField] private Transform player;
 
     [SerializeField] private float aheadDistanceHor;
@@ -18,9 +18,9 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float cameraSpeedVer;
     private float lookAheadVer;
 
-    private void Update()
+    private void LateUpdate() // LateUpdate
     {
-        // Follow player Horizontal
+        // Follow _player Horizontal
         transform.position = new Vector3(player.position.x + lookAheadHor, player.position.y + lookAheadVer, transform.position.z);
         lookAheadHor = Mathf.Lerp(lookAheadHor, (aheadDistanceHor * player.localScale.x), Time.deltaTime * cameraSpeedHor);
         lookAheadVer = Mathf.Lerp(lookAheadVer, (aheadDistanceVer * player.localScale.y), Time.deltaTime * cameraSpeedVer);
@@ -28,5 +28,9 @@ public class CameraController : MonoBehaviour
         
         
 
+    }
+    public void Follow(GameObject _player)
+    {
+        player = _player.transform;
     }
 }
