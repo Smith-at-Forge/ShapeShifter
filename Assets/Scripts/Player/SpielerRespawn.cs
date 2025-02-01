@@ -5,6 +5,8 @@ public class SpielerRespawn : MonoBehaviour
     // [SerializeField] private AudioClip checkpointSound;
     private Health playerHealth;
     private Transform currentCheckpoint;
+    [SerializeField] private Transform spawnPoint;
+    private bool check = false;
 
     private void Awake()
     {
@@ -13,8 +15,16 @@ public class SpielerRespawn : MonoBehaviour
 
     public void Respawn()
     {
-        transform.position = currentCheckpoint.position; // Bewegt Spieler zu Checkpoint zurück
-        playerHealth.Respawn(); // Leben & Animation zurücksetzen
+        if (check == true)
+        {
+            transform.position = currentCheckpoint.position; // Bewegt Spieler zu Checkpoint zurück
+            playerHealth.Respawn(); // Leben & Animation zurücksetzen
+        }
+        else
+        {
+            transform.position = spawnPoint.position;
+        }
+        
 
         // Kamera zurückbewegen falls Raumkamera aktiv und nicht Spielerverfolgung
         // Camera.main.GetComponent<CameraController>().MoveToNewRoom(currentCheckpoint.parent);
@@ -29,6 +39,7 @@ public class SpielerRespawn : MonoBehaviour
             currentCheckpoint = collision.transform; // Checkpoint speichern
             collision.GetComponent<Collider2D>().enabled = false;
             collision.GetComponent<Animator>().SetTrigger("erscheinen");
+            check = true;
         }
     }
 }

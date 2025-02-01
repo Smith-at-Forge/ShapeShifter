@@ -2,29 +2,31 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    //Room camera
-    [SerializeField] private float speed;
-    private float currentPosX;
+    //[SerializeField] private float speed;
     private Vector3 velocity = Vector3.zero;
+
+    // [SerializeField] private bool cameraVertikal = false;
 
     //Follow player
     [SerializeField] private Transform player;
-    [SerializeField] private float aheadDistance;
-    [SerializeField] private float cameraSpeed;
-    private float lookAhead;
+
+    [SerializeField] private float aheadDistanceHor;
+    [SerializeField] private float cameraSpeedHor;
+    private float lookAheadHor;
+
+    [SerializeField] private float aheadDistanceVer;
+    [SerializeField] private float cameraSpeedVer;
+    private float lookAheadVer;
 
     private void Update()
     {
-        //Room camera
-        //transform.position = Vector3.SmoothDamp(transform.position, new Vector3(currentPosX, transform.position.y, transform.position.z), ref velocity, speed);
+        // Follow player Horizontal
+        transform.position = new Vector3(player.position.x + lookAheadHor, player.position.y + lookAheadVer, transform.position.z);
+        lookAheadHor = Mathf.Lerp(lookAheadHor, (aheadDistanceHor * player.localScale.x), Time.deltaTime * cameraSpeedHor);
+        lookAheadVer = Mathf.Lerp(lookAheadVer, (aheadDistanceVer * player.localScale.y), Time.deltaTime * cameraSpeedVer);
 
-        //Follow player
-        transform.position = new Vector3(player.position.x + lookAhead, transform.position.y, transform.position.z);
-        lookAhead = Mathf.Lerp(lookAhead, (aheadDistance * player.localScale.x), Time.deltaTime * cameraSpeed);
-    }
+        
+        
 
-    public void MoveToNewRoom(Transform _newRoom)
-    {
-        currentPosX = _newRoom.position.x;
     }
 }

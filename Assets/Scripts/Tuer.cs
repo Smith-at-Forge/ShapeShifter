@@ -8,6 +8,7 @@ public class Tuer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        /*
        if (collision.tag == "Player")
         {
             if (collision.transform.position.x < transform.position.x)
@@ -15,6 +16,7 @@ public class Tuer : MonoBehaviour
             else
                 cam.MoveToNewRoom(previousRoom);
         }
+        */
     }
 
 }
