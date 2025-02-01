@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1454834305370019480}
   - component: {fileID: 3184661773843085807}
+  - component: {fileID: 2072589137390812357}
   m_Layer: 0
   m_Name: MagnetCollider
   m_TagString: Untagged
@@ -179,7 +180,30 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 3
+  m_Radius: 4
+--- !u!114 &2072589137390812357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6046273522114624089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19f38dc50d3de84193e442ba3707994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fieldOfInpact: 4
+  force: 100
+  LayerToHit:
+    serializedVersion: 2
+    m_Bits: 512
+  fieldOfAttract: 5
+  attracForce: 300
+  LayerToAttract:
+    serializedVersion: 2
+    m_Bits: 1024
+  isAttracting: 0
 --- !u!1 &6624285511090677153
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +218,6 @@ GameObject:
   - component: {fileID: 3911309453481811206}
   - component: {fileID: 3999365724195097055}
   - component: {fileID: 5608041864995238348}
-  - component: {fileID: 2268845622537374080}
   m_Layer: 0
   m_Name: MagnetPlayer
   m_TagString: Player
@@ -336,8 +359,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.018437743, y: -0.013828337}
-  m_Size: {x: 1.0368755, y: 1.1198446}
+  m_Offset: {x: -0.018437743, y: -0.002077341}
+  m_Size: {x: 1.0368755, y: 1.0963426}
   m_Direction: 0
 --- !u!95 &3999365724195097055
 Animator:
@@ -382,26 +405,3 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 3999365724195097055}
---- !u!114 &2268845622537374080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6624285511090677153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c19f38dc50d3de84193e442ba3707994, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fieldOfInpact: 4
-  force: 300
-  LayerToHit:
-    serializedVersion: 2
-    m_Bits: 512
-  fieldOfAttract: 4
-  attracForce: 300
-  LayerToAttract:
-    serializedVersion: 2
-    m_Bits: 1024
-  isAttracting: 0
