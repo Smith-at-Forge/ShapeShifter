@@ -72,7 +72,7 @@ public class PlayerMovement : MonoBehaviour
     private void Jump()
     {
 
-        if (isGrounded())
+        if (isGrounded() && !waterCheck.inWater())
         {
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
             anim.SetTrigger("jump");
@@ -104,14 +104,6 @@ public class PlayerMovement : MonoBehaviour
         return raycastHit.collider != null;
     }
     
-
-
-
-    
-    
-
-    
-
     public bool canAttack()
     {
         // falls Angriff beim laufen m�glich sein soll horizontalInput == 0 entfernen

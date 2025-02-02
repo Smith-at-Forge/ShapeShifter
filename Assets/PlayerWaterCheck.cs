@@ -3,7 +3,6 @@ using UnityEngine;
 public class PlayerWaterCheck : MonoBehaviour
 {
     private bool isInWater = false;
-    [SerializeField] 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
