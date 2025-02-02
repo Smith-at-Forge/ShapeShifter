@@ -6,9 +6,9 @@ TagManager:
   tags:
   - Ground
   - Wall
-  - FireBall
   - Checkpoint
-  - Water
+  - VoidBoden
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
@@ -18,10 +18,10 @@ TagManager:
   - UI
   - Ground
   - Wall
-  - Gegner
-  - 
-  - 
-  - 
+  - Player
+  - Enemies
+  - Collectible
+  - Fire
   - 
   - 
   - 
@@ -46,17 +46,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 3951239963
+  - name: Ebene 1
+    uniqueID: 3022604965
     locked: 0
-  - name: Foreground
-    uniqueID: 2233272581
+  - name: Ebene 2
+    uniqueID: 1657966021
     locked: 0
-  - name: Ground
-    uniqueID: 2327865685
+  - name: Ebene 3
+    uniqueID: 4279964853
     locked: 0
   - name: Player
-    uniqueID: 1520819381
+    uniqueID: 3228810639
+    locked: 0
+  - name: Ebene 4
+    uniqueID: 2529121191
+    locked: 0
+  - name: ganzganzvorne
+    uniqueID: 1350050531
     locked: 0
   m_RenderingLayers:
   - Default
