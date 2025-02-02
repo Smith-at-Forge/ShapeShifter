@@ -3,7 +3,8 @@ using UnityEngine;
 public class Feuerkugel : MonoBehaviour //, IShape
 {
    
-    public float fieldOfInpact;
+    public float fieldOfExplosion;
+    public float fieldOfBurn;
     public float force;
     public LayerMask LayerToHit;
 
@@ -32,7 +33,7 @@ public class Feuerkugel : MonoBehaviour //, IShape
 
     public void Explode()
     {
-        Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, fieldOfInpact, LayerToHit);
+        Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, fieldOfExplosion, LayerToHit);
         foreach (Collider2D obj in objects)
         {
             Vector2 direction  = obj.transform.position - transform.position;
@@ -49,7 +50,7 @@ public class Feuerkugel : MonoBehaviour //, IShape
 
     public void Burn()
     {
-        Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, fieldOfInpact, LayerToHit);
+        Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, fieldOfBurn, LayerToHit);
         foreach (Collider2D obj in objects)
         {
             //Vector2 direction  = obj.transform.position - transform.position;
@@ -66,7 +67,7 @@ public class Feuerkugel : MonoBehaviour //, IShape
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, fieldOfInpact);
+        Gizmos.DrawWireSphere(transform.position, fieldOfExplosion);
     }
 
     //public void SecondaryAbility()

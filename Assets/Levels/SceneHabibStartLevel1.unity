@@ -2645,45 +2645,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 199559143234019046, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: jumpForce
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 239170248120065728, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: m_GravityScale
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 604799420310899474, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: jumpForce
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1596009642401675839, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: jumpForce
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2305921614914663399, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: m_GravityScale
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 3324843697957641096, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
       propertyPath: m_Name
       value: ShapeManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324843697957641096, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5548318742108498837, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: m_GravityScale
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6081378844939929133, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: jumpForce
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6755180092503364447, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: jumpForce
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7827010623595713534, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2725,46 +2689,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8050151036680342930, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: fluessig
-      value: 
-      objectReference: {fileID: 8204269037320509450, guid: 86b68006de1b52f478206af6865b4bec, type: 3}
-    - target: {fileID: 8050151036680342930, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: defaultShape
-      value: 
-      objectReference: {fileID: 7294437902064426853, guid: 55f2c6c7fd1a4634cb058a6f4f976e4a, type: 3}
-    - target: {fileID: 8050151036680342930, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: isMagnetFreigeschaltet
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050151036680342930, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: isFluessigFreigeschaltet
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050151036680342930, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: isKristallFreigeschaltet
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8050151036680342930, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: isFeuerKugelFreigeschaltet
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8128569058713423724, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: m_GravityScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8237042622212957327, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 5991406498263564490, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-    - {fileID: 5308226128138247138, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-    - {fileID: 8237042622212957327, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-    - {fileID: 4780730539384803904, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-    - {fileID: 5377502918938910040, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
-    - {fileID: 2370808235660411964, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac0291b55ddf8c74ca860ecad95a75d2, type: 3}

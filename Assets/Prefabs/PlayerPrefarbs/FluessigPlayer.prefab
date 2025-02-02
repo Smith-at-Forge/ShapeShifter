@@ -248,7 +248,7 @@ MonoBehaviour:
   force: 50
   LayerToHit:
     serializedVersion: 2
-    m_Bits: 2560
+    m_Bits: 2048
   LoeschEffect: {fileID: 6031257382746605514, guid: 575d31dda17251848bc6bd616e4856f9, type: 3}
 --- !u!114 &-6048860674147144361
 MonoBehaviour:
