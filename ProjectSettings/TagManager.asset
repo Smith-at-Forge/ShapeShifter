@@ -46,17 +46,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
+  - name: Ebene 1
     uniqueID: 3022604965
     locked: 0
-  - name: Foreground
+  - name: Ebene 2
     uniqueID: 1657966021
     locked: 0
-  - name: Ground
+  - name: Ebene 3
     uniqueID: 4279964853
     locked: 0
   - name: Player
     uniqueID: 3228810639
+    locked: 0
+  - name: Ebene 4
+    uniqueID: 2529121191
+    locked: 0
+  - name: ganzganzvorne
+    uniqueID: 1350050531
     locked: 0
   m_RenderingLayers:
   - Default
