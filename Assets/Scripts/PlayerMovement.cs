@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalInput;
     // Wasser ueberpruefen
     public Vector2 boxSize = new Vector2(1,1);
+    private PlayerWaterCheck waterCheck;
 
     private void Awake()
     {
@@ -22,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        waterCheck = GetComponent<PlayerWaterCheck>();
     }
 
     private void Update()
@@ -56,6 +58,15 @@ public class PlayerMovement : MonoBehaviour
         }
         else
             wallJumpCooldown += Time.deltaTime;
+
+        if (waterCheck != null && waterCheck.inWater())
+        {
+            Debug.Log("Player in Water");
+        }
+        else
+        {
+            Debug.Log("Not in Water");
+        }
     }
 
     private void Jump()
@@ -92,6 +103,12 @@ public class PlayerMovement : MonoBehaviour
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
         return raycastHit.collider != null;
     }
+    
+
+
+
+    
+    
 
     
 
