@@ -244,7 +244,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe52ba56e25e24e46a62d7cc81a76dd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldOfInpact: 2
+  fieldOfExplosion: 3
+  fieldOfBurn: 1
   force: 300
   LayerToHit:
     serializedVersion: 2
