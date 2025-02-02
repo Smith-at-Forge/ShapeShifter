@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Ground
+  - Wall
+  - FireBall
+  - Checkpoint
+  - Water
   layers:
   - Default
   - TransparentFX
@@ -11,9 +16,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Ground
+  - Wall
+  - Gegner
   - 
   - 
   - 
@@ -40,6 +45,18 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3951239963
+    locked: 0
+  - name: Foreground
+    uniqueID: 2233272581
+    locked: 0
+  - name: Ground
+    uniqueID: 2327865685
+    locked: 0
+  - name: Player
+    uniqueID: 1520819381
     locked: 0
   m_RenderingLayers:
   - Default
