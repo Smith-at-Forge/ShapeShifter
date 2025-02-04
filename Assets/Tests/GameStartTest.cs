@@ -10,7 +10,12 @@ public class GameStartTest
     {
         // Use the Assert class to test conditions.
         // Use yield to skip a frame.
-        yield return UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("StartLevel1");
+        yield return UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("SceneHabibStartLevel1");
+        GameObject player = GameObject.Find("ShapeManager");
+        Assert.IsNotNull(player, "Spieler-Objekt wurde nicht gefunden!");
+
+        Assert.AreEqual(player.activeSelf, true, "Spiel-Objekt ist nicht aktiv!");
+
         yield break;
     }
 }
