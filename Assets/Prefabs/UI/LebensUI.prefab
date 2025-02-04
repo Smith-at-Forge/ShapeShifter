@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2fcd70e7e832b4ea567f0a82b4ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 5714916769319322424, guid: 3c15ed9b84a1543bdbc8f17d7d736aff, type: 3}
   lebensAnzeigeGesamt: {fileID: 5078439225219891674}
   lebenAnzeigeAktuell: {fileID: 887121114770750874}
 --- !u!1 &1212334227264202849
