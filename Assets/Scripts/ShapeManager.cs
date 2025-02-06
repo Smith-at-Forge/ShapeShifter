@@ -4,17 +4,35 @@ public class ShapeManager : MonoBehaviour
 {
     public GameObject defaultShape;
     public GameObject wolke;
-    public GameObject flüssigkeit;
+    public GameObject fluessig;
     public GameObject feuerKugel;
     public GameObject kristall;
     public GameObject magnet;
 
-    private GameObject currentShape;
+    public GameObject currentShape;
+    [SerializeField] private bool isFluessigFreigeschaltet = false;
+    [SerializeField] private bool isFeuerKugelFreigeschaltet = false ;
+    [SerializeField] private bool isKristallFreigeschaltet = false;
+    [SerializeField] private bool isMagnetFreigeschaltet = false;
+    [SerializeField] private float timerValue = 10f;
+    private float timer; // Countdown für die Form
+    public bool isWolkenTimerActive = false;
+    private bool isFluessigTimerActive = false;
+    private bool isFeuerKugelTimerActive = false;
+    private bool isKristallTimerActive = false;
+    private bool isMagnetTimerActive = false;
+
+    public static ShapeManager instance;
+    private void Awake()
+    {
+        instance = this;
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         //Start mit DefaultShape
         currentShape = Instantiate(defaultShape, transform.position, Quaternion.identity);
+        Camera.main.GetComponent<CameraController>().Follow(currentShape);
         
     }
 
@@ -23,29 +41,111 @@ public class ShapeManager : MonoBehaviour
     {
 
         ChangeShape();
-    }
 
+        // Wolken countdown
+        if (isWolkenTimerActive)
+        {
+            timer -= Time.deltaTime;
+            if (timer <= 0f)
+            {
+                timer = 0f;
+                isWolkenTimerActive = false;
+                SetShape(defaultShape); // Zurück zum defaultShape
+            }
+        }
+        if (isFluessigTimerActive)
+        {
+            timer -= Time.deltaTime;
+            if (timer <= 0f)
+            {
+                timer = 0f;
+                isFluessigTimerActive = false;
+                SetShape(defaultShape); // Zurück zum defaultShape
+            }
+        }
+        if (isFeuerKugelTimerActive)
+        {
+            timer -= Time.deltaTime;
+            if (timer <= 0f)
+            {
+                timer = 0f;
+                isFeuerKugelTimerActive = false;
+                SetShape(defaultShape); // Zurück zum defaultShape
+            }
+        }
+        if (isKristallTimerActive)
+        {
+            timer -= Time.deltaTime;
+            if (timer <= 0f)
+            {
+                timer = 0f;
+                isKristallTimerActive = false;
+                SetShape(defaultShape); // Zurück zum defaultShape
+            }
+        }
+        if (isMagnetTimerActive)
+        {
+            timer -= Time.deltaTime;
+            if (timer <= 0f)
+            {
+                timer = 0f;
+                isMagnetTimerActive = false;
+                SetShape(defaultShape); // Zurück zum defaultShape
+            }
+        }
+    }
     void ChangeShape()
     {
-        if(Input.GetKeyDown(KeyCode.Alpha1)) // "1"-Taste auf der Haupttastatur (nicht das numerische Tastenfeld).
+        if(Input.GetKeyDown(KeyCode.Alpha1) && !isWolkenTimerActive) // "1"-Taste auf der Haupttastatur (nicht das numerische Tastenfeld).
         {
-            SetShape(wolke);
+            StartWolkenForm();
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        else if (Input.GetKeyDown(KeyCode.Alpha2) && !isFluessigTimerActive)
         {
-            SetShape(flüssigkeit);
+       
+            if (isFluessigFreigeschaltet)
+            {
+                StartFluessigForm();
+            }
+            else
+            {
+                Debug.Log("Die Form Flüssig is nicht freigeschaltet!");
+            }
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        else if (Input.GetKeyDown(KeyCode.Alpha3) && !isFeuerKugelTimerActive)
         {
-            SetShape(feuerKugel);
+            if (isFeuerKugelFreigeschaltet)
+            {
+
+                StartFeuerKugelForm();
+            }
+            else
+            {
+                Debug.Log("Die Form FeuerKugel is nicht freigeschaltet!");
+            }
+
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && !isKristallTimerActive)
         {
-            SetShape(kristall);
+            if (isKristallFreigeschaltet)
+            {
+                 StartKristallForm();
+            }
+            else
+            {
+                 Debug.Log("Die Form Kristall is nicht freigeschaltet!");
+            }
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha5))
+        else if (Input.GetKeyDown(KeyCode.Alpha5) && !isMagnetTimerActive)
         {
-            SetShape(magnet);
+            if (isMagnetFreigeschaltet)
+            {
+                StartMagnetForm();
+            }
+            else
+            {
+                Debug.Log("Die Form Magnet is nicht freigeschaltet!");
+            }
         }
 
     }
@@ -56,6 +156,59 @@ public class ShapeManager : MonoBehaviour
         {
             Destroy(currentShape); // Alte Form entfernen
         }
-        currentShape = Instantiate(newShapePrefarb, currentShape.transform.position,Quaternion.identity); // Neue Form instanziieren
+        currentShape = Instantiate(newShapePrefarb, currentShape.transform.position, Quaternion.identity); // Neue Form instanziieren
+        Camera.main.GetComponent<CameraController>().Follow(currentShape);
     }
+
+    void StartWolkenForm()
+    {
+        SetShape(wolke);
+        isWolkenTimerActive = true;
+        timer = timerValue; // 10 Sekunden Timer für Form Wolke
+    }
+    void StartFluessigForm()
+    {
+        SetShape(fluessig);
+        isFluessigTimerActive = true;
+        timer = timerValue; // 10 Sekunden Timer für Form Wolke
+    }
+    void StartFeuerKugelForm()
+    {
+        SetShape(feuerKugel);
+        isFeuerKugelTimerActive = true;
+        timer = timerValue; // 10 Sekunden Timer für Form Wolke
+    }
+    void StartKristallForm()
+    {
+        SetShape(kristall);
+        isKristallTimerActive = true;
+        timer = timerValue; // 10 Sekunden Timer für Form Wolke
+    }
+    void StartMagnetForm()
+    {
+        SetShape(magnet);
+        isMagnetTimerActive = true;
+        timer = timerValue; // 10 Sekunden Timer für Form Wolke
+    }
+
+
+
+    #region Methoden für die Freischaltung der Formen
+    public void FreischaltungFluessig()
+    {
+        isFluessigFreigeschaltet = true;
+    }
+    public void FreischaltungFeuerKugel()
+    {
+        isFeuerKugelFreigeschaltet = true;
+    }
+    public void FreischaltungKristall()
+    {
+        isKristallFreigeschaltet = true;
+    }
+    public void FreischaltungMagnet()
+    {
+        isMagnetFreigeschaltet = true;
+    }
+    #endregion
 }

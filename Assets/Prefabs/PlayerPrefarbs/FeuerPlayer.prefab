@@ -45,6 +45,8 @@ GameObject:
   - component: {fileID: 1563809434632629616}
   - component: {fileID: 2773439966916617905}
   - component: {fileID: 3059296571669820182}
+  - component: {fileID: -2184564262655984560}
+  - component: {fileID: 4172268247507110462}
   m_Layer: 0
   m_Name: FeuerPlayer
   m_TagString: Player
@@ -230,3 +232,36 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 2773439966916617905}
+--- !u!114 &-2184564262655984560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8157606262519560398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe52ba56e25e24e46a62d7cc81a76dd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fieldOfExplosion: 3
+  fieldOfBurn: 1
+  force: 300
+  LayerToHit:
+    serializedVersion: 2
+    m_Bits: 512
+  BurnEffect: {fileID: 7069554371619030107, guid: 24e9ed12ea7048d42868b26c22cc5043, type: 3}
+  ExplosionEffect: {fileID: 7014786254734885293, guid: bd9f5899dc45b50499b748df2bc8f935, type: 3}
+--- !u!114 &4172268247507110462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8157606262519560398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e758ecf1602814b9a14535cbb35bbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amount: 1
