@@ -5,8 +5,6 @@ public class Health : MonoBehaviour
 {
     [Header("Health")]
     [SerializeField] private float startingHealth;
-    // public, aber get: Variable kann von anderen Scripts genommen werden
-    // private set: kann nur in diesem Script gesetzt werden
     public float currentHealth { get; private set; }
     private Animator anim;
     private bool dead;
@@ -18,11 +16,9 @@ public class Health : MonoBehaviour
 
     [Header("Components")]
     [SerializeField] private Behaviour[] components;
-    [SerializeField] private ShapeManager currentShape;
-    public GameObject kristallCheck;
 
     // Schaden verhindern, wenn true
-    //private bool invulnerable = false;
+    private bool invulnerable;
 
     private void Awake()
     {
@@ -30,31 +26,15 @@ public class Health : MonoBehaviour
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();
     }
-    
-
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-            TakeDamage(1);
-
-        if (currentShape == kristallCheck)
-            Debug.Log("Kristall Aktiv");
-            
-    }
-
     public void TakeDamage(float _damage)
     {
-        if (Input.GetKey(KeyCode.G))
-        {
-            Debug.Log("No Damage due to Kristall");
-            return;
-        }
-
+        if (invulnerable) return;
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
 
         if (currentHealth > 0)
         {
             anim.SetTrigger("hurt");
+            StartCoroutine(Invunerability());
         }
         else
         {
@@ -70,7 +50,6 @@ public class Health : MonoBehaviour
                 // SoundManager.instance.PlaySound(deathSound);
             }
         }
-        
     }
     public void AddHealth(float _value)
     {
@@ -80,18 +59,28 @@ public class Health : MonoBehaviour
     public void Respawn()
     {
         dead = false;
-        AddHealth(startingHealth);
+         AddHealth(startingHealth);
         anim.ResetTrigger("die");
         anim.Play("Idle");
+
+        // Unsterblichkeit nach Respawn
+        StartCoroutine(Invunerability());
 
         foreach (Behaviour component in components)
             component.enabled = true;
     }
-
-    public void Invulnerable(bool invulnerable)
+    public IEnumerator Invunerability()
     {
-        
+        invulnerable = true;
+        Physics2D.IgnoreLayerCollision(10, 11, true);
+        for (int i = 0; i < numberOfFlashes; i++)
+        {
+            spriteRend.color = new Color(1, 0, 0, 0.5f);
+            yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
+            spriteRend.color = Color.white;
+            yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
+        }
+        Physics2D.IgnoreLayerCollision(10, 11, false);
+        invulnerable = false;
     }
-    
-
 }
