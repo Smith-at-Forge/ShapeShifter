@@ -9,6 +9,7 @@ TagManager:
   - Checkpoint
   - VoidBoden
   - FxTemporaire
+  - Water
   layers:
   - Default
   - TransparentFX
