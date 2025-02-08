@@ -1162,6 +1162,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2860452316573048617, guid: 92410c5136df89c4792fb5652aa7a8f0, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2860452316573048617, guid: 92410c5136df89c4792fb5652aa7a8f0, type: 3}
+      propertyPath: movementDistance
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3382132116205657906, guid: 92410c5136df89c4792fb5652aa7a8f0, type: 3}
       propertyPath: m_Name
       value: Saege Ver (1)
@@ -1776,6 +1784,10 @@ PrefabInstance:
     - target: {fileID: 1620152565315243457, guid: 92410c5136df89c4792fb5652aa7a8f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2860452316573048617, guid: 92410c5136df89c4792fb5652aa7a8f0, type: 3}
+      propertyPath: speed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3382132116205657906, guid: 92410c5136df89c4792fb5652aa7a8f0, type: 3}
       propertyPath: m_Name
