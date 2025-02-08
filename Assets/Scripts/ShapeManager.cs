@@ -9,18 +9,24 @@ public class ShapeManager : MonoBehaviour
     public GameObject kristall;
     public GameObject magnet;
 
-    private GameObject currentShape;
+    public GameObject currentShape;
     [SerializeField] private bool isFluessigFreigeschaltet = false;
     [SerializeField] private bool isFeuerKugelFreigeschaltet = false ;
     [SerializeField] private bool isKristallFreigeschaltet = false;
     [SerializeField] private bool isMagnetFreigeschaltet = false;
     [SerializeField] private float timerValue = 10f;
     private float timer; // Countdown für die Form
-    private bool isWolkenTimerActive = false;
+    public bool isWolkenTimerActive = false;
     private bool isFluessigTimerActive = false;
     private bool isFeuerKugelTimerActive = false;
     private bool isKristallTimerActive = false;
     private bool isMagnetTimerActive = false;
+
+    public static ShapeManager instance;
+    private void Awake()
+    {
+        instance = this;
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

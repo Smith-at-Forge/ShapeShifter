@@ -24,10 +24,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         isGrounded = Physics2D.OverlapCircle(groudCheckPoint.position, groundCheckRadius, whatIsGround);
+        Move();
 
-        rb.linearVelocity = new Vector2(Input.GetAxis("Horizontal")* moveSpeed, rb.linearVelocity.y);
-
-        if(Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump"))
         {
             if (isGrounded)
             {
@@ -36,15 +35,15 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                if(canDoubleJump)
+                if (canDoubleJump)
                 {
                     Jump();
-                    canDoubleJump= false;
+                    canDoubleJump = false;
                 }
             }
         }
 
-        if(rb.linearVelocity.x > 0)
+        if (rb.linearVelocity.x > 0)
         {
             transform.localScale = Vector3.one;
         }
@@ -57,6 +56,11 @@ public class PlayerController : MonoBehaviour
 
         animator.SetFloat("speed", Mathf.Abs(rb.linearVelocity.x));
         animator.SetBool("isGrounded", isGrounded);
+    }
+
+    public void Move()
+    {
+        rb.linearVelocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, rb.linearVelocity.y);
     }
 
     // Jump
