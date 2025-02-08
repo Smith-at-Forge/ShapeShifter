@@ -45,6 +45,7 @@ public class ShapeManager : MonoBehaviour
         // Wolken countdown
         if (isWolkenTimerActive)
         {
+            Debug.Log("ShapeManager Wolke Aktiv");
             timer -= Time.deltaTime;
             if (timer <= 0f)
             {
@@ -55,6 +56,7 @@ public class ShapeManager : MonoBehaviour
         }
         if (isFluessigTimerActive)
         {
+            Debug.Log("ShapeManager Fluessig Aktiv");
             timer -= Time.deltaTime;
             if (timer <= 0f)
             {
@@ -65,6 +67,7 @@ public class ShapeManager : MonoBehaviour
         }
         if (isFeuerKugelTimerActive)
         {
+            Debug.Log("ShapeManager Feuer Aktiv");
             timer -= Time.deltaTime;
             if (timer <= 0f)
             {
@@ -86,6 +89,7 @@ public class ShapeManager : MonoBehaviour
         }
         if (isMagnetTimerActive)
         {
+            Debug.Log("ShapeManager Magnet Aktiv");
             timer -= Time.deltaTime;
             if (timer <= 0f)
             {

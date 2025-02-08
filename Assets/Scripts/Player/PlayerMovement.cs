@@ -1,4 +1,6 @@
+using UnityEditor.Callbacks;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -11,11 +13,16 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D body;
     private Animator anim;
     private BoxCollider2D boxCollider;
-    private float wallJumpCooldown;
-    private float horizontalInput;
+    private float wallJumpCooldown; 
+    private float horizontalInput; // Movement links/rechts
     // Wasser ueberpruefen
     public Vector2 boxSize = new Vector2(1,1);
     private PlayerWaterCheck waterCheck;
+
+    // Plattform
+    public bool isOnPlattform;
+    public Rigidbody2D platformRB;
+    //Rigidbody2D rb;
 
     private void Awake()
     {
@@ -24,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
         waterCheck = GetComponent<PlayerWaterCheck>();
+        //rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
@@ -59,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
         else
             wallJumpCooldown += Time.deltaTime;
 
+        // Watercheck 
         if (waterCheck != null && waterCheck.inWater())
         {
             Debug.Log("Player in Water");
@@ -67,6 +76,19 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("Not in Water");
         }
+
+        // Plattform
+        /*
+        if (isOnPlattform)
+        {
+            rb.linearVelocity = new Vector2(speed + platformRB.linearVelocity.x, rb.linearVelocity.y );
+        }
+        else
+        {
+            rb.linearVelocity = new Vector2(speed, rb.linearVelocity.y);
+        }
+        */
+        
     }
 
     private void Jump()

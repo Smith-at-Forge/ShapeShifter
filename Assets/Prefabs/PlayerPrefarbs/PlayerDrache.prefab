@@ -86,10 +86,10 @@ GameObject:
   - component: {fileID: 5066814118750640148}
   - component: {fileID: 6931734122767147855}
   - component: {fileID: 3596276003857840041}
-  - component: {fileID: 5714916769319322424}
   - component: {fileID: 2405334583189734645}
   - component: {fileID: 14398866188226252}
   - component: {fileID: 7107403444531063371}
+  - component: {fileID: 8273668654562313304}
   m_Layer: 0
   m_Name: PlayerDrache
   m_TagString: Player
@@ -290,22 +290,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5714916769319322424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7275954978260467567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2806d910dbd23845aaf9026e253a9cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingHealth: 3
-  iFramesDuration: 0
-  numberOfFlashes: 0
-  components: []
 --- !u!114 &2405334583189734645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -356,6 +340,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a6e9bdc22e7d41ccb250eb28df9d1f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8273668654562313304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275954978260467567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2806d910dbd23845aaf9026e253a9cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 5
+  iFramesDuration: 0
+  numberOfFlashes: 0
+  components: []
 --- !u!1001 &94407042553491987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -769,7 +769,7 @@ PrefabInstance:
     - target: {fileID: 4416961803603066521, guid: 23632c0174bd7c647812f0e4346a02dc, type: 3}
       propertyPath: playerHealth
       value: 
-      objectReference: {fileID: 5714916769319322424}
+      objectReference: {fileID: 8273668654562313304}
     - target: {fileID: 5438256148948267226, guid: 23632c0174bd7c647812f0e4346a02dc, type: 3}
       propertyPath: m_Name
       value: LebensUI

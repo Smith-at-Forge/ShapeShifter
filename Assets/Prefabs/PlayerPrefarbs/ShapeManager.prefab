@@ -47,17 +47,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3827464624cda44ea7c2e5a8860f59e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultShape: {fileID: 7294437902064426853, guid: 55f2c6c7fd1a4634cb058a6f4f976e4a, type: 3}
+  defaultShape: {fileID: 7275954978260467567, guid: 3c15ed9b84a1543bdbc8f17d7d736aff, type: 3}
   wolke: {fileID: 5208933264462713629, guid: ae3e91ab4a1fd83468e099b60e96c06b, type: 3}
   fluessig: {fileID: 8204269037320509450, guid: 86b68006de1b52f478206af6865b4bec, type: 3}
   feuerKugel: {fileID: 8157606262519560398, guid: 747a26ca812afb342872b3b9539cd75b, type: 3}
   kristall: {fileID: 7997533874673834100, guid: 71a090147d5cfbc489130ec1a3db578f, type: 3}
   magnet: {fileID: 6624285511090677153, guid: 85a112ed6d7797448b8c9f83d469b35d, type: 3}
+  currentShape: {fileID: 0}
   isFluessigFreigeschaltet: 1
   isFeuerKugelFreigeschaltet: 1
   isKristallFreigeschaltet: 0
   isMagnetFreigeschaltet: 1
   timerValue: 10
+  isWolkenTimerActive: 0
+  isKristallTimerActive: 0
 --- !u!114 &1790678095435798873
 MonoBehaviour:
   m_ObjectHideFlags: 0
