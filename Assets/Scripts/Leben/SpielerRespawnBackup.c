@@ -5,27 +5,25 @@ public class SpielerRespawn : MonoBehaviour
     // [SerializeField] private AudioClip checkpointSound;
     private Health playerHealth;
     private Transform currentCheckpoint;
-    private UIManager uiManager;
-
     [SerializeField] private Transform spawnPoint;
     private bool check = false;
 
     private void Awake()
     {
         playerHealth = GetComponent<Health>();
-        uiManager = FindAnyObjectByType<UIManager>();
     }
 
     public void CheckRespawn()
     {
-        if (check == false)
+        if (check == true)
         {
-            uiManager.GameOver();
-            return;
+            transform.position = currentCheckpoint.position; // Bewegt Spieler zu Checkpoint zurueck
+            playerHealth.Respawn(); // Leben & Animation zuruecksetzen
         }
-
-        transform.position = currentCheckpoint.position;
-        playerHealth.Respawn();
+        else
+        {
+            transform.position = spawnPoint.position;
+        }
         
 
         // Kamera zur�ckbewegen falls Raumkamera aktiv und nicht Spielerverfolgung
