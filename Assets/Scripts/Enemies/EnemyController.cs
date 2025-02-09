@@ -22,9 +22,11 @@ public class EnemyController : MonoBehaviour
             PlayerHealthController.instance.DamagePlayer();
         }
     }
+
+    // FireBall zerstoert Gegner
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if(other.CompareTag("FireBall"))
         {
             Destroy(gameObject);
             //FindFirstObjectByType<PlayerController>().Jump();
