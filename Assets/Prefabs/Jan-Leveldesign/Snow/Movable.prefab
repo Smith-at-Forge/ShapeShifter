@@ -126,6 +126,14 @@ PrefabInstance:
       propertyPath: m_DrawMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1080605676964813627, guid: 4f6cc9451ddc05943a7482b8fef9c47b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1080605676964813627, guid: 4f6cc9451ddc05943a7482b8fef9c47b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1066156657
+      objectReference: {fileID: 0}
     - target: {fileID: 2781316819874966293, guid: 4f6cc9451ddc05943a7482b8fef9c47b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.2742157
