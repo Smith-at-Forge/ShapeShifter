@@ -1,16 +1,28 @@
+using UnityEditor.Callbacks;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
 
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float jumpPower;
+    
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
+    [SerializeField] private LayerMask waterLayer;
     private Rigidbody2D body;
     private Animator anim;
     private BoxCollider2D boxCollider;
-    private float wallJumpCooldown;
-    private float horizontalInput;
+    private float wallJumpCooldown; 
+    private float horizontalInput; // Movement links/rechts
+    // Wasser ueberpruefen
+    public Vector2 boxSize = new Vector2(1,1);
+    private PlayerWaterCheck waterCheck;
+
+    // Plattform
+    public bool isOnPlattform;
+    public Rigidbody2D platformRB;
+    //Rigidbody2D rb;
 
     private void Awake()
     {
@@ -18,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        waterCheck = GetComponent<PlayerWaterCheck>();
+        //rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
@@ -52,12 +66,35 @@ public class PlayerMovement : MonoBehaviour
         }
         else
             wallJumpCooldown += Time.deltaTime;
+
+        // Watercheck 
+        if (waterCheck != null && waterCheck.inWater())
+        {
+            Debug.Log("Player in Water");
+        }
+        else
+        {
+            Debug.Log("Not in Water");
+        }
+
+        // Plattform
+        /*
+        if (isOnPlattform)
+        {
+            rb.linearVelocity = new Vector2(speed + platformRB.linearVelocity.x, rb.linearVelocity.y );
+        }
+        else
+        {
+            rb.linearVelocity = new Vector2(speed, rb.linearVelocity.y);
+        }
+        */
+        
     }
 
     private void Jump()
     {
 
-        if (isGrounded())
+        if (isGrounded() && !waterCheck.inWater())
         {
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
             anim.SetTrigger("jump");
@@ -76,20 +113,22 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+
     private bool isGrounded()
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
         return raycastHit.collider != null;
+        
     }
     private bool onWall()
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
         return raycastHit.collider != null;
     }
-
+    
     public bool canAttack()
     {
-        // falls Angriff beim laufen möglich sein soll horizontalInput == 0 entfernen
+        // falls Angriff beim laufen mï¿½glich sein soll horizontalInput == 0 entfernen
         return horizontalInput == 0 && isGrounded() && !onWall();
     }
 }

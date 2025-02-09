@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Flüssigkeit : MonoBehaviour //, IShape
+public class Fluessigkeit : MonoBehaviour //, IShape
 {
     public float fieldOfInpact;
     public float force;
@@ -16,9 +16,9 @@ public class Flüssigkeit : MonoBehaviour //, IShape
     // Update is called once per frame
     void Update()
     {
-        FeuerLöschen();
+        FeuerLoeschen();
     }
-    public void FeuerLöschen()
+    public void FeuerLoeschen()
     {
         Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, fieldOfInpact, LayerToHit);
         foreach (Collider2D obj in objects)
