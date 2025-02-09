@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private LayerMask waterLayer;
+    [SerializeField] private AudioClip sound_jump;
     private Rigidbody2D body;
     private Animator anim;
     private BoxCollider2D boxCollider;
@@ -63,6 +64,9 @@ public class PlayerMovement : MonoBehaviour
 
             if (Input.GetKey(KeyCode.Space))
                 Jump();
+
+                if (Input.GetKeyDown(KeyCode.Space) && isGrounded() && waterCheck)
+                    SoundManager.instance.PlaySound(sound_jump);
         }
         else
             wallJumpCooldown += Time.deltaTime;
@@ -98,6 +102,7 @@ public class PlayerMovement : MonoBehaviour
         {
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
             anim.SetTrigger("jump");
+            
         }
         else if (onWall() && !isGrounded())
         {

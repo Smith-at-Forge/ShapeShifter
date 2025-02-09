@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
+
+    [SerializeField] private float damage;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,8 +25,21 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            collision.GetComponent<Health>().TakeDamage(damage);
+        }
+
+        if (collision.CompareTag("FireBall"))
+        {
+            Destroy(gameObject);
+        }
+    }
+
     // FireBall zerstoert Gegner
-    private void OnTriggerEnter2D(Collider2D other)
+    /*    private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("FireBall"))
         {
@@ -33,4 +48,5 @@ public class EnemyController : MonoBehaviour
             //FindFirstObjectByType<DragonPlayerController>().Jump();
         }
     }
+    */
 }

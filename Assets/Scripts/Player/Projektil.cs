@@ -26,7 +26,7 @@ public class Projektil : MonoBehaviour
         if (lifetime > 5) gameObject.SetActive(false);
     }
     
-    // überprüfen ob Feuerball was getroffen hat
+    // ï¿½berprï¿½fen ob Feuerball was getroffen hat
     private void OnTriggerEnter2D(Collider2D collision)
     {
         hit = true;
@@ -34,7 +34,7 @@ public class Projektil : MonoBehaviour
         anim.SetTrigger("explode");
     }
 
-    // links / rechts schießen | reset des Feuerballs nach hit
+    // links / rechts schieï¿½en | reset des Feuerballs nach hit
     public void SetDirection(float _direction)
     {
         lifetime = 0;

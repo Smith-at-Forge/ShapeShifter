@@ -22,6 +22,12 @@ public class ShapeManager : MonoBehaviour
     public bool isKristallTimerActive = false;
     private bool isMagnetTimerActive = false;
 
+    [SerializeField] private AudioClip sound_swap_wolke;
+    [SerializeField] private AudioClip sound_swap_fluessig;
+    [SerializeField] private AudioClip sound_swap_feuerKugel;
+    [SerializeField] private AudioClip sound_swap_kristall;
+    [SerializeField] private AudioClip sound_swap_magnet;
+
     public static ShapeManager instance;
     private void Awake()
     {
@@ -44,7 +50,8 @@ public class ShapeManager : MonoBehaviour
 
         // Wolken countdown
         if (isWolkenTimerActive)
-        {
+        {   
+            SoundManager.instance.PlaySound(sound_swap_wolke);
             Debug.Log("ShapeManager Wolke Aktiv");
             timer -= Time.deltaTime;
             if (timer <= 0f)
@@ -56,6 +63,7 @@ public class ShapeManager : MonoBehaviour
         }
         if (isFluessigTimerActive)
         {
+            SoundManager.instance.PlaySound(sound_swap_fluessig);
             Debug.Log("ShapeManager Fluessig Aktiv");
             timer -= Time.deltaTime;
             if (timer <= 0f)
@@ -67,6 +75,7 @@ public class ShapeManager : MonoBehaviour
         }
         if (isFeuerKugelTimerActive)
         {
+            SoundManager.instance.PlaySound(sound_swap_feuerKugel);
             Debug.Log("ShapeManager Feuer Aktiv");
             timer -= Time.deltaTime;
             if (timer <= 0f)
@@ -78,6 +87,7 @@ public class ShapeManager : MonoBehaviour
         }
         if (isKristallTimerActive)
         {
+            SoundManager.instance.PlaySound(sound_swap_kristall);
             Debug.Log("ShapeManager Kristall Aktiv");
             timer -= Time.deltaTime;
             if (timer <= 0f)
@@ -89,6 +99,7 @@ public class ShapeManager : MonoBehaviour
         }
         if (isMagnetTimerActive)
         {
+            SoundManager.instance.PlaySound(sound_swap_magnet);
             Debug.Log("ShapeManager Magnet Aktiv");
             timer -= Time.deltaTime;
             if (timer <= 0f)
