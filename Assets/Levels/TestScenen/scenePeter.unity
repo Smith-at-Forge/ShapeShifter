@@ -12958,11 +12958,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1187165999 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5460490397309324743, guid: 2f8f52a82cad5430d918060bc8f0ba5c, type: 3}
-  m_PrefabInstance: {fileID: 944054998922423743}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1198773024
 GameObject:
   m_ObjectHideFlags: 0
@@ -13858,7 +13853,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277192193}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ace59f68fb10f481fa60fc2c62684458, type: 3}
   m_Name: 
@@ -16713,51 +16708,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1575693865
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1575693866}
-  - component: {fileID: 1575693867}
-  m_Layer: 0
-  m_Name: PausenManue
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1575693866
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1575693865}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1187165999}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1575693867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1575693865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ace59f68fb10f481fa60fc2c62684458, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pausenMenueUI: {fileID: 0}
 --- !u!1 &1580380129
 GameObject:
   m_ObjectHideFlags: 0
@@ -23457,10 +23407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5460490397309324743, guid: 2f8f52a82cad5430d918060bc8f0ba5c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1575693866}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f8f52a82cad5430d918060bc8f0ba5c, type: 3}
 --- !u!1001 &2793216122591240129
@@ -23475,6 +23422,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 38459754}
+    - target: {fileID: 2840720328654978793, guid: 3a62d9e8c33bf4410b96a28cade658b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 38459758}
+    - target: {fileID: 2840720328654978793, guid: 3a62d9e8c33bf4410b96a28cade658b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResumeGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840720328654978793, guid: 3a62d9e8c33bf4410b96a28cade658b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PausenMenue, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 5809333786975542060, guid: 3a62d9e8c33bf4410b96a28cade658b1, type: 3}
       propertyPath: m_Name
       value: PauseScreen
@@ -23702,6 +23661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LebensUI
       objectReference: {fileID: 0}
+    - target: {fileID: 5467424497709537899, guid: bb4f29e3accb0439593f797800660dab, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 8273668654562313304, guid: 3c15ed9b84a1543bdbc8f17d7d736aff, type: 3}
     - target: {fileID: 5562286173240859521, guid: bb4f29e3accb0439593f797800660dab, type: 3}
       propertyPath: m_Pivot.x
       value: 0
