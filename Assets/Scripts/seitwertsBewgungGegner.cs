@@ -9,7 +9,7 @@ public class seitwertsBewgungGegner : MonoBehaviour
     private float leftEdge;
     private float rightEdge;
 
-    // Falls gewünscht, dass sich Gegner nicht bewegt -> Script Saege
+    // Falls gewï¿½nscht, dass sich Gegner nicht bewegt -> Script Saege
 
     private void Awake()
     {

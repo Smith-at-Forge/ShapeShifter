@@ -3,6 +3,7 @@ using UnityEngine;
 public class SpielerRespawn : MonoBehaviour
 {
     // [SerializeField] private AudioClip checkpointSound;
+    [SerializeField] int spielerRespawnAnazahl;
     private Health playerHealth;
     private Transform currentCheckpoint;
     private UIManager uiManager;
@@ -18,14 +19,22 @@ public class SpielerRespawn : MonoBehaviour
 
     public void CheckRespawn()
     {
-        if (check == false)
+        if (check == false && spielerRespawnAnazahl == 0)
         {
             uiManager.GameOver();
             return;
         }
 
-        transform.position = currentCheckpoint.position;
-        playerHealth.Respawn();
+        spielerRespawnAnazahl -= 1;
+        if (check == true)
+        {
+            transform.position = currentCheckpoint.position;
+            playerHealth.Respawn();
+        }
+        else
+        {
+            //transform.position = ShapeManager.position;
+        }
         
 
         // Kamera zur�ckbewegen falls Raumkamera aktiv und nicht Spielerverfolgung

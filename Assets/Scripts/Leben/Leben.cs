@@ -18,6 +18,7 @@ public class Health : MonoBehaviour
 
     [Header("Components")]
     [SerializeField] private Behaviour[] components;
+    [SerializeField] private AudioClip sound_player_hurt;
 
 
     // Schaden verhindern, wenn true
@@ -51,6 +52,7 @@ public class Health : MonoBehaviour
 
         if (currentHealth > 0)
         {
+            SoundManager.instance.PlaySound(sound_player_hurt);
             anim.SetTrigger("hurt");
         }
         else
