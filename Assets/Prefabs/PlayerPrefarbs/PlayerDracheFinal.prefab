@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 14398866188226252}
   - component: {fileID: 7107403444531063371}
   - component: {fileID: 8273668654562313304}
-  - component: {fileID: 1009833399191528487}
+  - component: {fileID: 5195760820614957876}
   m_Layer: 0
   m_Name: PlayerDracheFinal
   m_TagString: Player
@@ -364,7 +364,7 @@ MonoBehaviour:
   numberOfFlashes: 0
   components: []
   sound_player_hurt: {fileID: 8300000, guid: f718d9e77020b402094b40846d6c7fed, type: 3}
---- !u!114 &1009833399191528487
+--- !u!114 &5195760820614957876
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7275954978260467567}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a4f46a960f5540b591c6a436b15461c, type: 3}
+  m_Script: {fileID: 11500000, guid: aa5e876c4c52a4c59999f4fdc7b57db8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &94407042553491987
