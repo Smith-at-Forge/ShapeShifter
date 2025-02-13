@@ -123,7 +123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1454834305370019480}
   - component: {fileID: 3184661773843085807}
-  - component: {fileID: 2072589137390812357}
+  - component: {fileID: 363846434521317485}
   m_Layer: 0
   m_Name: MagnetCollider
   m_TagString: Untagged
@@ -182,7 +182,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 4
---- !u!114 &2072589137390812357
+--- !u!114 &363846434521317485
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -191,20 +191,95 @@ MonoBehaviour:
   m_GameObject: {fileID: 6046273522114624089}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c19f38dc50d3de84193e442ba3707994, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bd312c25fa6f2a4ea0eadeb3fd84a5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6491545893204961294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9182566967934288745}
+  - component: {fileID: 7446995095999688360}
+  - component: {fileID: 8794138147974817006}
+  m_Layer: 0
+  m_Name: RepelCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &9182566967934288745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491545893204961294}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6304336030821007821}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &7446995095999688360
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491545893204961294}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
+--- !u!114 &8794138147974817006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491545893204961294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59df625d8f7ea704c8b862293c708258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fieldOfInpact: 4
-  force: 100
+  force: 300
   LayerToHit:
     serializedVersion: 2
-    m_Bits: 512
-  fieldOfAttract: 5
-  attracForce: 300
-  LayerToAttract:
-    serializedVersion: 2
     m_Bits: 1024
-  isAttracting: 0
 --- !u!1 &6624285511090677153
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,9 +291,9 @@ GameObject:
   - component: {fileID: 6304336030821007821}
   - component: {fileID: 8577272958108583330}
   - component: {fileID: 1938541911576865057}
-  - component: {fileID: 3911309453481811206}
   - component: {fileID: 3999365724195097055}
   - component: {fileID: 5608041864995238348}
+  - component: {fileID: 4593093939713780238}
   m_Layer: 0
   m_Name: MagnetPlayer
   m_TagString: Player
@@ -242,6 +317,7 @@ Transform:
   - {fileID: 1833993267572221147}
   - {fileID: 1454834305370019480}
   - {fileID: 488869328524108007}
+  - {fileID: 9182566967934288745}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8577272958108583330
@@ -326,43 +402,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!70 &3911309453481811206
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6624285511090677153}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 490b7a0670d9cca40b75ecd24a891038, type: 2}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.018437743, y: -0.002077341}
-  m_Size: {x: 1.0368755, y: 1.0963426}
-  m_Direction: 0
 --- !u!95 &3999365724195097055
 Animator:
   serializedVersion: 7
@@ -406,3 +445,17 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 3999365724195097055}
+--- !u!114 &4593093939713780238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6624285511090677153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19f38dc50d3de84193e442ba3707994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _magnet: {fileID: 6046273522114624089}
+  _repel: {fileID: 6491545893204961294}
