@@ -9,8 +9,8 @@ public class PlayerMovement : MonoBehaviour
     
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
-    //[SerializeField] private LayerMask waterLayer;
-    //[SerializeField] private AudioClip sound_jump;
+    [SerializeField] private LayerMask waterLayer;
+    [SerializeField] private AudioClip sound_jump;
     private Rigidbody2D body;
     private Animator anim;
     private BoxCollider2D boxCollider;
@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalInput; // Movement links/rechts
     // Wasser ueberpruefen
     public Vector2 boxSize = new Vector2(1,1);
-   // private PlayerWaterCheck waterCheck;
+    private PlayerWaterCheck waterCheck;
 
     // Plattform
     public bool isOnPlattform;
@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
-       // waterCheck = GetComponent<PlayerWaterCheck>();
+        waterCheck = GetComponent<PlayerWaterCheck>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -65,21 +65,21 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey(KeyCode.Space))
                 Jump();
 
-            //if (Input.GetKeyDown(KeyCode.Space) && isGrounded() && waterCheck)
-            //    SoundManager.instance.PlaySound(sound_jump);
+            if (Input.GetKeyDown(KeyCode.Space) && isGrounded() && waterCheck)
+                SoundManager.instance.PlaySound(sound_jump);
         }
         else
             wallJumpCooldown += Time.deltaTime;
 
         // Watercheck 
-        //if (waterCheck != null && waterCheck.inWater())
-        //{
-        //    Debug.Log("Player in Water");
-        //}
-        //else
-        //{
-        //    Debug.Log("Not in Water");
-        //}
+        if (waterCheck != null && waterCheck.inWater())
+        {
+            Debug.Log("Player in Water");
+        }
+        else
+        {
+            Debug.Log("Not in Water");
+        }
 
         // Plattform
         /*
@@ -92,13 +92,13 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(speed, rb.linearVelocity.y);
         }
         */
-        
+
     }
 
     private void Jump()
     {
 
-        if (isGrounded() /*&& !waterCheck.inWater()*/)
+        if (isGrounded() && !waterCheck.inWater())
         {
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
             anim.SetTrigger("jump");
