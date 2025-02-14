@@ -4,13 +4,6 @@ public class FuellenFähigkeit : MonoBehaviour
 {
     public GameObject fliessendeFluessig;
     
-    void Start()
-    {
-        //currentWolke = Instantiate(ShapeManager.instance.wolke, transform.position, Quaternion.identity);
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F))
