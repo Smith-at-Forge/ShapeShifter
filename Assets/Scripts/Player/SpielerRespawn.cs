@@ -3,7 +3,7 @@ using UnityEngine;
 public class SpielerRespawn : MonoBehaviour
 {
     // [SerializeField] private AudioClip checkpointSound;
-    [SerializeField] int spielerRespawnAnazahl;
+    [SerializeField, Range(0,1)] int spielerRespawnAnazahl;
     private Health playerHealth;
     private Transform currentCheckpoint;
     private UIManager uiManager;
@@ -19,7 +19,7 @@ public class SpielerRespawn : MonoBehaviour
 
     public void CheckRespawn()
     {
-        if (check == false && spielerRespawnAnazahl == 0)
+        if (spielerRespawnAnazahl == 0)
         {
             uiManager.GameOver();
             return;
@@ -51,6 +51,7 @@ public class SpielerRespawn : MonoBehaviour
             collision.GetComponent<Collider2D>().enabled = false;
             collision.GetComponent<Animator>().SetTrigger("erscheinen");
             check = true;
+            spielerRespawnAnazahl = 1;
         }
     }
 }
