@@ -6,12 +6,18 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField] private GameObject gameOverScreen;
     [SerializeField] private AudioClip gameOverSound;
+    [SerializeField] private GameObject victoryScreenLevel;
+    [SerializeField] private GameObject victoryScreenGame;
+    [SerializeField] private GameObject statistikSpielAll;
     
 
 
     private void Awake()
     {
         gameOverScreen.SetActive(false);
+        victoryScreenLevel.SetActive(false);
+        victoryScreenGame.SetActive(false);
+        statistikSpielAll.SetActive(false);
     }
     public void GameOver()
     {
@@ -35,5 +41,22 @@ public class UIManager : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+    }
+
+    public void NextLevel()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        int currenIndex = currentScene.buildIndex;
+
+        int nextIndex = currenIndex + 1;
+
+        if(nextIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(nextIndex);
+        }
+        else
+        {
+            victoryScreenGame.SetActive(true);
+        }
     }
 }
