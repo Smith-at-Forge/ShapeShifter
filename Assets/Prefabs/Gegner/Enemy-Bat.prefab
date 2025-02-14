@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1694440481600965979}
   - component: {fileID: 676130971574441195}
   - component: {fileID: 2535170604257387880}
+  - component: {fileID: 3806631736766919842}
   m_Layer: 0
   m_Name: Enemy-Bat
   m_TagString: Untagged
@@ -120,7 +121,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2678472806215403511}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 914e826a06b66b342a98956ccf9d56f4, type: 3}
   m_Name: 
@@ -128,6 +129,20 @@ MonoBehaviour:
   patrolPoints: []
   moveSpeed: 2
   timeAtPoints: 1
+--- !u!114 &3806631736766919842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2678472806215403511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3aabce03080c042bdf8b9cbf4fde09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aktivierungsDistanz: 5
+  player: {fileID: 0}
 --- !u!1 &4818341479364965852
 GameObject:
   m_ObjectHideFlags: 0
