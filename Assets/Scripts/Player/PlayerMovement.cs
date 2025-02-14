@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     // Plattform
     public bool isOnPlattform;
     public Rigidbody2D platformRB;
-    //Rigidbody2D rb;
+    Rigidbody2D rb;
 
     private void Awake()
     {
@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
         waterCheck = GetComponent<PlayerWaterCheck>();
-        //rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
@@ -65,8 +65,8 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey(KeyCode.Space))
                 Jump();
 
-                if (Input.GetKeyDown(KeyCode.Space) && isGrounded() && waterCheck)
-                    SoundManager.instance.PlaySound(sound_jump);
+            if (Input.GetKeyDown(KeyCode.Space) && isGrounded() && waterCheck)
+                SoundManager.instance.PlaySound(sound_jump);
         }
         else
             wallJumpCooldown += Time.deltaTime;
@@ -92,7 +92,7 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(speed, rb.linearVelocity.y);
         }
         */
-        
+
     }
 
     private void Jump()

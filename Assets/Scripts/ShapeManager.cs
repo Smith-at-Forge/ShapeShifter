@@ -17,7 +17,7 @@ public class ShapeManager : MonoBehaviour
     [SerializeField] private float timerValue = 10f;
     private float timer; // Countdown f�r die Form
     public bool isWolkenTimerActive = false;
-    private bool isFluessigTimerActive = false;
+    public bool isFluessigTimerActive = false;
     private bool isFeuerKugelTimerActive = false;
     public bool isKristallTimerActive = false;
     private bool isMagnetTimerActive = false;
@@ -50,7 +50,7 @@ public class ShapeManager : MonoBehaviour
 
         // Wolken countdown
         if (isWolkenTimerActive)
-        {   
+        {
             SoundManager.instance.PlaySound(sound_swap_wolke);
             Debug.Log("ShapeManager Wolke Aktiv");
             timer -= Time.deltaTime;
