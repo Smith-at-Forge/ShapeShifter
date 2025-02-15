@@ -191,6 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c68c81ecf8688c4384ce06258a88a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 1
 --- !u!50 &5621104772860983348
 Rigidbody2D:
   serializedVersion: 5
@@ -217,7 +218,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &7935047535065844647
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -368,8 +369,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1066156657
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -5536832275885497241, guid: 29d632b2b2069ef429b17abbf8fdc381, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
