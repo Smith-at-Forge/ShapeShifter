@@ -1,16 +1,24 @@
+using UnityEditor.Rendering;
 using UnityEngine;
 
 public class LevelEnd : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public bool LevelOver = false;
+    [SerializeField] 
+
+    private void Update()
     {
-        
+        if(LevelOver)
+        {
+
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.transform.tag == "Player")
+        {
+            LevelOver = true;
+        }
     }
 }
