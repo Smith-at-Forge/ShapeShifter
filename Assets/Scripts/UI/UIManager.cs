@@ -8,7 +8,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private AudioClip gameOverSound;
     [SerializeField] private GameObject victoryScreenLevel;
     [SerializeField] private GameObject victoryScreenGame;
-    [SerializeField] private GameObject statistikSpielAll;
+    //[SerializeField] private GameObject statistikSpielAll;
+    //LevelEnd levelend;
     
 
 
@@ -17,8 +18,18 @@ public class UIManager : MonoBehaviour
         gameOverScreen.SetActive(false);
         victoryScreenLevel.SetActive(false);
         victoryScreenGame.SetActive(false);
-        statistikSpielAll.SetActive(false);
+        //statistikSpielAll.SetActive(false);
     }
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            victoryScreenLevel.SetActive(true);
+            Debug.Log("Message");
+        }
+    }
+
     public void GameOver()
     {
         gameOverScreen.SetActive(true);
@@ -45,6 +56,8 @@ public class UIManager : MonoBehaviour
 
     public void NextLevel()
     {
+        //SceneManager.LoadScene(2);
+        
         Scene currentScene = SceneManager.GetActiveScene();
         int currenIndex = currentScene.buildIndex;
 
@@ -58,5 +71,12 @@ public class UIManager : MonoBehaviour
         {
             victoryScreenGame.SetActive(true);
         }
+        
+    }
+
+    public void LevelWon()
+    {
+        victoryScreenLevel.SetActive(true);
+        Time.timeScale = 0f;
     }
 }

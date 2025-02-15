@@ -15,5 +15,6 @@ public class TimeTrackerV3 : MonoBehaviour
       int sekunden = Mathf.FloorToInt(timePassed % 60f);
 
       timeTracker.text = string.Format("{0:00}:{1:00}", minuten, sekunden);
+      
     }
 }
