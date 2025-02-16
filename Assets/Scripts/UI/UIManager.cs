@@ -1,11 +1,12 @@
-using UnityEditor.ShaderKeywordFilter;
+//using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-    [SerializeField] private GameObject gameOverScreen;
     [SerializeField] private AudioClip gameOverSound;
+
+    [SerializeField] private GameObject gameOverScreen;
     [SerializeField] private GameObject victoryScreenLevel;
     [SerializeField] private GameObject victoryScreenGame;
     //[SerializeField] private GameObject statistikSpielAll;
@@ -26,7 +27,7 @@ public class UIManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             LevelWon();
-            //victoryScreenLevel.SetActive(true);
+            victoryScreenLevel.SetActive(true);
             Debug.Log("Message");
         }
     }
@@ -34,6 +35,7 @@ public class UIManager : MonoBehaviour
     public void GameOver()
     {
         gameOverScreen.SetActive(true);
+        Time.timeScale = 0f;
         SoundManager.instance.PlaySound(gameOverSound);
     }
 

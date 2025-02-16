@@ -8,7 +8,7 @@ public class SpielerRespawn : MonoBehaviour
     private Transform currentCheckpoint;
     private UIManager uiManager;
 
-    [SerializeField] private Transform spawnPoint;
+    //[SerializeField] private Transform spawnPoint;
     private bool check = false;
 
     private void Awake()
@@ -17,12 +17,18 @@ public class SpielerRespawn : MonoBehaviour
         uiManager = FindAnyObjectByType<UIManager>();
     }
 
+    private void Update()
+    {
+        if (playerHealth.currentHealth == 0)
+            CheckRespawn();
+    }
+
     public void CheckRespawn()
     {
         if (spielerRespawnAnazahl == 0)
         {
             uiManager.GameOver();
-            return;
+            //return;
         }
 
         spielerRespawnAnazahl -= 1;

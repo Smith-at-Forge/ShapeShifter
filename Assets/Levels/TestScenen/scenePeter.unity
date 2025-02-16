@@ -3677,6 +3677,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2064688020153978265, guid: 76c8dd1c5f7504247987089b983c2e3f, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1277192201}
     - target: {fileID: 3005684381075477772, guid: 76c8dd1c5f7504247987089b983c2e3f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -13522,11 +13526,11 @@ PrefabInstance:
       objectReference: {fileID: 1401517259}
     - target: {fileID: 1680117712597198052, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.8
+      value: 100.62
       objectReference: {fileID: 0}
     - target: {fileID: 1680117712597198052, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.06
+      value: 2.31
       objectReference: {fileID: 0}
     - target: {fileID: 1680117712597198052, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13563,6 +13567,14 @@ PrefabInstance:
     - target: {fileID: 5973604780572091790, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
       propertyPath: m_Name
       value: LevelEndBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022298312451865170, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022298312451865170, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.46
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14104,7 +14116,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277192193}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ace59f68fb10f481fa60fc2c62684458, type: 3}
   m_Name: 
@@ -14122,6 +14134,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa5e876c4c52a4c59999f4fdc7b57db8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1277192201 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4486592155236022943, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
+  m_PrefabInstance: {fileID: 1318203141}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277192193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2806d910dbd23845aaf9026e253a9cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1277192202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277192193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2cce67eb512a848867e99b039fc072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spielerRespawnAnazahl: 0
 --- !u!1 &1298657614
 GameObject:
   m_ObjectHideFlags: 0
@@ -14398,11 +14434,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4484686614237112431, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 91.8
+      value: 36.73
       objectReference: {fileID: 0}
     - target: {fileID: 4484686614237112431, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.18
+      value: 1.58
       objectReference: {fileID: 0}
     - target: {fileID: 4484686614237112431, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14458,14 +14494,13 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: a65dfe976d2c64479baf7487b9396a34, type: 3}
     - target: {fileID: 6223339930740386812, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
       propertyPath: isFluessigFreigeschaltet
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6223339930740386812, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
       propertyPath: isKristallFreigeschaltet
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1790678095435798873, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -14475,6 +14510,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 528439833733958746, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1277192195}
+    - targetCorrespondingSourceObject: {fileID: 528439833733958746, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1277192202}
   m_SourcePrefab: {fileID: 100100000, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
 --- !u!1 &1324631660
 GameObject:
@@ -23560,9 +23598,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6535186186043755582, guid: 132116e55cdad6b4f9a8b775e7553334, type: 3}
-      propertyPath: damage
-      value: 99999
-      objectReference: {fileID: 0}
+      propertyPath: spielerRespawn
+      value: 
+      objectReference: {fileID: 1277192202}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

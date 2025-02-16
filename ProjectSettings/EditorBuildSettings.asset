@@ -4,6 +4,54 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/Levels/Main/Hauptmen\xFC.unity"
+    guid: 8d931362ff07ba94b9a495884c759dae
+  - enabled: 0
+    path: Assets/Levels/Main/Level 1.unity
+    guid: 1f4ecf6a95a8bc74aba444de23a8a19e
+  - enabled: 0
+    path: Assets/Levels/Main/Level 2.unity
+    guid: 2f4b01c75c2739b419043f967b91dda6
+  - enabled: 0
+    path: Assets/Levels/Main/Level 3.unity
+    guid: d14889a4973e4f7429cb432096d21973
+  - enabled: 0
+    path: Assets/Levels/Main/Level 4.unity
+    guid: 3c96f4372e90e9c40b84620646c4a8a9
+  - enabled: 0
+    path: Assets/Levels/Main/Level 5.unity
+    guid: ff9ebce54fe84164482715776ec09db4
+  - enabled: 0
+    path: Assets/Levels/SceneHabibStartLevel1.unity
+    guid: 7cb53f6abfed51440b7ac43d61b1f07e
+  - enabled: 0
+    path: Assets/Levels/TestScenen/scenePeter.unity
+    guid: 6cf4fb692be96ee4fbbc407f4707c4a7
+  - enabled: 1
+    path: Assets/Levels/Jan-Levels/Level1.unity
+    guid: 4a6f9d0ffdfc04b41b0e8aa479d7215d
+  - enabled: 1
+    path: Assets/Levels/Jan-Levels/Level2.unity
+    guid: e8699ae796ea6a445aa4b9d10958d293
+  - enabled: 1
+    path: Assets/Levels/Jan-Levels/Level3-FEUER.unity
+    guid: 269a24f4d8d7ebf4184f0e641ed76085
+  - enabled: 1
+    path: Assets/Levels/Jan-Levels/Level4.unity
+    guid: 47e7dc7d02de1a74ab5d222cc22979e5
+  - enabled: 1
+    path: Assets/Levels/Jan-Levels/Level5.unity
+    guid: 288ba801a49917e4aa8317451cb7c6b0
+  - enabled: 1
+    path: Assets/Levels/Jan-Levels/Level6.unity
+    guid: 00d6c9404541da846802a8ba9b525a2d
+  - enabled: 1
+    path: Assets/Levels/Jan-Levels/Level7-Magnet.unity
+    guid: ce6f17aa157e41741b681b6c5c085d49
+  - enabled: 1
+    path: Assets/Levels/Jan-Levels/Level8.unity
+    guid: 3e7efb6f66e3d9149a4b96ce94e3e48d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
