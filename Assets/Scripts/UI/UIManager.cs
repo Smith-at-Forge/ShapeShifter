@@ -25,7 +25,8 @@ public class UIManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.X))
         {
-            victoryScreenLevel.SetActive(true);
+            LevelWon();
+            //victoryScreenLevel.SetActive(true);
             Debug.Log("Message");
         }
     }

@@ -327,10 +327,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2073738396571349209}
     m_Modifications:
+    - target: {fileID: 187599677910380837, guid: 76c8dd1c5f7504247987089b983c2e3f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2064688020153978265, guid: 76c8dd1c5f7504247987089b983c2e3f, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 8273668654562313304}
+    - target: {fileID: 2586631314045939449, guid: 76c8dd1c5f7504247987089b983c2e3f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3005684381075477772, guid: 76c8dd1c5f7504247987089b983c2e3f, type: 3}
       propertyPath: m_Pivot.x
       value: 0

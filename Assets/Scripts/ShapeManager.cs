@@ -28,6 +28,8 @@ public class ShapeManager : MonoBehaviour
     [SerializeField] private AudioClip sound_swap_kristall;
     [SerializeField] private AudioClip sound_swap_magnet;
 
+    public Counter counter;
+     
     public static ShapeManager instance;
     private void Awake()
     {
@@ -115,6 +117,7 @@ public class ShapeManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Alpha1) && !isWolkenTimerActive) // "1"-Taste auf der Haupttastatur (nicht das numerische Tastenfeld).
         {
             StartWolkenForm();
+            counter.IncrementShapeShift();
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2) && !isFluessigTimerActive)
         {
@@ -122,6 +125,7 @@ public class ShapeManager : MonoBehaviour
             if (isFluessigFreigeschaltet)
             {
                 StartFluessigForm();
+                counter.IncrementShapeShift();
             }
             else
             {
@@ -134,6 +138,7 @@ public class ShapeManager : MonoBehaviour
             {
 
                 StartFeuerKugelForm();
+                counter.IncrementShapeShift();
             }
             else
             {
@@ -145,7 +150,8 @@ public class ShapeManager : MonoBehaviour
         {
             if (isKristallFreigeschaltet)
             {
-                 StartKristallForm();
+                StartKristallForm();
+                counter.IncrementShapeShift();
             }
             else
             {
@@ -157,6 +163,7 @@ public class ShapeManager : MonoBehaviour
             if (isMagnetFreigeschaltet)
             {
                 StartMagnetForm();
+                counter.IncrementShapeShift();
             }
             else
             {
