@@ -124,6 +124,7 @@ public class ShapeManager : MonoBehaviour
        
             if (isFluessigFreigeschaltet)
             {
+                SoundManager.instance.PlaySound(sound_swap_fluessig);
                 StartFluessigForm();
                 counter.IncrementShapeShift();
             }

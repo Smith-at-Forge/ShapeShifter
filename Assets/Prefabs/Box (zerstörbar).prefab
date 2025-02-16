@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8544368978519746156}
   - component: {fileID: 2653042745494003794}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: woodenCrate_0
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 6078022921489315488}
   - component: {fileID: 6968180432869753952}
   - component: {fileID: 6308488224459949242}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: "Box (zerst\xF6rbar)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
