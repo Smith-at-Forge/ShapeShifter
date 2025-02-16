@@ -6,6 +6,7 @@ using System.Collections;
 public class getCoins : MonoBehaviour, ICollectible
 {
     public static getCoins instance;
+    [SerializeField] private AudioClip sound_coin_collected;
 
 
 
@@ -23,6 +24,7 @@ public class getCoins : MonoBehaviour, ICollectible
 
     public void Collect()
     {
+        SoundManager.instance.PlaySound(sound_coin_collected);
         Destroy(gameObject);
         OnCoinCollected?.Invoke();
     }
