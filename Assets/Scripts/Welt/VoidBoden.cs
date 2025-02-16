@@ -12,6 +12,7 @@ public class VoidBoden : MonoBehaviour
         {
             //collision.GetComponent<Health>().TakeDamage(damage);
             spielerRespawn.CheckRespawn();
+            Debug.Log("Spieler in Lava gefallen");
         }
     }
 }

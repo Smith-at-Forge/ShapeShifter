@@ -4,27 +4,25 @@ using UnityEngine.UI;
 public class ControlsPopup : MonoBehaviour
 {
     // Ziehe hier im Inspektor dein UI-Panel (das den Text enthält) rein.
-    public GameObject controlsPanel;
+    [SerializeField] private GameObject controlsPanel1;
+    [SerializeField] private GameObject controlsPanel2;
 
-    void Start()
+    private void Awake()
     {
-        // Beim Start das Panel anzeigen
-        if (controlsPanel != null)
-        {
-            controlsPanel.SetActive(true);
-        }
+        controlsPanel1.SetActive(true);
+        controlsPanel2.SetActive(false);
     }
 
     void Update()
     {
         // Überprüfe, ob die linke oder rechte Pfeiltaste gedrückt wurde
-        if (Input.anyKeyDown)
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
         {
-            // Verstecke das Panel
-            if (controlsPanel != null)
-            {
-                controlsPanel.SetActive(false);
-            }
+            Debug.Log("Taste gedrückt");
+            controlsPanel1.SetActive(false);
+            controlsPanel2.SetActive(true);
         }
+
+        
     }
 }

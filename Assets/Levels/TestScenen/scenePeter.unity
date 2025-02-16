@@ -14434,11 +14434,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4484686614237112431, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 91.51
+      value: 36.73
       objectReference: {fileID: 0}
     - target: {fileID: 4484686614237112431, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.75
+      value: 1.58
       objectReference: {fileID: 0}
     - target: {fileID: 4484686614237112431, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23598,9 +23598,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6535186186043755582, guid: 132116e55cdad6b4f9a8b775e7553334, type: 3}
-      propertyPath: damage
-      value: 99999
-      objectReference: {fileID: 0}
+      propertyPath: spielerRespawn
+      value: 
+      objectReference: {fileID: 1277192202}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

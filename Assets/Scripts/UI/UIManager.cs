@@ -4,8 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-    [SerializeField] private GameObject gameOverScreen;
     [SerializeField] private AudioClip gameOverSound;
+
+    [SerializeField] private GameObject gameOverScreen;
     [SerializeField] private GameObject victoryScreenLevel;
     [SerializeField] private GameObject victoryScreenGame;
     //[SerializeField] private GameObject statistikSpielAll;
@@ -34,6 +35,7 @@ public class UIManager : MonoBehaviour
     public void GameOver()
     {
         gameOverScreen.SetActive(true);
+        Time.timeScale = 0f;
         SoundManager.instance.PlaySound(gameOverSound);
     }
 
