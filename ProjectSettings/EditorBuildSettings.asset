@@ -53,11 +53,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Jan-Levels/Level8.unity
     guid: 3e7efb6f66e3d9149a4b96ce94e3e48d
-  - enabled: 1
-    path: Assets/Levels/Jan-Levels/Level9-Kristall.unity
-    guid: 38d7b4bc720a3f64a938f22f80ae3846
-  - enabled: 1
-    path: Assets/Levels/Jan-Levels/Level9-Kristall 1.unity
-    guid: cd530e65ed88fd04b8c3c7ae05e2b8db
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
