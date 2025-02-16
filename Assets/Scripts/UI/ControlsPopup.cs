@@ -23,7 +23,7 @@ public class ControlsPopup : MonoBehaviour
 
     void Update()
     {
-        // Überprüfe, ob die linke oder rechte Pfeiltaste gedrückt wurde
+        // Überprüfe, ob A oder D gedrückt wurde
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
         {
             Debug.Log("Taste gedrückt");
