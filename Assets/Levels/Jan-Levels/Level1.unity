@@ -1300,6 +1300,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5648679816271280716, guid: 2c94bc13eea894c4495e21549ee0c432, type: 3}
   m_PrefabInstance: {fileID: 2078610120}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &202078415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 202078416}
+  - component: {fileID: 202078417}
+  m_Layer: 0
+  m_Name: TextPopUp1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &202078416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202078415}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -200, y: -23, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 985118830}
+  m_Father: {fileID: 1141182737}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &202078417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202078415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf5d6a95375b5a438bcdee5a7dd3cd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlsPanel: {fileID: 1924598931}
 --- !u!1 &202190804
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,7 +2250,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1888308608}
-  - {fileID: 985118830}
   m_Father: {fileID: 1141182737}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &476860401
@@ -2219,7 +2264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cf5d6a95375b5a438bcdee5a7dd3cd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlsPanel: {fileID: 0}
+  controlsPanel: {fileID: 270744822}
 --- !u!4 &486223840 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 741164488346754177, guid: d2b122afdc2d6dc43839f1bfa4cc69ca, type: 3}
@@ -4511,7 +4556,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2123821714}
-  m_Father: {fileID: 476860400}
+  m_Father: {fileID: 202078416}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5604,6 +5649,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 476860400}
+  - {fileID: 202078416}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1141692455 stripped
@@ -9362,7 +9408,7 @@ Canvas:
   m_GameObject: {fileID: 1888308607}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
