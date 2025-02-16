@@ -212,9 +212,9 @@ GameObject:
   - component: {fileID: 3886897368285139146}
   - component: {fileID: 5685998127033147957}
   - component: {fileID: -6289572630950315413}
-  - component: {fileID: 9138084132032101950}
+  - component: {fileID: 5119701714426009745}
   m_Layer: 0
-  m_Name: Plant Idle (44x42)_0
+  m_Name: Enemy-Plant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 2
---- !u!114 &9138084132032101950
+--- !u!114 &5119701714426009745
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -386,10 +386,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8637561038445314641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4ada52895e7f43eeba30958bc035ab5, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b7a32c08ec8db649a0830ce535ceb68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyAttackCooldown: 2
-  enemyAttackDamage: 1
-  boxCollider: {fileID: 0}
-  playerLayer: {fileID: 0}
+  speed: 2
