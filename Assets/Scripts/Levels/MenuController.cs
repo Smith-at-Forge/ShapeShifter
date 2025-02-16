@@ -9,27 +9,27 @@ public class MenuController : MonoBehaviour
    
     public void Level1()
     {
-       SceneManager.LoadSceneAsync("Level 1");
+        SceneManager.LoadScene(1);
     }
 
     public void Level2()
     {
-        SceneManager.LoadSceneAsync("Level 2");
+        SceneManager.LoadScene(2);
     }
 
     public void Level3()
     {
-        SceneManager.LoadSceneAsync("Level 3");
+        SceneManager.LoadScene(3);
     }
 
     public void Level4()
     {
-        SceneManager.LoadSceneAsync("Level 4");
+        SceneManager.LoadScene(4);
     }
 
     public void Level5()
     {
-        SceneManager.LoadSceneAsync("Level 5");
+        SceneManager.LoadScene(5);
     }
     public void Level6()
     {
