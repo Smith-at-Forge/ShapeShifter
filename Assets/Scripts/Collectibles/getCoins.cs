@@ -8,8 +8,6 @@ public class getCoins : MonoBehaviour, ICollectible
     public static getCoins instance;
     [SerializeField] private AudioClip sound_coin_collected;
 
-
-
     public static event Action OnCoinCollected;
     Rigidbody2D rb;
     bool hasTarget;

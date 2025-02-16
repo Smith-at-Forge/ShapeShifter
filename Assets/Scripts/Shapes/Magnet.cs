@@ -1,106 +1,30 @@
 using UnityEngine;
 
-public class Magnet : MonoBehaviour /* IShape*/
+public class Magnet : MonoBehaviour 
 {
-    //public static Magnet instance;
+    [SerializeField] GameObject _magnet;
+    [SerializeField] GameObject _repel;
 
-    //private void Awake()
-    //{
-    //    instance = this;
-    //}
-
-    //public Transform magnet;
-    //public float magnetPosX;
-    //public float magnetPosY;
-    //public bool attract = false;
-    //void Start()
-    //{
-
-    //}
-
-    public float fieldOfInpact;
-    public float force;
-    public LayerMask LayerToHit;
-
-    public float fieldOfAttract;
-    public float attracForce;
-    public LayerMask LayerToAttract;
-
-    public bool isAttracting = false;
-    //private float AbstossenZeit = 2f;
-    //private Collider2D storedCollision;
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void Switch()
     {
-        if (collision.gameObject.TryGetComponent<getCoins>(out getCoins coin))
+        if(_magnet.activeSelf == true)
         {
-            //storedCollision = collision;
-            coin.SetTarget(transform.position);
+            _magnet.SetActive(false);
+            _repel.SetActive(true);
         }
-    }
-
-    public void Anziehen()
-    {
-        
-        
-            //if (storedCollision.gameObject.TryGetComponent<getCoins>(out getCoins coin))
-            //{
-                
-            //    coin.SetTarget(transform.position);
-            //}
-            
-        
-        //isAttracting = true;
-        //Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, fieldOfAttract, LayerToAttract);
-        //foreach (Collider2D obj in objects)
-        //{
-        //    getCoins.instance.SetTarget(transform.position);
-        //}
-
-
-    }
-    public void Abstossen()
-    {
-        Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, fieldOfInpact, LayerToHit);
-        foreach (Collider2D obj in objects)
+        else
         {
-            Vector2 direction = obj.transform.position - transform.position;
-            obj.GetComponent<Rigidbody2D>().AddForce(direction * force);
-
-            Destroy(obj.gameObject, 1f);
-
+            _magnet.SetActive(true);
+            _repel.SetActive(false);
         }
-
     }
 
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.F))
         {
-            Abstossen();
+            Switch();
         }
-
-        //if (storedCollision != null && Input.GetKeyDown(KeyCode.F))
-        //{
-        //    if (storedCollision.gameObject.TryGetComponent<getCoins>(out getCoins coin))
-        //    {
-
-        //        coin.SetTarget(transform.position);
-        //    }
-        //}
-        //storedCollision = null;
-        ////{
-        //    if(isAttracting)
-        //    { 
-        //        Abstossen();
-        //        isAttracting = false ;
-
-        //    }
-        //    else
-        //    {
-        //        Anziehen();
-        //    }
-        //}
     }
 
     
