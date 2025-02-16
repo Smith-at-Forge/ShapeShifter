@@ -3,7 +3,7 @@ using UnityEngine;
 public class VoidBoden : MonoBehaviour
 {
     [SerializeField] private float damage;
-    SpielerRespawn spielerRespawn;
+    public SpielerRespawn spielerRespawn;
 
 
     private void OnTriggerEnter2D(Collider2D collision)

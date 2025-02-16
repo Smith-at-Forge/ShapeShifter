@@ -11,7 +11,7 @@ public class EnemyMelee : MonoBehaviour
     [SerializeField] BoxCollider2D boxCollider;
     [SerializeField] BoxCollider2D playerLayer;
     
-    private float cooldownTimer = Mathf.Infinity;
+    //private float cooldownTimer = Mathf.Infinity;
 
 
     /*

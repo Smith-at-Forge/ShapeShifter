@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1790678095435798873}
   - component: {fileID: 3644985425409707083}
   - component: {fileID: 7145892073074253591}
+  - component: {fileID: 4486592155236022943}
   m_Layer: 8
   m_Name: ShapeManager
   m_TagString: Player
@@ -60,7 +61,14 @@ MonoBehaviour:
   isMagnetFreigeschaltet: 1
   timerValue: 10
   isWolkenTimerActive: 0
+  isFluessigTimerActive: 0
   isKristallTimerActive: 0
+  sound_swap_wolke: {fileID: 0}
+  sound_swap_fluessig: {fileID: 0}
+  sound_swap_feuerKugel: {fileID: 0}
+  sound_swap_kristall: {fileID: 0}
+  sound_swap_magnet: {fileID: 0}
+  counter: {fileID: 0}
 --- !u!114 &1790678095435798873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,7 +76,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528439833733958746}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2782991c765b4b4484c9e12a4a8811f, type: 3}
   m_Name: 
@@ -139,3 +147,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &4486592155236022943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528439833733958746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2806d910dbd23845aaf9026e253a9cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 4
+  components: []
+  sound_player_hurt: {fileID: 8300000, guid: f718d9e77020b402094b40846d6c7fed, type: 3}

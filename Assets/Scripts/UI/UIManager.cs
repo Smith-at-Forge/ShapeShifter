@@ -1,4 +1,4 @@
-using UnityEditor.ShaderKeywordFilter;
+//using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -26,7 +26,7 @@ public class UIManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             LevelWon();
-            //victoryScreenLevel.SetActive(true);
+            victoryScreenLevel.SetActive(true);
             Debug.Log("Message");
         }
     }
