@@ -90,6 +90,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\Shapes\Wolke.cs" />
     <Compile Include="Assets\Scripts\Core\HighScore.cs" />
+    <Compile Include="Assets\Scripts\UI\ControlsPopup.cs" />
     <Compile Include="Assets\Scripts\PlayerHealthController.cs" />
     <Compile Include="Assets\Scripts\ShapeManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
@@ -100,7 +101,6 @@
     <Compile Include="Assets\Scripts\Core\ScoreManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Graphics\Characters\ph-JMO Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
-    <Compile Include="Assets\Scripts\Jan-Test\TestBackgroundController.cs" />
     <Compile Include="Assets\Graphics\Characters\ph-JMO Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\Player\SpielerRespawn.cs" />
@@ -121,7 +121,7 @@
     <Compile Include="Assets\Scripts\Plattform\PlattformZweiPunkteEinfach.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Scripts\Leben\LebenGegner.cs" />
-    <Compile Include="Assets\Scripts\Jan-Test\Gegneraktivierung.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Gegneraktivierung.cs" />
     <Compile Include="Assets\Scripts\Collectibles\CollectiblesManager.cs" />
     <Compile Include="Assets\Scripts\seitwertsBewgungGegner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -138,6 +138,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Scripts\Fallen\Spikes.cs" />
     <Compile Include="Assets\VolumeController.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemySpawning.cs" />
     <Compile Include="Assets\Scripts\Leben\Leben.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Shapes\Magnet.cs" />
@@ -173,6 +174,7 @@
     <Compile Include="Assets\Graphics\Characters\ph-JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Graphics\Characters\ph-JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
+    <Compile Include="Assets\Scripts\Background\TestBackgroundController.cs" />
     <Compile Include="Assets\Scripts\Shapes\Feuerkugel.cs" />
   </ItemGroup>
   <ItemGroup>
