@@ -22,7 +22,7 @@ public class getCoins : MonoBehaviour, ICollectible
 
     public void Collect()
     {
-        SoundManager.instance.PlaySound(sound_coin_collected);
+        //SoundManager.instance.PlaySound(sound_coin_collected);
         Destroy(gameObject);
         OnCoinCollected?.Invoke();
     }

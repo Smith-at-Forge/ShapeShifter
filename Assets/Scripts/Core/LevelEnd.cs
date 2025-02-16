@@ -14,10 +14,11 @@ public class LevelEnd : MonoBehaviour
             uiman.GetComponent<UIManager>().LevelWon();
             Debug.Log("Level Won via reaching Goal");
         }
+        /*
         else
         {
             return;
-        }
+        }*/
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -9,7 +9,7 @@ public class GegnerAktivierung : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("player").transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         animator = GetComponent<Animator>();
 		enemyPatrolScript = GetComponent<EnemyPatrol>();
 		
