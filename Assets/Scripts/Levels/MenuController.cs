@@ -63,6 +63,7 @@ public class MenuController : MonoBehaviour
     }
     public void Exit()
     {
+        Debug.Log("Spiel beendet über Menü");
         Application.Quit();
     }
     
