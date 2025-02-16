@@ -4,12 +4,20 @@ using UnityEngine;
 public class LevelEnd : MonoBehaviour
 {
     public bool levelAbgeschlossen = false;
-    UIManager uiman;
+    public UIManager uiman;
 
 
     private void Update()
     {
-        
+        if (levelAbgeschlossen)
+        {
+            uiman.GetComponent<UIManager>().LevelWon();
+            Debug.Log("Level Won via reaching Goal");
+        }
+        else
+        {
+            return;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -2307,6 +2307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelAbgeschlossen: 0
+  uiman: {fileID: 0}
 --- !u!1001 &3932150622884736637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2410,6 +2411,14 @@ PrefabInstance:
     - target: {fileID: 2039349555239303549, guid: 59f5f4c850f1b3a44846c99240d03ea6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Restart
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237699570122119584, guid: 59f5f4c850f1b3a44846c99240d03ea6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627412614670530377, guid: 59f5f4c850f1b3a44846c99240d03ea6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6389313069697540587, guid: 59f5f4c850f1b3a44846c99240d03ea6, type: 3}
       propertyPath: m_Name
