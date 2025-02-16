@@ -1,38 +1,32 @@
 using UnityEngine;
 
-public class GegnerAktivierung : MonoBehaviour
+public class BatAI : MonoBehaviour
 {
-    public float aktivierungsDistanz = 5f; // Distanz, bei der die Fledermaus aktiv wird
+    public float wakeUpDistance = 5f;
+    public Transform player; // Hier den Spieler per Inspector zuweisen
+
     private Animator animator;
-	public Transform player;
-	public EnemyPatrol enemyPatrolScript;
+    private EnemyPatrol enemyPatrol;
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("player").transform;
         animator = GetComponent<Animator>();
-		enemyPatrolScript = GetComponent<EnemyPatrol>();
-		
-		if (enemyPatrolScript != null)
-        {
-            enemyPatrolScript.enabled = false;
-        }
+        enemyPatrol = GetComponent<EnemyPatrol>();
+        enemyPatrol.enabled = false; // EnemyPatrol erst später aktivieren
     }
 
     void Update()
     {
-		
-        // Überprüfung, ob der Spieler in der Nähe ist
-        if (player != null && Vector3.Distance(transform.position, player.position) < aktivierungsDistanz)
+        if (!enemyPatrol.enabled)
         {
-		// Aktiviere EnemyPatrol, falls es noch nicht aktiv ist
-            if (enemyPatrolScript != null && !enemyPatrolScript.enabled)
+            float distance = Vector3.Distance(player.position, transform.position);
+            if (distance <= wakeUpDistance)
             {
-                enemyPatrolScript.enabled = true;
-                if (animator != null && !animator.enabled)
-                {
-                    animator.enabled = true;
-                }
+                // Aufwach-Animation starten (entweder über Trigger oder direkt abspielen)
+                animator.SetTrigger("WakeUp"); // z.B. Trigger im Animator
+
+                // EnemyPatrol aktivieren, damit die Fledermaus beginnt zu patrouillieren
+                enemyPatrol.enabled = true;
             }
         }
     }
