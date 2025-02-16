@@ -2042,7 +2042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   feuerBallPrefab: {fileID: 2438025579634146420}
-  shootInterval: 5
+  shootInterval: 2
   shootDirection: -1
   shootPoint: {fileID: 3857598297095044582}
 --- !u!114 &5755004112192884949

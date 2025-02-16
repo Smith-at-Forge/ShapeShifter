@@ -16368,37 +16368,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c94bc13eea894c4495e21549ee0c432, type: 3}
---- !u!1 &2134015761
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2134015762}
-  m_Layer: 0
-  m_Name: LevelEnde
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2134015762
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134015761}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 346.80566, y: 3.2867222, z: 0.068623856}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2137433166 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 220946196659972112, guid: a61dd27f6a17a3543b0aa3c59f7f40c7, type: 3}
@@ -16817,7 +16786,6 @@ SceneRoots:
   - {fileID: 1051139498}
   - {fileID: 939227941}
   - {fileID: 610354806}
-  - {fileID: 2134015762}
   - {fileID: 570406486}
   - {fileID: 1347049}
   - {fileID: 2092963429}

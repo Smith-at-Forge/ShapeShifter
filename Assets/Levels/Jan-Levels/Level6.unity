@@ -4439,6 +4439,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelEndBox
       objectReference: {fileID: 0}
+    - target: {fileID: 7022298312451865170, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.3671875
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022298312451865170, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5779305
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
