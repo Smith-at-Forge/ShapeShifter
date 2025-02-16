@@ -23,6 +23,5 @@ public class ControlsPopup : MonoBehaviour
             controlsPanel2.SetActive(true);
         }
 
-
     }
 }

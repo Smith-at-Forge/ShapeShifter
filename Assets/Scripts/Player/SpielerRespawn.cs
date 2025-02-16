@@ -28,7 +28,7 @@ public class SpielerRespawn : MonoBehaviour
         if (spielerRespawnAnazahl == 0)
         {
             uiManager.GameOver();
-            return;
+            //return;
         }
 
         spielerRespawnAnazahl -= 1;
