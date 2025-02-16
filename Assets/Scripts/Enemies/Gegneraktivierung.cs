@@ -2,32 +2,45 @@ using UnityEngine;
 
 public class BatAI : MonoBehaviour
 {
-    public float wakeUpDistance = 5f;
-    public Transform player; // Hier den Spieler per Inspector zuweisen
-
+    public float detectionRange = 100f;  // Spieler wird erkannt, wenn er innerhalb von 100 Einheiten ist.
     private Animator animator;
-    private EnemyPatrol enemyPatrol;
+    private bool isActivated = false;    
+    public Transform player;            // Referenz auf den Spieler.
+    public EnemyPatrol patrolScript;    // Referenz auf das Patrouillen-Skript.
 
     void Start()
     {
         animator = GetComponent<Animator>();
-        enemyPatrol = GetComponent<EnemyPatrol>();
-        enemyPatrol.enabled = false; // EnemyPatrol erst später aktivieren
+        
+        if (patrolScript != null)
+        {
+            patrolScript.enabled = false; // Deaktiviert die Patrouille zu Beginn.
+        }
     }
 
     void Update()
     {
-        if (!enemyPatrol.enabled)
+        if (!isActivated)
         {
-            float distance = Vector3.Distance(player.position, transform.position);
-            if (distance <= wakeUpDistance)
-            {
-                // Aufwach-Animation starten (entweder über Trigger oder direkt abspielen)
-                animator.SetTrigger("WakeUp"); // z.B. Trigger im Animator
+            CheckForPlayer();
+        }
+    }
 
-                // EnemyPatrol aktivieren, damit die Fledermaus beginnt zu patrouillieren
-                enemyPatrol.enabled = true;
-            }
+    void CheckForPlayer()
+    {
+        if (player != null && Vector3.Distance(transform.position, player.position) <= detectionRange)
+        {
+            isActivated = true;
+            animator.SetTrigger("Bat-Fying"); // Startet die Flying-Animation.
+            StartPatrol();
+        }
+    }
+
+    void StartPatrol()
+    {
+        if (patrolScript != null)
+        {
+            patrolScript.enabled = true; // Aktiviert das Patrouillen-Skript.
         }
     }
 }
