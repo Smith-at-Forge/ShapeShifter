@@ -40,7 +40,7 @@ public class SpielerAngriff : MonoBehaviour
     {
         for (int i = 0; i < fireballs.Length; i++)
         {
-            // pr�fen welche Feuerb�lle aktiv sind
+            // pruefen welche Feuerbaelle aktiv sind
             if (!fireballs[i].activeInHierarchy)
                 return i;
         }
