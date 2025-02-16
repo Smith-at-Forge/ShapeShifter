@@ -80,6 +80,7 @@
     <Compile Include="Assets\FuellenFähigkeit.cs" />
     <Compile Include="Assets\Scripts\Collectibles\Collector.cs" />
     <Compile Include="Assets\Scripts\HorizontalGegner.cs" />
+    <Compile Include="Assets\Scripts\Enemies\PlantShooter.cs" />
     <Compile Include="Assets\Graphics\Characters\ph-JMO Assets\WarFX\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\Scripts\Core\Score\Counter.cs" />
     <Compile Include="Assets\Attract.cs" />
