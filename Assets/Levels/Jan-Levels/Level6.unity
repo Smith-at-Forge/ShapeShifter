@@ -769,11 +769,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1680117712597198052, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 400.22623
+      value: 296.48
       objectReference: {fileID: 0}
     - target: {fileID: 1680117712597198052, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.0408535
+      value: -14.891041
       objectReference: {fileID: 0}
     - target: {fileID: 1680117712597198052, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -810,6 +810,14 @@ PrefabInstance:
     - target: {fileID: 5973604780572091790, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
       propertyPath: m_Name
       value: LevelEndBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 9049359987922220532, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9049359987922220532, guid: 2f45dac70d9346a428e549d6d960831c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1066156657
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
