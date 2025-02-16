@@ -18,7 +18,9 @@ public class Projektil : MonoBehaviour
 
     private void Update()
     {
+        // wenn Feuerball was beruehrt return
         if (hit) return;
+        // Feuerball hat noch nicths berueht
         float movementSpeed = speed * Time.deltaTime * direction;
         transform.Translate(movementSpeed, 0, 0);
 

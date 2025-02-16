@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Health : MonoBehaviour
 {
-    [Header("Health")]
+
     [SerializeField] private float startingHealth;
     // public, aber get: Variable kann von anderen Scripts genommen werden
     // private set: kann nur in diesem Script gesetzt werden
@@ -11,12 +11,7 @@ public class Health : MonoBehaviour
     private Animator anim;
     private bool dead;
 
-    [Header("iFrames")]
-    [SerializeField] private float iFramesDuration;
-    [SerializeField] private int numberOfFlashes;
     private SpriteRenderer spriteRend;
-
-    [Header("Components")]
     [SerializeField] private Behaviour[] components;
     [SerializeField] private AudioClip sound_player_hurt;
 
