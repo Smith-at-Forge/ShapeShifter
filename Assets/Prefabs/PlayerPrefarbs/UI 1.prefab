@@ -741,7 +741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2fcd70e7e832b4ea567f0a82b4ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 8273668654562313304, guid: 3c15ed9b84a1543bdbc8f17d7d736aff, type: 3}
+  playerHealth: {fileID: 0}
   lebensAnzeigeGesamt: {fileID: 8154056473724718826}
   lebenAnzeigeAktuell: {fileID: 4877497850514273851}
 --- !u!1 &4352248630788922145
@@ -1707,8 +1707,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ef4b54c7c4a4bfebd1b7da5bb4d4e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverScreen: {fileID: 8318528990984027611}
   gameOverSound: {fileID: 8300000, guid: 57eff295dc6934d37b192e7f02a0cacd, type: 3}
+  gameOverScreen: {fileID: 8318528990984027611}
   victoryScreenLevel: {fileID: 7942845932871421846}
   victoryScreenGame: {fileID: 8803523415956606407}
 --- !u!114 &2586631314045939449
@@ -2426,7 +2426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6389313069697540587, guid: 59f5f4c850f1b3a44846c99240d03ea6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7052077269793641219, guid: 59f5f4c850f1b3a44846c99240d03ea6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
