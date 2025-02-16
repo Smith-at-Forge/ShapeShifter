@@ -6,11 +6,19 @@ public class ControlsPopup : MonoBehaviour
     // Ziehe hier im Inspektor dein UI-Panel (das den Text enthält) rein.
     [SerializeField] private GameObject controlsPanel1;
     [SerializeField] private GameObject controlsPanel2;
+	[SerializeField] private GameObject controlsPanel3;
+	[SerializeField] private GameObject controlsPanel4;
 
+	
+	
+	
     private void Awake()
     {
         controlsPanel1.SetActive(true);
         controlsPanel2.SetActive(false);
+		controlsPanel3.SetActive(true);
+		controlsPanel4.SetActive(true);
+
     }
 
     void Update()
@@ -21,6 +29,8 @@ public class ControlsPopup : MonoBehaviour
             Debug.Log("Taste gedrückt");
             controlsPanel1.SetActive(false);
             controlsPanel2.SetActive(true);
+			controlsPanel3.SetActive(true);
+			controlsPanel4.SetActive(true);
         }
 
     }
