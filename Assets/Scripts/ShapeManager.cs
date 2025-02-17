@@ -28,7 +28,7 @@ public class ShapeManager : MonoBehaviour
     [SerializeField] private AudioClip sound_swap_kristall;
     [SerializeField] private AudioClip sound_swap_magnet;
 
-    public Counter counter;
+    //public Counter counter;
      
     public static ShapeManager instance;
     private void Awake()
@@ -114,32 +114,32 @@ public class ShapeManager : MonoBehaviour
     }
     void ChangeShape()
     {
-        if(Input.GetKeyDown(KeyCode.Alpha1) && !isWolkenTimerActive) // "1"-Taste auf der Haupttastatur (nicht das numerische Tastenfeld).
+        if(Input.GetKeyDown(KeyCode.Alpha1) /*&& !isWolkenTimerActive*/) // "1"-Taste auf der Haupttastatur (nicht das numerische Tastenfeld).
         {
             StartWolkenForm();
-            counter.IncrementShapeShift();
+            //counter.IncrementShapeShift();
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2) && !isFluessigTimerActive)
+        else if (Input.GetKeyDown(KeyCode.Alpha2) /*&& !isFluessigTimerActive*/)
         {
        
             if (isFluessigFreigeschaltet)
             {
                 SoundManager.instance.PlaySound(sound_swap_fluessig);
                 StartFluessigForm();
-                counter.IncrementShapeShift();
+                //counter.IncrementShapeShift();
             }
             else
             {
                 Debug.Log("Die Form Fl�ssig is nicht freigeschaltet!");
             }
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3) && !isFeuerKugelTimerActive)
+        else if (Input.GetKeyDown(KeyCode.Alpha3) /*&& !isFeuerKugelTimerActive*/)
         {
             if (isFeuerKugelFreigeschaltet)
             {
 
                 StartFeuerKugelForm();
-                counter.IncrementShapeShift();
+                //counter.IncrementShapeShift();
             }
             else
             {
@@ -147,24 +147,24 @@ public class ShapeManager : MonoBehaviour
             }
 
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && !isKristallTimerActive)
+        else if (Input.GetKeyDown(KeyCode.Alpha4) /*&& !isKristallTimerActive*/)
         {
             if (isKristallFreigeschaltet)
             {
                 StartKristallForm();
-                counter.IncrementShapeShift();
+                //counter.IncrementShapeShift();
             }
             else
             {
                  Debug.Log("Die Form Kristall is nicht freigeschaltet!");
             }
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha5) && !isMagnetTimerActive)
+        else if (Input.GetKeyDown(KeyCode.Alpha5) /*&& !isMagnetTimerActive*/)
         {
             if (isMagnetFreigeschaltet)
             {
                 StartMagnetForm();
-                counter.IncrementShapeShift();
+                //counter.IncrementShapeShift();
             }
             else
             {

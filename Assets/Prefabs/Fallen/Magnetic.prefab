@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 767296336553522632}
   - component: {fileID: 4984635060617366369}
   - component: {fileID: 3337523087271016167}
-  - component: {fileID: 1481400359350563255}
+  - component: {fileID: 993232773550003114}
   m_Layer: 12
   m_Name: Magnetic
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4346741570317310557}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 315.08066, y: -13.230615, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound_coin_collected: {fileID: 0}
---- !u!50 &1481400359350563255
+--- !u!50 &993232773550003114
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
