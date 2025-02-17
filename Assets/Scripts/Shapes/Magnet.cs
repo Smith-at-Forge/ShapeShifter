@@ -1,33 +1,32 @@
 using UnityEngine;
 
-public class Magnet : MonoBehaviour, IShape
+public class Magnet : MonoBehaviour 
 {
+    [SerializeField] GameObject _magnet;
+    [SerializeField] GameObject _repel;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Switch()
     {
-
+        if(_magnet.activeSelf == true)
+        {
+            _magnet.SetActive(false);
+            _repel.SetActive(true);
+        }
+        else
+        {
+            _magnet.SetActive(true);
+            _repel.SetActive(false);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-
-    }
-    public void Jump()
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public void PrimaryAbility()
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public void SecondaryAbility()
-    {
-        throw new System.NotImplementedException();
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            Switch();
+        }
     }
 
     
+
 }

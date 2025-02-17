@@ -45,6 +45,9 @@ GameObject:
   - component: {fileID: 4623857133523899507}
   - component: {fileID: 2468202942269339198}
   - component: {fileID: 3339378316832029143}
+  - component: {fileID: 7753828217465305617}
+  - component: {fileID: -6048860674147144361}
+  - component: {fileID: 4010973235051191847}
   m_Layer: 0
   m_Name: FluessigPlayer
   m_TagString: Player
@@ -109,8 +112,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1066156657
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -2202162726251023829, guid: 7be9824b2df409046a4030004f92731e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -138,7 +141,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 5
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -149,7 +152,7 @@ Rigidbody2D:
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &4623857133523899507
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -230,3 +233,47 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 2468202942269339198}
+--- !u!114 &7753828217465305617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8204269037320509450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f59492069b0d24a8670e02cdeda5bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fieldOfInpact: 2
+  force: 50
+  LayerToHit:
+    serializedVersion: 2
+    m_Bits: 2048
+  LoeschEffect: {fileID: 6031257382746605514, guid: 575d31dda17251848bc6bd616e4856f9, type: 3}
+--- !u!114 &-6048860674147144361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8204269037320509450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e758ecf1602814b9a14535cbb35bbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amount: 1
+--- !u!114 &4010973235051191847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8204269037320509450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06848097697bdad4fa90c8fe3cd67cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fliessendeFluessig: {fileID: 2478210324992925313, guid: 547e0503234415f439b77087fd5e2461, type: 3}

@@ -5,6 +5,7 @@ public class SpielerAngriff : MonoBehaviour
     [SerializeField] private float attackCooldown;
     [SerializeField] private Transform FirePoint;
     [SerializeField] private GameObject[] fireballs;
+    [SerializeField] private AudioClip sound_fireballSound;
 
     private Animator anim;
     private PlayerMovement playerMovement;
@@ -26,6 +27,7 @@ public class SpielerAngriff : MonoBehaviour
 
     private void Attack()
     {
+        SoundManager.instance.PlaySound(sound_fireballSound);
         anim.SetTrigger("attack");
         cooldownTimer = 0;
 
@@ -38,7 +40,7 @@ public class SpielerAngriff : MonoBehaviour
     {
         for (int i = 0; i < fireballs.Length; i++)
         {
-            // prüfen welche Feuerbälle aktiv sind
+            // pruefen welche Feuerbaelle aktiv sind
             if (!fireballs[i].activeInHierarchy)
                 return i;
         }

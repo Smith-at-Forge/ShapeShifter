@@ -3,20 +3,48 @@ using UnityEngine;
 public class SpielerRespawn : MonoBehaviour
 {
     // [SerializeField] private AudioClip checkpointSound;
+    [SerializeField, Range(0,1)] public int spielerRespawnAnazahl;
+    //[SerializeField] private GameObject dragonWarrior;
     private Health playerHealth;
     private Transform currentCheckpoint;
+    private UIManager uiManager;
+
+    //[SerializeField] private Transform spawnPoint;
+    private bool check = false;
 
     private void Awake()
     {
         playerHealth = GetComponent<Health>();
+        uiManager = FindAnyObjectByType<UIManager>();
     }
 
-    public void Respawn()
+    private void Update()
     {
-        transform.position = currentCheckpoint.position; // Bewegt Spieler zu Checkpoint zurück
-        playerHealth.Respawn(); // Leben & Animation zurücksetzen
+        if (playerHealth.currentHealth == 0)
+            CheckRespawn();
+    }
 
-        // Kamera zurückbewegen falls Raumkamera aktiv und nicht Spielerverfolgung
+    public void CheckRespawn()
+    {
+        if (spielerRespawnAnazahl == 0)
+        {
+            uiManager.GameOver();
+            //return;
+        }
+
+        spielerRespawnAnazahl -= 1;
+        if (check == true)
+        {
+            transform.position = currentCheckpoint.position;
+            playerHealth.Respawn();
+        }
+        else
+        {
+            //transform.position = ShapeManager.position;
+        }
+        
+
+        // Kamera zurï¿½ckbewegen falls Raumkamera aktiv und nicht Spielerverfolgung
         // Camera.main.GetComponent<CameraController>().MoveToNewRoom(currentCheckpoint.parent);
 
     }
@@ -29,6 +57,8 @@ public class SpielerRespawn : MonoBehaviour
             currentCheckpoint = collision.transform; // Checkpoint speichern
             collision.GetComponent<Collider2D>().enabled = false;
             collision.GetComponent<Animator>().SetTrigger("erscheinen");
+            check = true;
+            spielerRespawnAnazahl = 1;
         }
     }
 }

@@ -45,6 +45,8 @@ GameObject:
   - component: {fileID: 1563809434632629616}
   - component: {fileID: 2773439966916617905}
   - component: {fileID: 3059296571669820182}
+  - component: {fileID: -2184564262655984560}
+  - component: {fileID: 4172268247507110462}
   m_Layer: 0
   m_Name: FeuerPlayer
   m_TagString: Player
@@ -109,12 +111,12 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1066156657
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -459400903126306873, guid: f8ac2b51db00c214fa0a2ded060f5c3d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2, y: 2}
@@ -149,7 +151,7 @@ Rigidbody2D:
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &1563809434632629616
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -230,3 +232,36 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 2773439966916617905}
+--- !u!114 &-2184564262655984560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8157606262519560398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe52ba56e25e24e46a62d7cc81a76dd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fieldOfExplosion: 3
+  fieldOfBurn: 1
+  force: 300
+  LayerToHit:
+    serializedVersion: 2
+    m_Bits: 512
+  BurnEffect: {fileID: 7069554371619030107, guid: 24e9ed12ea7048d42868b26c22cc5043, type: 3}
+  ExplosionEffect: {fileID: 7014786254734885293, guid: bd9f5899dc45b50499b748df2bc8f935, type: 3}
+--- !u!114 &4172268247507110462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8157606262519560398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e758ecf1602814b9a14535cbb35bbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amount: 1

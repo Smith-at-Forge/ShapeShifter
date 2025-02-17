@@ -3,20 +3,21 @@ using System.Collections;
 
 public class Health : MonoBehaviour
 {
-    [Header("Health")]
+
     [SerializeField] private float startingHealth;
+    // public, aber get: Variable kann von anderen Scripts genommen werden
+    // private set: kann nur in diesem Script gesetzt werden
     public float currentHealth { get; private set; }
     private Animator anim;
     private bool dead;
 
-    [Header("iFrames")]
-    [SerializeField] private float iFramesDuration;
-    [SerializeField] private int numberOfFlashes;
     private SpriteRenderer spriteRend;
-
-    [Header("Components")]
     [SerializeField] private Behaviour[] components;
-    private bool invulnerable;
+    [SerializeField] private AudioClip sound_player_hurt;
+
+
+    // Schaden verhindern, wenn true
+    //private bool invulnerable = false;
 
     private void Awake()
     {
@@ -24,15 +25,33 @@ public class Health : MonoBehaviour
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();
     }
+    
+
+    public void Update()
+    {
+
+        //if (Input.GetKeyDown(KeyCode.E))
+        //    TakeDamage(1);
+        //Debug.Log("Currenthealth: " + currentHealth);
+
+
+    }
+
     public void TakeDamage(float _damage)
     {
-        if (invulnerable) return;
+        if (Input.GetKey(KeyCode.G))
+        {
+            Debug.Log("No Damage due to Kristall");
+            return;
+        }
+        
+
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
 
         if (currentHealth > 0)
         {
+            SoundManager.instance.PlaySound(sound_player_hurt);
             anim.SetTrigger("hurt");
-            StartCoroutine(Invunerability());
         }
         else
         {
@@ -48,6 +67,7 @@ public class Health : MonoBehaviour
                 // SoundManager.instance.PlaySound(deathSound);
             }
         }
+        
     }
     public void AddHealth(float _value)
     {
@@ -57,28 +77,13 @@ public class Health : MonoBehaviour
     public void Respawn()
     {
         dead = false;
-         AddHealth(startingHealth);
+        AddHealth(startingHealth);
         anim.ResetTrigger("die");
         anim.Play("Idle");
-
-        // Unsterblichkeit nach Respawn
-        StartCoroutine(Invunerability());
 
         foreach (Behaviour component in components)
             component.enabled = true;
     }
-    private IEnumerator Invunerability()
-    {
-        invulnerable = true;
-        Physics2D.IgnoreLayerCollision(10, 11, true);
-        for (int i = 0; i < numberOfFlashes; i++)
-        {
-            spriteRend.color = new Color(1, 0, 0, 0.5f);
-            yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
-            spriteRend.color = Color.white;
-            yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
-        }
-        Physics2D.IgnoreLayerCollision(10, 11, false);
-        invulnerable = false;
-    }
+    
+
 }
