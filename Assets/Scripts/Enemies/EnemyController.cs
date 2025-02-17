@@ -5,6 +5,7 @@ public class EnemyController : MonoBehaviour
 {
 
     [SerializeField] private float damage;
+    Health health;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,7 +22,7 @@ public class EnemyController : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            PlayerHealthController.instance.DamagePlayer();
+            health.TakeDamage(damage);
         }
     }
 

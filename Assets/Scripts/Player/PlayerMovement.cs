@@ -74,14 +74,14 @@ public class PlayerMovement : MonoBehaviour
             wallJumpCooldown += Time.deltaTime;
 
         // Watercheck 
-        if (waterCheck != null && waterCheck.inWater())
-        {
-            Debug.Log("Player in Water");
-        }
-        else
-        {
-            Debug.Log("Not in Water");
-        }
+        //if (waterCheck != null && waterCheck.inWater())
+        //{
+        //    Debug.Log("Player in Water");
+        //}
+        //else
+        //{
+        //    Debug.Log("Not in Water");
+        //}
 
         // Plattform
         /*

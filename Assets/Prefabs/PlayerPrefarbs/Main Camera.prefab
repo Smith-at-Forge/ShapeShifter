@@ -241,15 +241,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4881713249681365889}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a2806d910dbd23845aaf9026e253a9cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 1
-  iFramesDuration: 0
-  numberOfFlashes: 0
   components: []
+  sound_player_hurt: {fileID: 0}
 --- !u!4 &8851543431206354868 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4484686614237112431, guid: 064cd8c54f7a5437a8dc43b1c6b43c23, type: 3}
