@@ -58,7 +58,7 @@ MonoBehaviour:
   currentShape: {fileID: 0}
   isFluessigFreigeschaltet: 1
   isFeuerKugelFreigeschaltet: 1
-  isKristallFreigeschaltet: 0
+  isKristallFreigeschaltet: 1
   isMagnetFreigeschaltet: 1
   timerValue: 10
   isWolkenTimerActive: 0
@@ -69,7 +69,6 @@ MonoBehaviour:
   sound_swap_feuerKugel: {fileID: 8300000, guid: a65dfe976d2c64479baf7487b9396a34, type: 3}
   sound_swap_kristall: {fileID: 0}
   sound_swap_magnet: {fileID: 0}
-  counter: {fileID: 0}
 --- !u!114 &1790678095435798873
 MonoBehaviour:
   m_ObjectHideFlags: 0

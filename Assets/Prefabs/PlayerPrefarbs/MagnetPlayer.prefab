@@ -279,7 +279,7 @@ MonoBehaviour:
   force: 300
   LayerToHit:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 4096
 --- !u!1 &6624285511090677153
 GameObject:
   m_ObjectHideFlags: 0
