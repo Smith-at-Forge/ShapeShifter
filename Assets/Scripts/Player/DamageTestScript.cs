@@ -8,8 +8,8 @@ public class DamageTestScript : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Y))
         {
-            Debug.Log("Damage über DamageTestScript");
-            GetComponent<Health>().TakeDamage(1);
+            Debug.Log("Damage über DamageTestScript TEST");
+            //GetComponent<Health>().TakeDamage(1);
             //health.TakeDamage(1);
         }
     }
