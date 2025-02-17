@@ -24,12 +24,12 @@ public class UIManager : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            LevelWon();
-            victoryScreenLevel.SetActive(true);
-            Debug.Log("Message");
-        }
+        //if (Input.GetKeyDown(KeyCode.X))
+        //{
+        //    LevelWon();
+        //    victoryScreenLevel.SetActive(true);
+        //    Debug.Log("Message");
+        //}
     }
 
     public void GameOver()
