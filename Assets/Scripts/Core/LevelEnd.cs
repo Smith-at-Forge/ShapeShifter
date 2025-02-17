@@ -6,12 +6,15 @@ public class LevelEnd : MonoBehaviour
 {
     public bool levelAbgeschlossen = false;
     public UIManager uiman;
+     [SerializeField] private GameObject controlsPanel1;
+
 
 
     private void Update()
     {
         if (levelAbgeschlossen)
         {
+            controlsPanel1.SetActive(true);
             uiman.GetComponent<UIManager>().LevelWon();
             Debug.Log("Level Won via reaching Goal");
         }

@@ -29,11 +29,12 @@ public class Health : MonoBehaviour
 
     public void Update()
     {
-        
-        //if (Input.GetKeyDown(KeyCode.E))
-        //    TakeDamage(1); 
 
-            
+        if (Input.GetKeyDown(KeyCode.E))
+            TakeDamage(1);
+        Debug.Log("Currenthealth: " + currentHealth);
+
+
     }
 
     public void TakeDamage(float _damage)

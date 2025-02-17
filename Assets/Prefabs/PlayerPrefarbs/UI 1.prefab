@@ -741,7 +741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2fcd70e7e832b4ea567f0a82b4ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 3367803277258023444, guid: 3c15ed9b84a1543bdbc8f17d7d736aff, type: 3}
   lebensAnzeigeGesamt: {fileID: 8154056473724718826}
   lebenAnzeigeAktuell: {fileID: 4877497850514273851}
 --- !u!1 &4352248630788922145
@@ -2308,6 +2308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelAbgeschlossen: 0
   uiman: {fileID: 0}
+  controlsPanel1: {fileID: 0}
 --- !u!1001 &3932150622884736637
 PrefabInstance:
   m_ObjectHideFlags: 0

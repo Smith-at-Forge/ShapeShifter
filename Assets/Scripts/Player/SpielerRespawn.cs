@@ -3,7 +3,8 @@ using UnityEngine;
 public class SpielerRespawn : MonoBehaviour
 {
     // [SerializeField] private AudioClip checkpointSound;
-    [SerializeField, Range(0,1)] int spielerRespawnAnazahl;
+    [SerializeField, Range(0,1)] public int spielerRespawnAnazahl;
+    //[SerializeField] private GameObject dragonWarrior;
     private Health playerHealth;
     private Transform currentCheckpoint;
     private UIManager uiManager;

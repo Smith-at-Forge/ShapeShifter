@@ -13,6 +13,7 @@ TagManager:
   - FireBall
   - Timer-Anfang
   - Timer-Ende
+  - TRAPDAMAGE
   layers:
   - Default
   - TransparentFX
@@ -26,7 +27,7 @@ TagManager:
   - Enemies
   - Collectible
   - Fire
-  - 
+  - Magnetic
   - 
   - 
   - 

@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Player\Projektil.cs" />
     <Compile Include="Assets\Repel.cs" />
     <Compile Include="Assets\Scripts\TimeTracking\TimeTrackerV3.cs" />
+    <Compile Include="Assets\Scripts\Player\DamageTestScript.cs" />
     <Compile Include="Assets\Scripts\HealthPickup.cs" />
     <Compile Include="Assets\Scripts\GameLogic.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -135,6 +136,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\FluessigkeitSimulation.cs" />
+    <Compile Include="Assets\Scripts\Background\BackgroundController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Scripts\Fallen\Spikes.cs" />
@@ -146,6 +148,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\Collectibles\getCoins.cs" />
+    <Compile Include="Assets\Scripts\Leben\CheckAlive.cs" />
     <Compile Include="Assets\Scripts\Core\LevelEnd.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
@@ -175,7 +178,6 @@
     <Compile Include="Assets\Graphics\Characters\ph-JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Graphics\Characters\ph-JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
-    <Compile Include="Assets\Scripts\Background\TestBackgroundController.cs" />
     <Compile Include="Assets\Scripts\Shapes\Feuerkugel.cs" />
   </ItemGroup>
   <ItemGroup>
