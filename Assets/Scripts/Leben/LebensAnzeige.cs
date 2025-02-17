@@ -17,5 +17,6 @@ public class Healthbar : MonoBehaviour
     private void Update()
     {
         lebenAnzeigeAktuell.fillAmount = playerHealth.currentHealth / 10;
+        Debug.Log("Leben aus LebensAnzeige.cs: " + playerHealth.currentHealth);
     }
 }
